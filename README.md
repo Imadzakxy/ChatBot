@@ -1,0 +1,39 @@
+# 🤖 ChatBot Project
+
+Un chatbot intelligent développé avec **Rasa**, **React**, et un backend **Node.js/Express**.  
+Ce projet combine NLP (traitement du langage) et une interface utilisateur moderne.
+
+---
+
+## 🚀 Fonctionnalités
+- Dialogue intelligent avec Rasa (NLP).
+- Interface front-end en **React** / **Next.js**.
+- Backend API avec **Node.js** (Express).
+- Gestion des utilisateurs et authentification.
+- Base de données **SQLite**.
+- Déploiement possible via Docker.
+
+---
+
+## 📦 Installation & Lancement
+
+### 1️⃣ Cloner le projet
+```bash
+git clone https://github.com/Imadzakxy/ChatBot.git
+cd ChatBot
+```
+```backend:
+cd backend
+npm install         # Installe les dépendances
+npm start           # Lance le backend sur http://localhost:XXXX
+```
+```Rasa (NLP)
+pip install rasa==3.6.20
+rasa train
+rasa run actions
+rasa shell
+```
+```Frontend (React)
+cd frontend
+npm install
+npm run dev
