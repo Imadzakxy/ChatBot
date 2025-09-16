@@ -1,0 +1,95 @@
+version: "3.1"
+
+intents:
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_pfe_startup
+  - ask_arretes
+  - ask_incubateurs
+  - ask_double_diplome
+  - out_of_scope
+  - c_quoi_une_startup
+  - ask_MVP
+  - ask_cadre_institutionnel
+  - ask_Accès_aux_ressources
+  - ask_Rôle_des_acteurs
+  - ask_Processus_de_labellisation
+  - ask_Références_légales
+  - startup_memoire_fin_etude_qes
+  - thesis_startup_question
+  - qui_peut_faire_startup_comme_memorie_qes
+  - who_can_do_startup_thesis
+  - criteres_acceptee_memorie_startup_qes
+  - startup_thesis_acceptance_criteria
+  - incubateur_universite_qes
+  - university_incubator_question
+  - formation_memorie_startup_qes
+  - startup_thesis_training_question
+  - projet_en_groupe_qes
+  - group_project_question
+  - evaluation_qes
+  - evaluation_question
+  - university_incubator_question
+  - formation_memorie_startup_qes
+  - startup_thesis_training_question
+  - projet_en_groupe_qes
+  - ask_diff_pfe_types_E
+  - ask_objectif_memoire
+  - ask_support_beneficiaries
+  - reussir_startup_Qes_FR
+  - demarches_legales_lancer_startup_Qes_FR
+  - ask_startup_fundingE
+  - innovative_projects_recognition
+  - pfe_registration_fr
+  - erreurs_echec_startup_Qes_FR
+  - university_incubator_question
+  - evaluation_question
+  - difference_startup_projet_innovant_Qes_FR
+  - ask_double_diplomaE
+  - obtenir_label_startup_Qes_FR
+  - bot_challengeE
+  - evaluation_qes
+  - out_of_scopeE
+  - ask_Références_légales
+
+
+responses:
+
+  # Startup-specific responses (added from previous implementation)
+  utter_pfe_startup_info:
+  - text: |
+      Un PFE Startup est un projet de fin d'études sous forme de startup. Voici les informations clés:
+      - Composition: 2 à 6 membres (même spécialité ou différentes)
+      - Inscription: Formulaire en début d'année pour les M2
+      - Incubateurs disponibles: ICOSNET, TECHINNOV, GTA
+      - Aspect Business: Formation au BMC (Business Model Canvas)
+      - Soutenance: Jury mixte (académiques et professionnels)
+      - Diplôme: Double diplôme (Licence/Master + Startup)
+
+  utter_incubateurs_info:
+  - text: |
+      Les incubateurs universitaires accompagnent les startups étudiantes:
+      - ICOSNET, TECHINNOV, GTA (situés au Start-Up Hall)
+      - Missions: Aide au BMC, formations business, accompagnement technique
+      - Accès via la plateforme IBTIKAR: http://bitikar.dgrsdt.dz
+      - Période d'inscription: Début d'année universitaire
+
+  utter_double_diplome_info:
+  - text: |
+      Le double diplôme comprend:
+      1. Votre diplôme académique traditionnel
+      2. Un diplôme "Startup" certifiant votre projet entrepreneurial
+      - Obtenu après soutenance devant jury mixte
+      - Projets exceptionnels peuvent obtenir le label "Laïl"
+      - Permet un accès privilégié aux financements et concours nationaux
+
+  utter_out_of_scope:
+  - text: "Désolé, je suis spécialisé dans les startups universitaires et ne peux répondre qu'à des questions sur ce sujet. Avez-vous une question sur les PFE Startup ou les incubateurs?"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,738 @@
+version: "3.1"
+
+rules:
+- rule: Greeting response
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Greeting responseE
+  steps:
+  - intent: greetE
+  - action: utter_greetE
+
+- rule: Goodbye response
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Goodbye responseE
+  steps:
+  - intent: goodbyeE
+  - action: utter_goodbyeE
+
+- rule: Out of scope response
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+
+- rule: Out of scope responseE
+  steps:
+  - intent: out_of_scopeE
+  - action: utter_out_of_scopeE
+
+- rule: Bot challenge response
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+
+- rule: Bot challenge responseE
+  steps:
+  - intent: bot_challengeE
+  - action: utter_bot_challengeE
+
+- rule: PFE Startup information
+  steps:
+  - intent: ask_pfe_startup
+  - action: utter_pfe_startup_info
+
+- rule: PFE Startup informationE
+  steps:
+  - intent: ask_pfe_startupE
+  - action: utter_pfe_startup_infoE
+
+- rule: Incubators information
+  steps:
+  - intent: ask_incubateurs
+  - action: utter_incubateurs_info
+
+- rule: startup memoire fin etude qes
+  steps:
+  - intent: startup_memoire_fin_etude_qes
+  - action: utter_startup_memoire_fin_etude_qes
+
+- rule: qui_peut_faire_startup_comme_memorie_qesd
+  steps:
+  - intent: qui_peut_faire_startup_comme_memorie_qes
+  - action: utter_qui_peut_faire_startup_comme_memorie_qes
+
+- rule: criteres_acceptee_memorie_startup_qesd
+  steps:
+  - intent: criteres_acceptee_memorie_startup_qes
+  - action: utter_criteres_acceptee_memorie_startup_qes
+
+- rule: incubateur_universite_qesr
+  steps:
+  - intent: incubateur_universite_qes
+  - action: utter_incubateur_universite_qes
+
+- rule: projet_en_groupe_qesd
+  steps:
+  - intent: projet_en_groupe_qes
+  - action: utter_projet_en_groupe_qes
+
+- rule: evaluation_qesd
+  steps:
+  - intent: evaluation_qes
+  - action: utter_evaluation_qes  
+
+
+- rule: recompense_acception_qesd
+  steps:
+  - intent: recompense_acception_qes
+  - action: utter_recompense_acception_qes
+
+- rule: reconnaissance_projets_innovants_qesd
+  steps:
+  - intent: reconnaissance_projets_innovants_qes
+  - action: utter_reconnaissance_projets_innovants_qes    
+
+- rule: consequences_label_projet_qesd
+  steps:
+  - intent: consequences_label_projet_qes
+  - action: utter_consequences_label_projet_qes
+
+- rule: ask mecanisme dsb
+  steps:
+  - intent: ask_Mecanisme_DSB
+  - action: utter_Mecanisme_DSB
+
+- rule: competitions aids question
+  steps:
+  - intent: competitions_aids_question
+  - action: utter_competitions_aids_question
+
+- rule: concours_aides_meilleurs_projets_qesd
+  steps:
+  - intent: concours_aides_meilleurs_projets_qes
+  - action: utter_concours_aides_meilleurs_projets_qes      
+
+- rule: formation_memorie_startup_qesd
+  steps:
+  - intent: formation_memorie_startup_qes
+  - action: utter_formation_memorie_startup_qes
+
+- rule: Incubators informationE
+  steps:
+  - intent: ask_incubatorsE
+  - action: utter_incubateurs_infoE
+
+- rule: Double diploma information
+  steps:
+  - intent: ask_double_diplome
+  - action: utter_double_diplome_info
+
+- rule: Double diploma informationE
+  steps:
+  - intent: ask_double_diplomaE
+  - action: utter_double_diplome_infoE
+
+- rule: Diploma-Startup mechanism
+  steps:
+  - intent: ask_mecanisme_diplome_startup
+  - action: utter_mecanisme_diplome_startup
+
+- rule: Diploma-Startup mechanismE
+  steps:
+  - intent: ask_diploma_startup_mechanism
+  - action: utter_mecanisme_diplome_startupE
+
+- rule: BMC training information
+  steps:
+  - intent: ask_formation_bmc
+  - action: utter_formation_bmc
+
+- rule: BMC training informationE
+  steps:
+  - intent: ask_bmc_training
+  - action: utter_formation_bmcE
+
+- rule: Startup funding information
+  steps:
+  - intent: ask_startup_funding
+  - action: utter_startup_funding
+
+- rule: Startup funding informationE
+  steps:
+  - intent: ask_startup_fundingE
+  - action: utter_startup_fundingE
+
+- rule: Startup steps information
+  steps:
+  - intent: ask_startup_steps
+  - action: utter_startup_steps
+
+- rule: Startup steps informationE
+  steps:
+  - intent: ask_startup_stepsE
+  - action: utter_startup_stepsE
+
+- rule: Non-PFE startup options
+  steps:
+  - intent: ask_non_pfe_startup
+  - action: utter_non_pfe_startup
+
+- rule: Non-PFE startup optionsE
+  steps:
+  - intent: ask_non_pfe_startupE
+  - action: utter_non_pfe_startupE
+
+- rule: Startup team building
+  steps:
+  - intent: ask_startup_team
+  - action: utter_startup_team
+
+- rule: Startup team buildingE
+  steps:
+  - intent: ask_startup_teamE
+  - action: utter_startup_teamE
+
+- rule: Startup legal steps
+  steps:
+  - intent: ask_startup_legal
+  - action: utter_startup_legal
+
+- rule: Startup legal stepsE
+  steps:
+  - intent: ask_startup_legalE
+  - action: utter_startup_legalE
+
+- rule: What is a startup
+  steps:
+  - intent: c_quoi_une_startup
+  - action: utter_c_quoi_une_startup
+
+- rule: What is a startupE
+  steps:
+  - intent: what_is_a_startupE
+  - action: utter_c_quoi_une_startupE
+
+- rule: MVP definition
+  steps:
+  - intent: ask_MVP
+  - action: utter_MVP_deff
+
+- rule: MVP definitionE
+  steps:
+  - intent: ask_MVP_E
+  - action: utter_MVP_deffE
+
+- rule: Institutional framework
+  steps:
+  - intent: ask_cadre_institutionnel
+  - action: utter_Cadre_institutionnel
+
+- rule: Institutional frameworkE
+  steps:
+  - intent: ask_institutional_framework
+  - action: utter_Cadre_institutionnelE
+
+
+
+# Removed DSB mechanism rule since the action isn't defined
+
+- rule: Resource access
+  steps:
+  - intent: ask_Accès_aux_ressources
+  - action: utter_Access_to_resources  # Changed to match domain
+
+- rule: Actors roles
+  steps:
+  - intent: ask_Rôle_des_acteurs
+  - action: utter_Rôle_des_acteurs
+
+- rule: Actors rolesE
+  steps:
+  - intent: ask_Role_of_actors
+  - action: utter_Rôle_des_acteursE
+
+- rule: Labeling process
+  steps:
+  - intent: ask_Processus_de_labellisation
+  - action: utter_Processus_de_labellisation
+
+- rule: Labeling processE
+  steps:
+  - intent: ask_Labeling_process
+  - action: utter_Processus_de_labellisationE
+
+- rule: Legal references
+  steps:
+  - intent: ask_Références_légales
+  - action: utter_Références_légales
+
+- rule: Legal referencesE
+  steps:
+  - intent: ask_Legal_references
+  - action: utter_Références_légalesE
+
+- rule: Decision 008 information
+  steps:
+    - intent: objet_decision_008
+    - action: utter_objet_decision_008
+
+- rule: Decision 008 informationE
+  steps:
+    - intent: ask_subject_decision_008
+    - action: utter_objet_decision_008E
+
+- rule: Thesis objective
+  steps:
+    - intent: ask_objectif_memoire
+    - action: utter_objectif_memoire
+
+- rule: Thesis objectiveE
+  steps:
+    - intent: ask_objective_thesis
+    - action: utter_objectif_memoireE
+
+- rule: Thesis formats
+  steps:
+    - intent: ask_formats_memoire
+    - action: utter_formats_memoire
+
+- rule: Thesis formatsE
+  steps:
+    - intent: ask_thesis_formats
+    - action: utter_formats_memoireE
+
+- rule: Student training
+  steps:
+    - intent: ask_formations_etudiant
+    - action: utter_formations_etudiant
+
+- rule: Student trainingE
+  steps:
+    - intent: ask_student_trainings
+    - action: utter_formations_etudiantE
+
+- rule: Support beneficiaries
+  steps:
+    - intent: ask_beneficiaires_accompagnement
+    - action: utter_beneficiaires_accompagnement
+
+- rule: Support beneficiariesE
+  steps:
+    - intent: ask_support_beneficiaries
+    - action: utter_beneficiaires_accompagnementE
+
+- rule: Orientation cell
+  steps:
+    - intent: ask_missions_cellule_orientation
+    - action: utter_missions_cellule_orientation
+
+- rule: Orientation cellE
+  steps:
+    - intent: ask_orientation_cell_missions
+    - action: utter_missions_cellule_orientationE
+
+- rule: Obtained diplomas
+  steps:
+    - intent: ask_diplomes_obtenus
+    - action: utter_diplomes_obtenus
+
+- rule: Obtained diplomasE
+  steps:
+    - intent: ask_degrees_awarded
+    - action: utter_diplomes_obtenusE
+
+- rule: Startup term replacement
+  steps:
+    - intent: ask_terme_startup
+    - action: utter_terme_startup
+
+- rule: Startup term replacementE
+  steps:
+    - intent: ask_startup_term
+    - action: utter_terme_startupE
+
+- rule: PFE types comparison
+  steps:
+    - intent: ask_diff_pfe_types
+    - action: utter_diff_pfe_types
+
+- rule: PFE types comparisonE
+  steps:
+    - intent: ask_diff_pfe_types_E
+    - action: utter_diff_pfe_typesE
+
+- rule: Decision publication
+  steps:
+    - intent: ask_publication_decision
+    - action: utter_publication_decision
+
+- rule: Decision publicationE
+  steps:
+    - intent: ask_decision_publication
+    - action: utter_publication_decisionE
+
+# PFE registration responses
+- rule: PFE registration (French)
+  steps:
+    - intent: pfe_registration_fr
+    - action: utter_pfe_registration_fr
+
+- rule: PFE registration (English)
+  steps:
+    - intent: pfe_registration_en
+    - action: utter_pfe_registration_en
+
+- rule: PFE registration (Arabic)
+  steps:
+    - intent: pfe_registration_ar
+    - action: utter_pfe_registration_ar
+
+- rule: PFE team composition (French)
+  steps:
+    - intent: pfe_team_fr
+    - action: utter_pfe_team_fr
+
+- rule: PFE team composition (English)
+  steps:
+    - intent: pfe_team_en
+    - action: utter_pfe_team_en
+
+- rule: PFE team composition (Arabic)
+  steps:
+    - intent: pfe_team_ar
+    - action: utter_pfe_team_ar
+
+- rule: PFE incubators (French)
+  steps:
+    - intent: pfe_incubators_fr
+    - action: utter_pfe_incubators_fr
+
+- rule: PFE incubators (English)
+  steps:
+    - intent: pfe_incubators_en
+    - action: utter_pfe_incubators_en
+
+- rule: PFE incubators (Arabic)
+  steps:
+    - intent: pfe_incubators_ar
+    - action: utter_pfe_incubators_ar
+
+- rule: PFE BMC (French)
+  steps:
+    - intent: pfe_formation_bmc_fr
+    - action: utter_pfe_bmc_fr
+
+- rule: PFE BMC (English)
+  steps:
+    - intent: pfe_formation_bmc_en
+    - action: utter_pfe_bmc_en
+
+- rule: PFE BMC (Arabic)
+  steps:
+    - intent: pfe_formation_bmc_ar
+    - action: utter_pfe_bmc_ar
+
+- rule: PFE defense (French)
+  steps:
+    - intent: pfe_defense_fr
+    - action: utter_pfe_defense_fr
+
+- rule: PFE defense (English)
+  steps:
+    - intent: pfe_defense_en
+    - action: utter_pfe_defense_en
+
+- rule: PFE defense (Arabic)
+  steps:
+    - intent: pfe_defense_ar
+    - action: utter_pfe_defense_ar
+
+- rule: PFE aftermath (French)
+  steps:
+    - intent: pfe_aftermath_fr
+    - action: utter_pfe_aftermath_fr
+
+- rule: PFE aftermath (English)
+  steps:
+    - intent: pfe_aftermath_en
+    - action: utter_pfe_aftermath_en
+
+- rule: PFE aftermath (Arabic)
+  steps:
+    - intent: pfe_aftermath_ar
+    - action: utter_pfe_aftermath_ar
+
+
+#=====================
+# from "google forms"
+#=====================
+
+- rule: utter_pivoter_stratégiquement_modèle_initial_ne_fonctionne_pas_Qes_FR
+  steps:
+    - intent: pivoter_stratégiquement_modèle_initial_ne_fonctionne_pas_Qes_FR
+    - action: utter_pivoter_stratégiquement_modèle_initial_ne_fonctionne_pas_Qes_FR
+
+- rule: pivoter_stratégiquement_modèle_initial_ne_fonctionne_pas_Qes_EN
+  steps:
+    - intent: pivoter_stratégiquement_modèle_initial_ne_fonctionne_pas_Qes_EN
+    - action: utter_pivoter_stratégiquement_modèle_initial_ne_fonctionne_pas_Qes_EN
+
+
+
+- rule: equilibrer_innovation_viabilite_FR
+  steps:
+    - intent: equilibrer_innovation_viabilite_Qes_FR
+    - action: utter_equilibrer_innovation_viabilite_rep_FR
+
+  
+- rule: equilibrer_innovation_viabilite_EN
+  steps:
+    - intent: equilibrer_innovation_viabilite_Qes_EN
+    - action: utter_equilibrer_innovation_viabilite_rep_EN
+
+
+
+
+- rule: erreurs_echec_startup_FR
+  steps:
+    - intent: erreurs_echec_startup_Qes_FR
+    - action: utter_erreurs_echec_startup_rep_FR
+    
+
+- rule: erreurs_echec_startup_EN
+  steps:
+    - intent: erreurs_echec_startup_Qes_EN
+    - action: utter_erreurs_echec_startup_rep_EN
+
+
+
+
+
+
+- rule: strategies_acquisition_clients_FR
+  steps:
+    - intent: strategies_acquisition_clients_Qes_FR
+    - action: utter_strategies_acquisition_clients_rep_FR
+
+
+- rule: strategies_acquisition_clients_EN
+  steps:
+    - intent: strategies_acquisition_clients_Qes_EN
+    - action: utter_strategies_acquisition_clients_rep_EN
+
+
+
+
+
+
+
+- rule: calcul_marge_commerciale_FR
+  steps:
+    - intent: calcul_marge_commerciale_Qes_FR
+    - action: utter_calcul_marge_commerciale_rep_FR
+
+
+
+- rule: calcul_marge_commerciale_EN
+  steps:
+    - intent: calcul_marge_commerciale_Qes_EN
+    - action: utter_calcul_marge_commerciale_rep_EN
+
+
+
+
+
+
+
+- rule: droits_createur_startup_FR
+  steps:
+    - intent: droits_createur_startup_Qes_FR
+    - action: utter_droits_createur_startup_rep_FR
+
+
+- rule: droits_createur_startup_EN
+  steps:
+    - intent: droits_createur_startup_Qes_EN
+    - action: utter_droits_createur_startup_rep_EN
+
+
+
+
+
+
+
+- rule: financement_startup_FR
+  steps:
+    - intent: financement_startup_Qes_FR
+    - action: utter_financement_startup_rep_FR
+
+
+- rule: financement_startup_EN
+  steps:
+    - intent: financement_startup_Qes_EN
+    - action: utter_financement_startup_rep_EN
+
+
+
+
+
+
+- rule: nombre_startups_algerie_FR
+  steps:
+    - intent: nombre_startups_algerie_Qes_FR
+    - action: utter_nombre_startups_algerie_rep_FR
+
+- rule: nombre_startups_algerie_EN
+  steps:
+    - intent: nombre_startups_algerie_Qes_EN
+    - action: utter_nombre_startups_algerie_rep_EN
+
+
+
+
+
+
+
+- rule: difference_startup_projet_innovant_FR
+  steps:
+    - intent: difference_startup_projet_innovant_Qes_FR
+    - action: utter_difference_startup_projet_innovant_rep_FR
+
+
+- rule: difference_startup_projet_innovant_EN
+  steps:
+    - intent: difference_startup_projet_innovant_Qes_EN
+    - action: utter_difference_startup_projet_innovant_rep_EN
+
+
+
+
+
+
+- rule: obtenir_label_startup_FR
+  steps:
+    - intent: obtenir_label_startup_Qes_FR
+    - action: utter_obtenir_label_startup_rep_FR
+
+- rule: obtenir_label_startup_EN
+  steps:
+    - intent: obtenir_label_startup_Qes_EN
+    - action: utter_obtenir_label_startup_rep_EN
+
+
+
+
+
+- rule: criteres_startup_technologique_FR
+  steps:
+    - intent: criteres_startup_technologique_Qes_FR
+    - action: utter_criteres_startup_technologique_rep_FR
+
+
+- rule: criteres_startup_technologique_EN
+  steps:
+    - intent: criteres_startup_technologique_Qes_EN
+    - action: utter_criteres_startup_technologique_rep_EN
+
+
+
+
+
+- rule: transition_startup_entreprise_FR
+  steps:
+    - intent: transition_startup_entreprise_Qes_FR
+    - action: utter_transition_startup_entreprise_FR
+
+
+- rule: transition_startup_entreprise_EN
+  steps:
+    - intent: transition_startup_entreprise_Qes_EN
+    - action: utter_transition_startup_entreprise_EN
+
+
+
+
+- rule: difference_startup_entreprise_FR
+  steps:
+    - intent: difference_startup_entreprise_Qes_FR
+    - action: utter_difference_startup_entreprise_rep_FR
+
+
+- rule: difference_startup_entreprise_EN
+  steps:
+    - intent: difference_startup_entreprise_Qes_EN
+    - action: utter_difference_startup_entreprise_rep_EN
+
+
+
+
+- rule: caracteristiques_startup_FR
+  steps:
+    - intent: caracteristiques_startup_Qes_FR
+    - action: utter_caracteristiques_startup_rep_FR
+
+- rule: caracteristiques_startup_EN
+  steps:
+    - intent: caracteristiques_startup_Qes_EN
+    - action: utter_caracteristiques_startup_rep_EN
+
+
+
+
+- rule: objectif_marketing_startup_FR
+  steps:
+    - intent: objectif_marketing_startup_Qes_FR
+    - action: utter_objectif_marketing_startup_rep_FR
+
+
+
+- rule: objectif_marketing_startup_EN
+  steps:
+    - intent: objectif_marketing_startup_Qes_EN
+    - action: utter_objectif_marketing_startup_rep_EN
+
+
+
+
+
+- rule: etude_marche_startup_FR
+  steps:
+    - intent: etude_marche_startup_Qes_FR
+    - action: utter_etude_marche_startup_rep_FR
+
+
+- rule: etude_marche_startup_EN
+  steps:
+    - intent: etude_marche_startup_Qes_EN
+    - action: utter_etude_marche_startup_rep_EN
+
+
+
+- rule: demarches_legales_lancer_startup_FR
+  steps:
+    - intent: demarches_legales_lancer_startup_Qes_FR
+    - action: utter_demarches_legales_lancer_startup_rep_FR
+
+- rule: demarches_legales_lancer_startup_EN
+  steps:
+    - intent: demarches_legales_lancer_startup_Qes_EN
+    - action: utter_demarches_legales_lancer_startup_rep_EN
+
+
+
+
+- rule: reussir_startup_FR
+  steps:
+    - intent: reussir_startup_Qes_FR
+    - action: utter_reussir_startup_rep_FR
+
+
+- rule: reussir_startup_EN
+  steps:
+    - intent: reussir_startup_Qes_EN
+    - action: utter_reussir_startup_rep_EN

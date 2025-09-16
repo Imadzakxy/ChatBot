@@ -1,0 +1,1429 @@
+version: "3.1"
+
+responses:
+  utter_greet:
+    - text: |
+        **Bonjour !** 👋 Je suis votre assistant ultime pour **tout savoir sur les start-ups** (PFE ou non) !  
+        • Prêt à répondre à vos questions avec style et précision.  
+        • Que ce soit sur le financement, les étapes ou les équipes, je suis là !  
+        **Comment puis-je vous aider aujourd'hui ?**
+  
+  utter_greetE:
+    - text: |
+        **Hello!** 👋 I'm your ultimate assistant to **learn everything about startups** (whether it's for your final project or not)!  
+        • Ready to answer your questions with style and precision.  
+        • Whether it's about funding, stages, or team building — I'm here!  
+        **How can I help you today?**
+
+  utter_startup_memoire_fin_etude_qes:
+    - text: |
+        Oui, c’est tout à fait possible. La création d’une start-up peut être acceptée comme projet de mémoire de fin d’études, notamment dans le cadre du dispositif "un diplôme, une start-up" (arrêté ministériel n°1275 du 27/09/2022). Cela concerne les étudiants en Master, ingéniorat ou doctorat.
+        Pour que ce soit accepté, votre projet doit :
+        + Être innovant (technique, social ou économique)
+        + Suivre une démarche structurée (Business Model, étude de marché, prototype, etc.)
+        + Être encadré par un enseignant ou une structure d’incubation
+        + Faire l’objet d’une soutenance devant un jury académique et professionnel
+        👉 En résumé : Oui, vous pouvez faire une start-up comme mémoire, si votre université participe au programme et que vous respectez les conditions."
+
+  utter_qui_peut_faire_startup_comme_memorie_qes:
+    - text: |
+        Les étudiants éligibles sont principalement :
+        ✔️ Les étudiants en Master 2, écoles d’ingénieurs ou doctorants
+        ✔️ Inscrits dans un établissement ayant signé l’arrêté n°1275 du 27/09/2022
+        ✔️ Et dont le projet présente un caractère innovant (technique, économique ou social)
+        👉 Ce n’est pas réservé à une seule filière : les étudiants en informatique, santé, agronomie, business, etc. peuvent proposer un projet de start-up comme mémoire, tant qu’il respecte les critères du programme.
+
+  utter_criteres_acceptee_memorie_startup_qes:
+    - text: |
+        Pour qu'une start-up soit acceptée comme sujet de mémoire, ton projet doit généralement remplir les critères suivants :
+        ✔️ Innovation : l’idée doit proposer une solution originale ou une amélioration significative (technologique, sociale, économique...).
+        ✔️ Faisabilité : le projet doit pouvoir être réalisé dans un délai de 12 à 18 mois.
+        ✔️ Potentiel réel : il doit exister une opportunité de marché ou une utilité claire pour les utilisateurs.
+        ✔️ Encadrement : un enseignant référent et éventuellement un incubateur doivent pouvoir accompagner le projet.
+        ✔️ Lien avec la formation : le projet doit rester cohérent avec ton domaine d’études.
+        👉 En résumé : une bonne idée, réaliste, utile, bien encadrée, et en lien avec ton cursus.
+
+  utter_incubateur_universite_qes:
+    - text: |
+        Oui, de nombreuses universités disposent aujourd’hui d’un incubateur ou d’un centre d’accompagnement à l’entrepreneuriat étudiant. Ces structures offrent généralement :
+        ✔️ Un espace de travail pour les porteurs de projets
+        ✔️ Du mentorat par des experts ou enseignants
+        ✔️ Des formations et ateliers pratiques (business model, pitch, financement, etc.)
+        ✔️ L’accès à un réseau professionnel (entreprises, investisseurs, etc.)
+        🎯 Astuce : Renseigne-toi directement auprès de ton service d’entrepreneuriat ou de ton pôle innovation universitaire. S’il existe un incubateur, il pourra t’orienter et t’accompagner dans le développement de ton idée.
+
+  utter_formation_memorie_startup_qes:
+    - text: |
+        Oui, si tu fais un mémoire de type start-up, une formation est généralement prévue. Elle peut inclure :
+        ✔️ Des ateliers pratiques sur le business plan, le pitch, ou la gestion de projet
+        ✔️ Un accompagnement par des enseignants, des experts ou des incubateurs
+        ✔️ Des ressources en ligne ou en présentiel sur l'entrepreneuriat et l'innovation
+        🎓 L’objectif est de t’aider à structurer ton projet et à acquérir des compétences entrepreneuriales utiles pour réussir.
+
+  utter_projet_en_groupe_qes:
+    - text: |
+        Oui, il est généralement possible de faire un mémoire start-up en groupe, à condition que cela soit validé par votre encadrant ou votre établissement.
+        ✅ Cela reflète la réalité d’une start-up, qui se construit souvent en équipe.
+        ✅ Chaque membre doit avoir des rôles clairs et contribuer au projet.
+        ✅ Le travail collectif doit rester équilibré et bien documenté dans le mémoire.
+        💡 Conseil : vérifiez les règles de votre filière ou faculté, car certaines imposent un travail individuel.
+
+  utter_evaluation_qes:
+    - text: |
+        En général, votre projet start-up est évalué par un jury académique, composé de :
+        ✅ Enseignants-chercheurs (dont votre encadrant),
+        ✅ Experts du domaine (ex. : en entrepreneuriat, innovation),
+        ✅ Parfois des professionnels ou partenaires de l’incubateur.
+        🎯 Ils jugent la qualité du projet, sa réalisation, son potentiel, et votre implication personnelle.
+        💡 La composition exacte du jury dépend du règlement de votre établissement.
+
+  utter_recompense_acception_qes:
+    - text: |
+        Si ton projet de start-up est accepté, tu peux bénéficier de plusieurs avantages, généralement :
+        ✅ Reconnaissance académique (validation de ton mémoire),
+        ✅ Accès à un incubateur universitaire pour développer ton idée,
+        ✅ Soutien financier (bourse, subvention ou accès à des concours),
+        ✅ Accompagnement personnalisé (mentorat, formations, coaching),
+        ✅ Visibilité auprès de partenaires, investisseurs ou institutions.
+        🎓 Ces avantages peuvent varier selon ton université ou le programme auquel tu participes.
+
+  utter_reconnaissance_projets_innovants_qes:
+    - text: |
+        Oui, il existe souvent une reconnaissance officielle pour les projets innovants. Cette reconnaissance peut prendre la forme de labels, certifications, distinctions ou prix délivrés par les universités, organismes publics ou institutions spécialisées. Elle atteste de la qualité, de l’originalité et de l’impact du projet, et facilite son accès à des financements, des réseaux d’accompagnement, ou des programmes d’incubation. Le type et le niveau de reconnaissance varient selon les structures et les dispositifs en place.
+
+  utter_consequences_label_projet_qes:
+    - text: |
+        Lorsque votre projet obtient le label, il bénéficie généralement de plusieurs avantages importants, tels que :
+          + Une meilleure visibilité et crédibilité auprès des milieux académiques et professionnels,
+          + L’accès à des soutiens financiers, des subventions ou des opportunités de financement spécifiques,
+          + L’éligibilité à des programmes d’incubation et un accompagnement par des experts,
+          + Des possibilités accrues de réseautage avec des investisseurs, partenaires et institutions,
+          + Un accès privilégié à des événements, formations et ressources dédiés aux start-ups.
+        En résumé, l’obtention du label renforce considérablement le développement, la reconnaissance et les chances de succès de votre projet.
+
+  utter_Mecanisme_DSB:
+    - text: |
+        Le label DSB est ouvert aux projets innovants dans divers domaines (tech, social, environnemental…). Il est accessible aux étudiants, y compris en licence dans certains cas, et aux projets individuels ou en groupe sans limite stricte de taille. L’originalité des projets est prise en compte, avec des recommandations sur la propriété intellectuelle. Il n’y a pas de quota fixe annuel, et le label peut être cumulé avec d’autres aides. Des mentors peuvent accompagner les projets sélectionnés, notamment ceux à impact social. L’attribution se fait après évaluation par un jury selon des critères tels que l’innovation, la faisabilité, l’impact et l’engagement. Le label est valable pour une durée déterminée, et le projet peut être ajusté après labellisation. Les projets abandonnés ne sont pas systématiquement pénalisés.
+
+  utter_competitions_aids_question:
+    - text: |
+        Yes, there are often contests, grants, and support mechanisms dedicated to rewarding and supporting the best or most innovative projects. These opportunities can include:
+        💡 Innovation competitions organized by institutions, incubators, or ministries
+        💰 Financial aid such as grants, scholarships, or seed funding for promising projects
+        🏆 Awards or labels that offer visibility and access to additional resources
+        📈 Support programs including mentoring, incubation, and technical or legal assistance
+        🌍 Regional, national, or international calls for projects, sometimes focused on specific themes (e.g., environment, social impact, tech)
+        Awarded or labeled projects are frequently eligible for further support, both financial and operational. These opportunities are typically announced on platforms related to entrepreneurship, university innovation offices, government agencies, or incubators. Projects that stand out for their originality, feasibility, and impact often have privileged access to these supports.
+
+  utter_concours_aides_meilleurs_projets_qes:
+    - text: |
+        Oui, il existe souvent des concours et des aides spécifiquement destinés à récompenser et soutenir les meilleurs projets innovants. Ces concours peuvent offrir des prix en argent, des bourses, des subventions, ou un accompagnement privilégié (mentorat, accès à des incubateurs, formations).
+        Les projets les plus prometteurs peuvent ainsi bénéficier de financements, de visibilité accrue, et d’opportunités pour se développer plus rapidement. Ces concours sont généralement organisés par des universités, des institutions publiques, des organisations privées, ou des programmes nationaux et internationaux d’innovation.
+        Pour trouver ces concours et aides, il est conseillé de consulter les plateformes universitaires, les réseaux d’incubateurs, les sites gouvernementaux dédiés à l’innovation, ainsi que les appels à projets locaux ou internationaux.
+
+  utter_goodbye:
+    - text: |
+        **Au revoir !** 🚀  
+        • Revenez quand vous voulez pour plus de conseils sur les start-ups.  
+        • **Bonne chance** dans votre aventure entrepreneuriale !
+    
+  utter_goodbyeE:
+    - text: |
+        **Goodbye!** 🚀  
+        • Come back anytime for more startup advice.  
+        • **Good luck** with your entrepreneurial journey!
+
+  utter_pfe_startup_info:
+    - text: |
+        Un **PFE Start-Up** est un projet de fin d'études transformé en start-up. Voici tout ce qu'il faut savoir :  
+        • **Composition** : Équipe de 2 à 6 membres (même spécialité ou mixte).  
+        • **Inscription** :  
+          1. Remplir un formulaire en début d'année (M2).  
+          2. S'inscrire à un incubateur (ex. ICOSNET, TECHINNOV, GTA).  
+        • **Formation** : Business Model Canvas (BMC) au S2 pour l'aspect business.  
+        • **Soutenance** : Jury mixte (académique + pro) :  
+          ✓ Note académique pour le relevé.  
+          ✓ Note globale pour le classement.  
+        • **Après** : Double diplôme (Master + Start-Up), suivi incubateur, et prix sponsors.  
+        • **Critères clés** : Idée innovante, équipe solide, validation marché.  
+        **Envie d'en savoir plus ?** Posez-moi une question spécifique !
+    
+  utter_pfe_startup_infoE:
+    - text: |
+        A **PFE Start-Up** is a final year project turned into a start-up. Here's everything you need to know:  
+        • **Team**: 2 to 6 members (same or mixed specialties).  
+        • **Registration**:  
+          1. Fill out a form at the beginning of the year (M2).  
+          2. Register with an incubator (e.g., ICOSNET, TECHINNOV, GTA).  
+        • **Training**: Business Model Canvas (BMC) in semester 2 for the business side.  
+        • **Defense**: Mixed jury (academic + professional):  
+          ✓ Academic grade for the transcript.  
+          ✓ Global score for the ranking.  
+        • **Afterwards**: Double degree (Master + Start-Up), incubator follow-up, and sponsor awards.  
+        • **Key criteria**: Innovative idea, strong team, market validation.  
+        **Want to know more?** Ask me a specific question!
+
+  utter_incubateurs_info:
+    - text: |
+        Les **incubateurs** boostent les start-ups universitaires. Tout ce que vous devez savoir :  
+        • **Options** :  
+          ✓ ICOSNET : Soutien tech et réseau.  
+          ✓ TECHINNOV : Focus innovation technologique.  
+          ✓ GTA (Start-Up Hall) : Accompagnement global.  
+        • **Missions** :  
+          ✓ Formation au BMC.  
+          ✓ Support technique et business.  
+          ✓ Mise en relation avec des mentors.  
+        • **Inscription** : Dès le début d'année, via votre faculté ou [IBTIKAR](http://ibtikar.dgrsdt.dz).  
+        • **Astuce** : Choisissez selon votre domaine (ex. tech → TECHINNOV).  
+        **Questions ?** Je suis là pour préciser !
+    
+  utter_incubateurs_infoE:
+    - text: |
+        **Incubators** boost university start-ups. Here's everything you need to know:  
+        • **Options**:  
+          ✓ ICOSNET: Tech support and networking.  
+          ✓ TECHINNOV: Focus on technological innovation.  
+          ✓ GTA (Start-Up Hall): Global support.  
+        • **Missions**:  
+          ✓ Training on the BMC.  
+          ✓ Technical and business support.  
+          ✓ Connection with mentors.  
+        • **Registration**: At the beginning of the year, through your faculty or [IBTIKAR](http://ibtikar.dgrsdt.dz).  
+        • **Tip**: Choose according to your field (e.g., tech → TECHINNOV).  
+        **Questions?** I'm here to clarify!
+
+  utter_double_diplome_info:
+    - text: |
+        Le **double diplôme** combine études et entrepreneuriat :  
+        • **Contenu** :  
+          1. Diplôme académique (Licence/Master).  
+          2. Diplôme "Start-Up" pour votre projet.  
+        • **Obtention** : Soutenance validée par un jury mixte.  
+        • **Valeur** :  
+          ✓ Reconnu par les entreprises.  
+          ✓ Accès à des financements et concours.  
+        • **Post-soutenance** : Suivi par un incubateur pour lancer votre start-up.  
+        **Bonus** : Ça impressionne les recruteurs et investisseurs !
+    
+  utter_double_diplome_infoE:
+    - text: |
+        The **double degree** combines studies and entrepreneurship:  
+        • **Content**:  
+          1. Academic degree (Bachelor/Master).  
+          2. "Start-Up" degree for your project.  
+        • **Awarding**: Defense approved by a mixed jury.  
+        • **Value**:  
+          ✓ Recognized by companies.  
+          ✓ Access to funding and competitions.  
+        • **Post-defense**: Follow-up by an incubator to launch your start-up.  
+        **Bonus**: It impresses recruiters and investors!
+
+  utter_mecanisme_diplome_startup:
+    - text: |
+        Le mécanisme **"un diplôme, une Start-Up"** (Arrêté n°1275, 27/09/2022) transforme vos projets en réalité :  
+        • **Cibles** : Étudiants en Master, Ingéniorat, Doctorat.  
+        • **Options** :  
+          ✓ Start-Up : Créez une entreprise.  
+          ✓ Brevet : Protégez une invention.  
+        • **Avantages** :  
+          ✓ Accès à [IBTIKAR](http://ibtikar.dgrsdt.dz) pour incubateurs et prototypage.  
+          ✓ Label pour projets innovants.  
+        • **Démarche** : Soumettez votre idée via la plateforme IBTIKAR.  
+        **Impact** : Votre diplôme devient une porte vers l'entrepreneuriat !
+  
+  utter_mecanisme_diplome_startupE:
+    - text: |
+        The **"one degree, one Start-Up"** mechanism (Decree No.1275, 27/09/2022) turns your projects into reality:  
+        • **Targets**: Master's, Engineering, and PhD students.  
+        • **Options**:  
+          ✓ Start-Up: Create a company.  
+          ✓ Patent: Protect an invention.  
+        • **Benefits**:  
+          ✓ Access to [IBTIKAR](http://ibtikar.dgrsdt.dz) for incubators and prototyping.  
+          ✓ Label for innovative projects.  
+        • **Procedure**: Submit your idea via the IBTIKAR platform.  
+        **Impact**: Your degree becomes a gateway to entrepreneurship!
+
+  utter_formation_bmc:
+    - text: |
+        La formation **Business Model Canvas (BMC)** est essentielle :  
+        • **Quoi ?** : Modèle pour structurer votre idée (clients, revenus, coûts).  
+        • **Contenu** : Rapport de 2 pages (marché + marketing).  
+        • **Quand ?** : Second semestre (S2).  
+        • **Par qui ?** : Votre incubateur (ex. ICOSNET).  
+        • **Pourquoi ?** :  
+          ✓ Clarifie votre stratégie.  
+          ✓ Attire les investisseurs.  
+        **Conseil** : Pratiquez le BMC tôt pour tester votre idée !
+
+  utter_formation_bmcE:
+    - text: |
+        The **Business Model Canvas (BMC)** training is essential:  
+        • **What?**: A model to structure your idea (customers, revenue, costs).  
+        • **Content**: 2-page report (market + marketing).  
+        • **When?**: Second semester (S2).  
+        • **By whom?**: Your incubator (e.g., ICOSNET).  
+        • **Why?**:  
+          ✓ Clarifies your strategy.  
+          ✓ Attracts investors.  
+        **Tip**: Practice the BMC early to test your idea!
+
+  utter_MVP_deff:
+    - text: |
+        Définition de MVP (Minimum Viable Product):
+        Un MVP (Minimum Viable Product) est la version la plus simple et fonctionnelle d'un produit, qui permet de tester une idée rapidement avec de vrais utilisateurs, en utilisant le minimum de temps, d'effort et de budget.
+        Objectif du MVP:
+        • Valider que ton idée intéresse vraiment des gens
+        • Obtenir des retours utilisateurs concrets
+        • Éviter de perdre du temps à construire un produit inutile
+        • Itérer rapidement en fonction des retours
+        Exemple:
+        Au lieu de créer une application complète de livraison de repas, tu peux commencer avec un simple groupe WhatsApp + un Google Form pour prendre les commandes et voir si les gens sont intéressés.
+    
+  utter_MVP_deffE:  
+    - text: |
+        Definition of MVP (Minimum Viable Product):  
+        An MVP (Minimum Viable Product) is the simplest and most functional version of a product that allows you to quickly test an idea with real users, using the minimum amount of time, effort, and budget.  
+        Objective of the MVP:  
+        • Validate that your idea truly interests people  
+        • Get concrete user feedback  
+        • Avoid wasting time building a useless product  
+        • Iterate quickly based on feedback  
+        Example:  
+        Instead of creating a full meal delivery app, you can start with a simple WhatsApp group + a Google Form to take orders and see if people are interested.
+
+  utter_startup_funding:
+    - text: |
+        **Combien d'argent pour une start-up ?** Ça dépend, mais voici un guide :  
+        • **Étapes et coûts** :  
+          1. **Idée/Validation** : ~0-500 € (temps + petites enquêtes).  
+          2. **Prototype** : 500-10 000 € (selon complexité).  
+          3. **Lancement** : 5 000-50 000 € (juridique, marketing, produit).  
+        • **Sources de financement** :  
+          ✓ Subventions publiques (ex. aides locales).  
+          ✓ Prêts bancaires ou micro-crédits.  
+          ✓ Investisseurs (anges, VC).  
+          ✓ Crowdfunding (ex. Kickstarter).  
+        • **Astuce** : Faites un budget précis avec un expert.  
+        **Chaque projet est unique** – demandez-moi des détails selon votre cas !
+
+  utter_startup_fundingE:
+    - text: |
+        **How much money for a start-up?** It depends, but here's a guide:  
+        • **Steps and costs**:  
+          1. **Idea/Validation**: ~0-500 € (time + small surveys).  
+          2. **Prototype**: 500-10,000 € (depending on complexity).  
+          3. **Launch**: 5,000-50,000 € (legal, marketing, product).  
+        • **Sources of funding**:  
+          ✓ Public grants (e.g., local aids).  
+          ✓ Bank loans or micro-credits.  
+          ✓ Investors (angels, VCs).  
+          ✓ Crowdfunding (e.g., Kickstarter).  
+        • **Tip**: Make a precise budget with an expert.  
+        **Each project is unique** – ask me for details based on your case!
+
+  utter_startup_steps:
+    - text: |
+        **Où commencer une start-up ?** Suivez ces étapes clés :  
+        1. **Idée** : Trouvez une solution à un problème réel.  
+        2. **Validation** : Testez avec des clients potentiels (enquêtes, interviews).  
+        3. **Plan** : Rédigez un business plan (objectifs, budget).  
+        4. **Équipe** : Recrutez des talents complémentaires.  
+        5. **Financement** : Cherchez fonds (subventions, investisseurs).  
+        6. **Prototype** : Créez une version minimale (MVP).  
+        7. **Lancement** : Vendez et ajustez selon les retours.  
+        • **Bonus** :  
+          ✓ Entourez-vous de mentors.  
+          ✓ Soyez patient et flexible.  
+        **Prêt ?** Je peux détailler chaque étape !
+
+  utter_startup_stepsE:
+    - text: |
+        **Where to start a start-up?** Follow these key steps:  
+        1. **Idea**: Find a solution to a real problem.  
+        2. **Validation**: Test with potential customers (surveys, interviews).  
+        3. **Plan**: Write a business plan (goals, budget).  
+        4. **Team**: Recruit complementary talents.  
+        5. **Funding**: Seek funds (grants, investors).  
+        6. **Prototype**: Create a minimal version (MVP).  
+        7. **Launch**: Sell and adjust based on feedback.  
+        • **Bonus**:  
+          ✓ Surround yourself with mentors.  
+          ✓ Be patient and flexible.  
+        **Ready?** I can detail each step!
+
+  utter_non_pfe_startup:
+    - text: |
+        **Pas un PFE Start-Up ?** Pas de souci, voici vos options :  
+        • **Où chercher de l'aide ?**  
+          ✓ **Incubateurs privés** : Recherchez dans votre région (ex. Startup Weekend).  
+          ✓ **Programmes publics** : Aides aux entrepreneurs non étudiants.  
+          ✓ **Réseaux** : Événements de networking (meetups, salons).  
+        • **Financement** :  
+          1. Subventions locales ou nationales.  
+          2. Investisseurs privés (business angels).  
+          3. Prêts ou crowdfunding.  
+        • **Coût** : Similaire aux startups classiques (5 000-50 000 € pour lancer).  
+        • **Conseil** :  
+          ✓ Validez votre idée avant tout.  
+          ✓ Formez-vous (ex. cours en ligne).  
+        **Motivation** : Hors PFE, c'est plus libre mais exige plus d'initiative !
+
+  utter_non_pfe_startupE:
+    - text: |
+        **Not a PFE Start-Up?** No worries, here are your options:  
+        • **Where to seek help?**  
+          ✓ **Private incubators**: Look for them in your region (e.g., Startup Weekend).  
+          ✓ **Public programs**: Aid for non-student entrepreneurs.  
+          ✓ **Networks**: Networking events (meetups, fairs).  
+        • **Funding**:  
+          1. Local or national grants.  
+          2. Private investors (business angels).  
+          3. Loans or crowdfunding.  
+        • **Cost**: Similar to traditional startups (5,000-50,000 € to launch).  
+        • **Advice**:  
+          ✓ Validate your idea first.  
+          ✓ Train yourself (e.g., online courses).  
+        **Motivation**: Outside of PFE, it's freer but requires more initiative!
+
+  utter_startup_team:
+    - text: |
+        **Construire une équipe de start-up** : Voici comment faire :  
+        • **Taille** : 2-5 personnes idéalement (selon projet).  
+        • **Rôles clés** :  
+          ✓ Visionnaire (CEO) : Définit la direction.  
+          ✓ Technique (CTO) : Développe le produit.  
+          ✓ Marketing/Ventes : Attire les clients.  
+        • **Où trouver ?** :  
+          1. Réseaux perso (amis, collègues).  
+          2. Événements startup (hackathons).  
+          3. Plateformes (LinkedIn, AngelList).  
+        • **Astuce** : Cherchez des profils complémentaires et motivés.  
+        **Harmonie** : Une bonne équipe = 50 % du succès !
+
+  utter_startup_teamE:
+    - text: |
+        **Building a start-up team**: Here's how to do it:  
+        • **Size**: Ideally 2-5 people (depending on the project).  
+        • **Key roles**:  
+          ✓ Visionary (CEO): Defines the direction.  
+          ✓ Technical (CTO): Develops the product.  
+          ✓ Marketing/Sales: Attracts customers.  
+        • **Where to find?**:  
+          1. Personal networks (friends, colleagues).  
+          2. Startup events (hackathons).  
+          3. Platforms (LinkedIn, AngelList).  
+        • **Tip**: Look for complementary and motivated profiles.  
+        **Harmony**: A good team = 50% of the success!
+
+  utter_startup_legal:
+    - text: |
+        **Démarches légales pour une start-up** : Tout ce qu'il faut :  
+        • **Étapes** :  
+          1. **Statut** : Choisissez (SARL, SAS, etc.).  
+          2. **Enregistrement** : Au registre du commerce (local).  
+          3. **Documents** : Statuts, Kbis, compte bancaire pro.  
+        • **Coût** : 200-1 000 € (frais + notaire si besoin).  
+        • **Avocat ?** : Utile mais pas obligatoire (conseillé pour contrats).  
+        • **Bonus** : Vérifiez les aides fiscales pour startups !  
+        **Simplifiez** : Utilisez des services en ligne (ex. LegalStart).
+
+  utter_startup_legalE:
+    - text: |
+        **Legal steps for a start-up**: Here's what you need:  
+        • **Steps**:  
+          1. **Status**: Choose (SARL, SAS, etc.).  
+          2. **Registration**: At the local trade registry.  
+          3. **Documents**: Articles of association, Kbis, professional bank account.  
+        • **Cost**: 200-1,000 € (fees + notary if needed).  
+        • **Lawyer?**: Useful but not mandatory (recommended for contracts).  
+        • **Bonus**: Check for tax incentives for start-ups!  
+        **Simplify**: Use online services (e.g., LegalStart).
+
+  utter_c_quoi_une_startup:
+    - text: |
+        Une startup, c'est une jeune entreprise innovante qui cherche à résoudre un problème d'une nouvelle manière.
+        Elle fonctionne souvent avec peu de moyens au début, mais avec une grande ambition de croissance rapide.
+        Contrairement à une entreprise classique, une startup teste beaucoup, s'adapte vite, et cherche souvent à innover avec la technologie.
+    
+  utter_c_quoi_une_startupE:
+    - text: |
+        A startup is a young innovative company that seeks to solve a problem in a new way.  
+        It often operates with limited resources at first, but with a great ambition for rapid growth.  
+        Unlike a traditional company, a startup tests a lot, adapts quickly, and often seeks to innovate with technology.
+
+  utter_objet_decision_008:
+    - text: "La décision n° 008 du 23 février 2025 modifie et complète la décision n° 1275 du 27 septembre 2022, qui concerne les modalités de préparation du mémoire de fin d'études pour l'obtention d'un diplôme universitaire - projet d'entreprise économique."
+    
+  utter_objet_decision_008E:
+    - text: "Decision No. 008 of February 23, 2025 modifies and supplements Decision No. 1275 of September 27, 2022, which concerns the procedures for preparing the end-of-study thesis to obtain a university degree – economic enterprise project."
+
+  utter_objectif_memoire:
+    - text: "L'objectif est de former une génération d'étudiants entrepreneurs capables de se lancer dans l'entrepreneuriat en créant des start-ups, des micro-entreprises ou toute autre forme d'entreprise économique."
+    
+  utter_objectif_memoireE:
+    - text: "The objective is to train a generation of entrepreneurial students capable of launching into entrepreneurship by creating start-ups, micro-enterprises, or any other form of economic enterprise."
+
+  utter_formats_memoire:
+    - text: "Deux formats sont possibles :\n1. Un mémoire avec un chapitre théorique et un autre appliqué (modèle commercial ou fiche technique).\n2. Un mémoire totalement appliqué, sous forme de modèle commercial ou de fiche technique et économique."
+    
+  utter_formats_memoireE:
+    - text: "Two formats are possible:\n1. A thesis with a theoretical chapter and another applied (business model or technical sheet).\n2. A fully applied thesis, in the form of a business model or technical and economic sheet."
+
+  utter_formations_etudiant:
+    - text: "L'étudiant doit suivre des formations et ateliers pratiques en conception de modèles d'affaires, marketing, gestion, comptabilité, finance, et d'autres formations spécialisées selon la nature du projet."
+    
+  utter_formations_etudiantE:  
+    - text: "The student must undergo training and practical workshops in business model design, marketing, management, accounting, finance, and other specialized training depending on the nature of the project."
+
+  utter_beneficiaires_accompagnement:
+    - text: "Tout étudiant porteur d'une idée d'entreprise économique, y compris les étudiants étrangers en dernière année inscrits dans un établissement algérien, peut être accompagné par les structures universitaires comme les incubateurs et centres de développement."
+    
+  utter_beneficiaires_accompagnementE:
+    - text: "Any student with an economic business idea, including foreign students in their final year enrolled in an Algerian institution, can be supported by university structures such as incubators and development centers."
+
+  utter_missions_cellule_orientation:
+    - text: "La Cellule d'Orientation a pour mission d'orienter et d'accompagner les étudiants porteurs de projets vers la structure appropriée. Elle est composée de membres de l'université, d'incubateurs, de centres de soutien technologique, et de partenaires économiques."
+    
+  utter_missions_cellule_orientationE:
+    - text: "The Orientation Cell's mission is to guide and support students with projects toward the appropriate structure. It consists of university members, incubators, technology support centers, and economic partners."
+
+  utter_diplomes_obtenus:
+    - text: "L'étudiant obtient un diplôme de fin d'études universitaires ainsi qu'un certificat de 'projet d'entreprise économique' attestant la nature entrepreneuriale du mémoire."
+    
+  utter_diplomes_obtenusE:
+    - text: "The student obtains a university graduation diploma as well as a 'economic enterprise project' certificate attesting to the entrepreneurial nature of the thesis."
+
+  utter_terme_startup:
+    - text: "Le terme 'start-up' est remplacé par 'projet d'entreprise économique' dans les articles 4, 10 et 75 de la décision n° 1275 du 27 septembre 2022."
+    
+  utter_terme_startupE:
+    - text: "The term 'start-up' is replaced by 'economic enterprise project' in Articles 4, 10, and 75 of Decision No. 1275 of September 27, 2022."
+
+  utter_publication_decision:
+    - text: "La décision est publiée dans le Bulletin officiel de l'enseignement supérieur et de la recherche scientifique."
+    
+  utter_publication_decisionE:
+    - text: "The decision is published in the Official Bulletin of Higher Education and Scientific Research."
+
+  utter_Rôle_des_acteurs:
+    - text: |
+        Les enseignants ont pour missions :
+        + Identifier les projets prometteurs
+        + Orienter vers les bons interlocuteurs
+        + Valider la faisabilité technique
+        Les incubateurs offrent :
+        + Un espace de travail partagé
+        + Un accès à leur réseau professionnel
+        + Un accompagnement administratif et juridique
+        Les entreprises locales interviennent comme :
+        + Membres des jurys d'évaluation
+        + Sources de cas pratiques
+        + Potentiels premiers clients
+
+  utter_Rôle_des_acteursE:      
+    - text: |
+        Teachers have the following missions:
+        + Identify promising projects
+        + Guide students toward the right contacts
+        + Validate technical feasibility
+        Incubators provide:
+        + A shared workspace
+        + Access to their professional network
+        + Administrative and legal support
+        Local businesses intervene as:
+        + Members of evaluation juries
+        + Sources of real-world case studies
+        + Potential first clients
+
+  utter_Processus_de_labellisation:
+    - text: |
+        Le label s'obtient après :
+        + Dépôt du dossier complet
+        + Validation par le comité scientifique
+        + Présentation devant un jury final
+        Les avantages incluent :
+        + Visibilité institutionnelle
+        + Accès à des financements dédiés
+        + Possibilité d'intégrer des pépinières d'entreprises
+        La procédure complète dure généralement :
+        + 2 mois pour la présélection
+        + 1 mois pour l'évaluation approfondie
+        + 15 jours pour la décision finale
+
+  utter_Processus_de_labellisationE:      
+    - text: |
+        The label is obtained after:
+        + Submission of the complete file
+        + Validation by the scientific committee
+        + Presentation before a final jury
+        The benefits include:
+        + Institutional visibility
+        + Access to dedicated funding
+        + Possibility to join business incubators
+        The complete process usually takes:
+        + 2 months for pre-selection
+        + 1 month for in-depth evaluation
+        + 15 days for the final decision
+
+  
+
+  utter_Références_légales:
+    - text: |
+        Le programme s'appuie principalement sur :
+        + La loi 18-07 sur les startups
+        + Le décret exécutif 21-247
+        + L'arrêté ministériel 1275
+        La propriété intellectuelle est protégée par :
+        + Des accords de confidentialité
+        + Un dépôt légal des innovations
+        + Un accompagnement par l'INAPI
+        Des conventions existent avec :
+        + L'OMPI pour le volet brevets
+        + La Francophonie pour l'échange d'expertise
+        + Des programmes européens type Horizon
+
+  utter_Références_légalesE:
+    - text: |
+        The program is primarily based on:
+        + Law 18-07 on startups
+        + Executive decree 21-247
+        + Ministerial order 1275
+        Intellectual property is protected by:
+        + Confidentiality agreements
+        + Legal deposit of innovations
+        + Support from INAPI
+        Agreements exist with:
+        + WIPO for the patent section
+        + La Francophonie for the exchange of expertise
+        + European programs like Horizon
+
+  utter_Cadre_institutionnel:
+    - text: |
+        Le programme est piloté par le Ministère de l'Enseignement Supérieur et de la Recherche Scientifique, en coordination avec :
+        + Les directions des universités
+        + Les centres de recherche publics
+        + Le réseau des incubateurs technologiques
+        Les universités sont sélectionnées selon trois critères principaux :
+        + Existence d'un pôle innovation/entrepreneuriat
+        + Disponibilité d'infrastructures techniques adaptées
+        + Expérience préalable en accompagnement de projets étudiants
+        Un budget annuel est effectivement alloué, avec :
+        + 60% dédié aux équipements des incubateurs
+        + 25% pour les bourses d'innovation
+        + 15% pour la formation des encadrants
+
+  utter_Cadre_institutionnelE:
+    - text: |
+        The program is managed by the Ministry of Higher Education and Scientific Research, in coordination with:
+        + University management departments
+        + Public research centers
+        + The network of technological incubators
+        Universities are selected based on three main criteria:
+        + Existence of an innovation/entrepreneurship hub
+        + Availability of suitable technical infrastructure
+        + Previous experience in supporting student projects
+        An annual budget is effectively allocated, with:
+        + 60% dedicated to incubator equipment
+        + 25% for innovation grants
+        + 15% for the training of mentors
+
+  utter_diff_pfe_types:
+    - text: |
+        **🔍 PFE Startup vs PFE Académique - Les Différences Clés**  
+
+        • **PFE Académique (Classique)**  
+        - 📚 Travail théorique ou recherche  
+        - 🎓 Validation purement académique  
+        - 📝 Mémoire de 50+ pages  
+        - ⏱ Durée : 4-6 mois  
+        - 💼 Stage en entreprise possible  
+
+        • **PFE Startup**  
+        - 🚀 Création d'une vraie startup  
+        - 🏆 Jury mixte (pros + universitaires)  
+        - 📊 Pitch + prototype au lieu de mémoire  
+        - ⏱ Durée : 6-12 mois  
+        - 💰 Accès aux financements et incubateurs  
+
+        **💡 Lequel choisir ?**  
+        → Préfères-tu la théorie (académique) ou la pratique entrepreneuriale (startup) ?  
+        → As-tu une idée innovante à développer ?  
+        → Veux-tu un double diplôme ? (Possible avec PFE Startup)  
+
+        📞 Besoin d'aide pour choisir ? Contacte le service orientation : orientation@univ.dz
+
+  utter_diff_pfe_typesE:
+    - text: |
+        **🔍 PFE Startup vs Academic PFE - Key Differences**  
+
+        • **Academic PFE (Traditional)**  
+        - 📚 Theoretical work or research  
+        - 🎓 Purely academic validation  
+        - 📝 50+ page thesis  
+        - ⏱ Duration: 4-6 months  
+        - 💼 Internship possible  
+
+        • **Startup PFE**  
+        - 🚀 Creation of a real startup  
+        - 🏆 Mixed jury (professionals + academics)  
+        - 📊 Pitch + prototype instead of a thesis  
+        - ⏱ Duration: 6-12 months  
+        - 💰 Access to funding and incubators  
+
+        **💡 Which one to choose?**  
+        → Do you prefer theory (academic) or entrepreneurial practice (startup)?  
+        → Do you have an innovative idea to develop?  
+        → Do you want a double degree? (Possible with Startup PFE)  
+
+        📞 Need help choosing? Contact the orientation service: orientation@univ.dz
+
+  utter_out_of_scope:
+    - text: |
+        **Oups !** Je suis dédié aux **start-ups** (PFE ou autres).  
+        • Pas de réponse sur ça, mais posez-moi une question sur :  
+          ✓ Financement  
+          ✓ Étapes  
+          ✓ Équipes  
+        **Allez, essayez !"
+
+  utter_out_of_scopeE:
+    - text: |
+        **Oops!** I'm dedicated to **startups** (PFE or others).  
+        • No answer on that, but feel free to ask me about:  
+          ✓ Funding  
+          ✓ Steps  
+          ✓ Teams  
+        **Go ahead, try it!**
+
+  utter_bot_challenge:
+    - text: |
+        **Qui suis-je ?** Un assistant virtuel stylé pour les start-ups !  
+        • Ici pour vous guider avec des réponses claires et belles.  
+        • **Demandez-moi n'importe quoi** sur les start-ups !
+
+  utter_bot_challengeE:
+    - text: |
+        **Who am I?** A stylish virtual assistant for startups!  
+        • Here to guide you with clear and beautiful answers.  
+        • **Ask me anything** about startups!
+
+  startup_memoire_rep:
+    - text: "Oui, si tu es en dernière année d'études et que tu as une idée innovante, tu peux transformer ton mémoire en projet de start-up."
+    
+  startup_memoire_repE:
+    - text: "Yes, if you're in your final year of studies and have an innovative idea, you can turn your thesis into a startup project."
+
+  qui_peut_faire_startup_comme_memorie_rep:
+    - text: "Les étudiants de licence, master, doctorat, ingénierie, architecture, et sciences vétérinaires peuvent tous le faire."
+    
+  qui_peut_faire_startup_comme_memorie_repE:
+    - text: "Bachelor's, Master's, PhD students, as well as engineering, architecture, and veterinary science students can all do this."
+
+  criteres_acceptee_memorie_startup_rep:
+    - text: "Il faut que ton idée apporte une solution innovante, technique ou numérique, à un besoin réel"
+    
+  criteres_acceptee_memorie_startup_repE:
+    - text: "Your idea must provide an innovative, technical or digital solution to a real need."
+
+  incubateur_universite_rep:
+    - text: "Oui, tu peux être accompagné par l'incubateur de ton université.L'incubateur universitaire accompagne les étudiants dans le développement de leurs projets de start-up en leur offrant des ressources comme des conseils en création d'entreprise, des ateliers pratiques, du mentorat, et des formations sur des sujets clés tels que la gestion, le marketing et le financement. Il aide à structurer les projets, à affiner le business model et à préparer les étudiants à lancer leur start-up avec succès."
+    
+  incubateur_universite_repE:
+    - text: "Yes, you can be supported by your university's incubator. The university incubator assists students in developing their startup projects by providing resources such as business creation advice, practical workshops, mentoring, and training on key topics like management, marketing, and financing. It helps structure projects, refine business models, and prepares students to successfully launch their startups."
+
+  formation_memorie_startup_rep:
+    - text: "Oui, tu recevras des formations en e-marketing, modèle économique, gestion, et création d'entreprise."
+    
+  formation_memorie_startup_repE:  
+    - text: "Yes, you'll receive training in e-marketing, business models, management, and entrepreneurship."
+
+  projet_en_groupe_rep:
+    - text: "Tu peux former une équipe de 2 à 6 étudiants, même s'ils viennent d'autres spécialités."
+
+  projet_en_groupe_repE:  
+    - text: "You can form a team of 2 to 6 students, even if they come from other specialties."
+
+  evaluation_rep:
+    - text: "Ton projet sera évalué par un comité composé de ton encadrant, d'un expert de l'incubateur et d'un représentant du secteur socio-économique."
+    
+  evaluation_repE:
+    - text: "Your project will be evaluated by a committee consisting of your supervisor, an incubator expert, and a representative from the socio-economic sector."
+
+  recompense_acception_rep:
+    - text: "Si ton projet est validé, tu obtiens un certificat de fin d'études et un diplôme spécifique de start-up."
+    
+  recompense_acception_repE:
+    - text: "If your project is validated, you'll receive a graduation certificate and a specific startup diploma."
+
+  reconnaissance_projets_innovants_rep:
+    - text: "Oui, les projets les plus innovants peuvent recevoir le label « Label », une reconnaissance officielle de leur caractère innovant."
+    
+  reconnaissance_projets_innovants_repE:  
+    - text: "Yes, the most innovative projects can receive the 'Label' designation, an official recognition of their innovative nature."
+
+  consequences_label_projet_rep:
+    - text: "Les projets labellisés sont accompagnés pour devenir de vraies start-ups."
+    
+  consequences_label_projet_repE:  
+    - text: "Labeled projects receive support to become real startups."
+
+  concours_aides_meilleurs_projets_rep:
+    - text: "Oui, les projets les plus prometteurs peuvent participer à un concours national et recevoir un soutien financier."
+    
+  concours_aides_meilleurs_projets_repE:  
+    - text: "Yes, the most promising projects can participate in a national competition and receive financial support."
+
+  utter_pfe_registration_fr:
+    - text: "Pour s'inscrire, remplissez le formulaire au début de l'année M2 et choisissez un incubateur parmi les options disponibles."
+    - text: "L'inscription se fait en ligne via la plateforme de l'université en septembre, avec sélection d'un incubateur."
+
+  utter_pfe_registration_en:
+    - text: "To register, fill out the form at the beginning of the M2 year and select an incubator from available options."
+    - text: "Registration is done online through the university platform in September, with incubator selection."
+
+  utter_pfe_registration_ar:
+    - text: "باش تسجل، عَمّر الاستمارة فبداية عام M2 واختار حاضنة من الثلاثة المتوفرة."
+    - text: "التسجيل كاين على الأنترنيت عبر منصة الجامعة فشهر سبتمبر، مع اختيار الحاضنة."
+
+  utter_pfe_team_fr:
+    - text: "Une équipe peut être composée de 2 à 6 membres, de spécialités identiques ou différentes."
+    - text: "Les groupes doivent avoir entre 2 et 6 étudiants, avec possibilité de mélanger les spécialités."
+
+  utter_pfe_team_en:
+    - text: "A team can have 2 to 6 members, from the same or different specialties."
+    - text: "Groups must include 2-6 students, with possible mix of specialties."
+
+  utter_pfe_team_ar:
+    - text: "الفريق يقدر يكون فيه من 2 حتى لـ 6 أفراد، من نفس التخصص ولا مختلفين."
+    - text: "الفرق لازم تكون بين 2 و6 طلاب، ويمكن الجمع بين التخصصات."
+
+  utter_pfe_incubators_fr:
+    - text: "Les incubateurs disponibles sont ICOSNET (technologie), TECHINNOV (innovation) et GTA (agro-tech), situés au Start-Up Hall."
+    - text: "3 incubateurs au choix : ICOSNET pour projets tech, TECHINNOV pour innovation, GTA pour agroalimentaire."
+
+  utter_pfe_incubators_en:
+    - text: "Available incubators are ICOSNET (tech), TECHINNOV (innovation), and GTA (agro-tech), located in the Start-Up Hall."
+    - text: "3 incubator options: ICOSNET for tech, TECHINNOV for innovation, GTA for agri-food projects."
+
+  utter_pfe_incubators_ar:
+    - text: "الحاضنات المتوفرة هي ICOSNET (التكنولوجيا)، TECHINNOV (الابتكار)، وGTA (الفلاحة)، كاينين فـ Start-Up Hall."
+    - text: "3 حاضنات للاختيار: ICOSNET للمشاريع التقنية، TECHINNOV للابتكار، GTA للفلاحة."
+
+  utter_pfe_bmc_fr:
+    - text: "Le BMC (Business Model Canvas) est un outil pour modéliser votre projet. L'incubateur vous formera à son utilisation."
+    - text: "Le Business Model Canvas permet de structurer votre modèle économique. Des ateliers sont organisés pour vous aider."
+
+  utter_pfe_bmc_en:
+    - text: "The BMC (Business Model Canvas) helps design your business model. The incubator provides training workshops."
+    - text: "BMC is a strategic management tool to develop new business models. You'll receive guidance."
+
+  utter_pfe_bmc_ar:
+    - text: "BMC هو أداة لتصميم النموذج الاقتصادي. الحاضنة كتعطي تكوين خاص بيه."
+    - text: "BMC كيساعدك فتصميم المشروع. غادي تاخد ورشات فهاد الموضوع."
+
+  utter_pfe_defense_fr:
+    - text: "La soutenance dure 30 minutes (15 présentation + 15 questions) devant un jury mixte université-professionnels."
+    - text: "Le jury évalue l'innovation et la faisabilité. Seule la note académique apparaît sur le relevé."
+
+  utter_pfe_defense_en:
+    - text: "The defense lasts 30 minutes (15 presentation + 15 Q&A) before academic and professional judges."
+    - text: "Jury evaluates innovation and feasibility. Only academic score appears on transcripts."
+
+  utter_pfe_defense_ar:
+    - text: "المناقشة كتاخد 30 دقيقة (15 عرض + 15 أسئلة) قدام لجنة من الجامعة والمحترفين."
+    - text: "اللجنة كتقيّم الابتكار والإنجاز. النقطة الأكاديمية هي اللي كاتبان فكشف النقط."
+
+  utter_pfe_aftermath_fr:
+    - text: "Après la soutenance, vous obtenez un double diplôme et pouvez continuer avec l'incubateur pendant 6 mois supplémentaires."
+    - text: "Les meilleurs projets reçoivent un financement et un accompagnement pour créer leur entreprise."
+
+  utter_pfe_aftermath_en:
+    - text: "After defense, you get a double diploma and can continue with incubator for 6 extra months."
+    - text: "Top projects receive funding and support to launch their business."
+
+  utter_pfe_aftermath_ar:
+    - text: "من بعد المناقشة، كتاخد دبلوم مزدوج ويمكن لك تكمل مع الحاضنة 6 أشهر زيادة."
+    - text: "أحسن المشاريع كتاخد دعم مادي ومرافقة باش تبدا الشركة."
+
+  utter_default_fr:
+    - text: "Je n'ai pas bien compris. Pourriez-vous reformuler votre question s'il vous plaît ? 😊"
+    - text: "Pouvez-vous préciser votre demande ? Je n'ai pas saisi votre question."
+
+  utter_default_en:
+    - text: "I didn't understand. Could you rephrase your question please? 😊"
+    - text: "Can you clarify your request? I didn't get your question."
+
+  utter_default_ar:
+    - text: "ما فهمتش السؤال. تقدر تعاود تفرمولو من فضلك؟ 😊"
+    - text: "واش ممكن توضح اكثر؟ ما فهمتش بالضبط."
+
+  utter_Access_to_resources:
+    - text: "You can access resources through the university incubators and the IBTIKAR platform."
+    - text: "Resources are available via the incubator programs and online platforms."
+
+#=====================
+# from "google forms"
+#=====================
+
+  utter_pivoter_stratégiquement_modèle_initial_ne_fonctionne_pas_Qes_FR:
+    - text: |
+        Si ton modèle initial ne fonctionne pas comme prévu, il est possible de faire un pivot stratégique.
+          Voici quelques bonnes pratiques :
+
+          Analyse pourquoi ça ne marche pas (produit, cible, marché, etc.).
+
+          Écoute les retours des utilisateurs : ils peuvent révéler un besoin différent.
+
+          Conserve ce qui fonctionne, change ce qui bloque.
+
+          Teste plusieurs options avant de choisir une nouvelle direction.
+
+          Implique ton équipe et avance étape par étape.
+          Le plus important, c’est de rester aligné avec ta vision initiale, même si la forme change.
+
+  utter_pivoter_stratégiquement_modèle_initial_ne_fonctionne_pas_Qes_EN:
+    - text: |
+        If your initial model isn’t working as expected, it might be time for a strategic pivot.
+          Here are some best practices:
+
+          Analyze why it’s not working (product, target audience, market, etc.).
+
+          Listen to user feedback — it might reveal a different need.
+
+          Keep what works, and change what doesn’t.
+
+          Test several options before choosing a new direction.
+
+          Involve your team and move forward step by step.
+          Most importantly, stay aligned with your original vision, even if the form changes.
+
+
+  utter_equilibrer_innovation_viabilite_rep_FR:
+    - text: |
+        Équilibrer l’innovation produit et la viabilité commerciale est un vrai défi pour une startup technologique. Voici quelques bonnes pratiques :
+
+        Commence petit, mais pertinent : développe une version simple et testable de ton produit (MVP) pour valider ton idée rapidement.
+
+        Écoute ton marché : l’innovation n’a de valeur que si elle répond à un besoin réel. Analyse les retours des utilisateurs.
+
+        Mesure constamment : observe ce qui fonctionne et ajuste ton produit sans perdre de vue ton objectif.
+
+        Fixe des priorités : toutes les idées innovantes ne sont pas utiles tout de suite. Concentre-toi sur ce qui apporte de la valeur maintenant.
+
+        Garde un œil sur le modèle économique : l’innovation ne suffit pas si elle ne peut pas être monétisée ou soutenue financièrement.
+
+        En résumé : innover, c’est bien, mais innover intelligemment, en tenant compte du marché et des ressources, c’est encore mieux.
+
+  utter_equilibrer_innovation_viabilite_rep_EN:
+    - text: |
+        Balancing product innovation and business viability is a real challenge for tech startups. Here are some best practices:
+
+        Start small but relevant: build a simple and testable version of your product (MVP) to validate the idea quickly.
+
+        Listen to the market: innovation only matters if it solves a real problem. Analyze user feedback.
+
+        Measure constantly: track what works and adjust your product while staying focused on your goal.
+
+        Set priorities: not every innovative idea needs to be implemented right away. Focus on what brings value now.
+
+        Keep an eye on your business model: innovation is not enough if it can’t be monetized or sustained financially.
+
+        In short: innovation is great, but smart innovation — aligned with market needs and financial reality — is even better.
+    
+  utter_erreurs_echec_startup_rep_FR:
+    - text: |
+        Beaucoup de startups échouent dans leurs deux premières années pour des raisons souvent évitables. Voici les erreurs les plus fréquentes :
+
+        Manque d’étude de marché : lancer un produit sans vraiment comprendre le besoin ou la cible.
+
+        Absence de modèle économique solide : ne pas savoir comment générer des revenus durables.
+
+        Équipe mal équilibrée : conflits internes, manque de compétences clés ou mauvaise communication.
+
+        Dépenses excessives au début : investir trop tôt sans avoir validé son idée.
+
+        Ignorer les retours clients : ne pas adapter le produit aux besoins réels.
+
+        Manque de focus : vouloir tout faire à la fois, sans stratégie claire.
+
+        Mauvaise gestion du temps ou des priorités : passer trop de temps sur des détails secondaires.
+
+        En résumé : une startup échoue souvent non pas à cause d’une mauvaise idée, mais à cause d’une exécution mal préparée ou mal adaptée au marché.
+  
+  utter_erreurs_echec_startup_rep_EN:
+    - text: |
+        Many startups fail within their first two years due to common — and often avoidable — mistakes. Here are the most frequent ones:
+
+        Lack of market research: launching a product without really understanding the target or the actual need.
+
+        No solid business model: not having a clear way to generate sustainable revenue.
+
+        Unbalanced team: internal conflicts, missing key skills, or poor communication.
+
+        Spending too much too early: investing heavily before validating the idea.
+
+        Ignoring user feedback: failing to adapt the product to real needs.
+
+        Lack of focus: trying to do everything at once without a clear strategy.
+
+        Poor time and priority management: wasting energy on low-impact tasks.
+
+        In short: startups often fail not because the idea is bad, but because of weak execution or poor market fit.
+
+  utter_strategies_acquisition_clients_rep_FR:
+    - text: |
+        Pour une startup avec un budget marketing limité, voici quelques stratégies d’acquisition client rentables :
+        
+        1. **Marketing de contenu** : créer des articles, vidéos ou posts utiles pour attirer et engager votre audience.
+        2. **Référencement naturel (SEO)** : optimiser votre site pour apparaître dans les résultats de recherche.
+        3. **Réseaux sociaux** : utiliser les plateformes gratuites pour créer une communauté et toucher vos clients.
+        4. **Email marketing** : construire une liste d’emails pour communiquer directement avec vos prospects.
+        5. **Partenariats et collaborations** : s’associer avec d’autres startups ou acteurs complémentaires.
+        6. **Bouche-à-oreille et recommandations** : encourager vos clients satisfaits à parler de vous.
+        7. **Publicité ciblée à petit budget** : utiliser Facebook Ads ou Google Ads en ciblant précisément pour limiter les coûts.
+
+        L’essentiel est d’expérimenter, mesurer les résultats, et concentrer les efforts sur ce qui fonctionne le mieux pour votre cible.
+
+  utter_strategies_acquisition_clients_rep_EN:
+    - text: |
+        For a startup with a limited marketing budget, here are some cost-effective customer acquisition strategies:
+        
+        1. **Content marketing**: create helpful articles, videos, or posts to attract and engage your audience.
+        2. **Search engine optimization (SEO)**: optimize your website to appear in search results.
+        3. **Social media**: use free platforms to build a community and reach your customers.
+        4. **Email marketing**: build an email list to communicate directly with prospects.
+        5. **Partnerships and collaborations**: team up with other startups or complementary players.
+        6. **Word-of-mouth and referrals**: encourage satisfied customers to spread the word.
+        7. **Targeted low-budget advertising**: use Facebook Ads or Google Ads with precise targeting to control costs.
+
+        The key is to experiment, measure results, and focus efforts on what works best for your audience.
+
+  utter_calcul_marge_commerciale_rep_FR:
+    - text: |
+        Il n’existe pas de marge unique, mais voici quelques repères pour définir une bonne marge commerciale :
+
+        1. **Connaître vos coûts** : additionnez le coût d'achat, les frais de livraison, de stockage, de marketing, etc.
+        2. **Analyser le marché** : regardez combien vos concurrents vendent des produits similaires.
+        3. **Définir votre objectif** : une marge classique varie entre 20 % et 60 %, selon le secteur.
+        4. **Tester et ajuster** : proposez un prix, observez les ventes, puis ajustez si nécessaire.
+
+        L’essentiel est de trouver un équilibre entre rentabilité, compétitivité et valeur perçue par le client.
+
+  utter_calcul_marge_commerciale_rep_EN:
+    - text: |
+        There's no single perfect margin, but here are some guidelines to define a good profit margin:
+
+        1. **Know your costs**: include purchase cost, shipping, storage, marketing, etc.
+        2. **Analyze the market**: check how much competitors charge for similar products.
+        3. **Set your goal**: a common margin ranges from 20% to 60%, depending on the industry.
+        4. **Test and adjust**: launch with a price, monitor sales, then fine-tune if needed.
+
+        The key is to balance profitability, competitiveness, and the perceived value by your customer.
+
+  utter_droits_createur_startup_rep_FR:
+    - text: |
+        Créer une startup offre plusieurs avantages, surtout si tu es étudiant :
+
+        ✅ **Droits et accompagnement** :
+        - Aide à la création d’entreprise (juridique, financière, fiscale).
+        - Accès à des dispositifs publics : incubateurs, bourses, exonérations fiscales.
+        - Droit au "statut d’étudiant-entrepreneur" avec aménagements d’études.
+
+        ✅ **Pourquoi créer une startup ?**
+        - Pour transformer une idée innovante en réalité.
+        - Pour être indépendant et bâtir ton propre projet.
+        - Pour apprendre par l’action (gestion, innovation, communication…).
+        - Pour avoir un impact réel sur un problème concret.
+
+        C’est aussi une expérience unique qui te démarque dans le monde professionnel, même en cas d’échec.
+
+  
+  utter_droits_createur_startup_rep_EN:
+    - text: |
+        Creating a startup comes with many advantages, especially for students:
+
+        ✅ **Rights and support**:
+        - Access to legal, financial, and administrative support.
+        - Eligibility for public programs: incubators, grants, tax relief.
+        - Right to "student-entrepreneur" status with flexible academic options.
+
+        ✅ **Why start a startup?**
+        - To turn an innovative idea into reality.
+        - To gain independence and build something meaningful.
+        - To learn real-world skills like management, innovation, and marketing.
+        - To make an impact by solving a real-world problem.
+
+        Even if it doesn’t succeed, it’s a powerful learning experience that sets you apart professionally.
+
+
+
+  utter_financement_startup_rep_FR:
+    - text: |
+        Il existe plusieurs options pour financer ta startup, selon ton stade d’avancement :
+
+        💡 **Financements personnels** : Économies, amis, famille (le "love money").
+        
+        🏦 **Aides publiques et concours** :
+        - Subventions de l'État, bourses, dispositifs comme l’ANSEJ ou incubateurs.
+        - Statut étudiant-entrepreneur avec accompagnement et financement.
+        - Concours d’innovation, prix pour jeunes créateurs, appels à projets.
+
+        🤝 **Investisseurs privés** :
+        - Business Angels, investisseurs en amorçage.
+        - Capital-risque (VC) pour projets plus avancés.
+
+        💬 **Crowdfunding** : Collecte de fonds en ligne (Kickstarter, Ulule...).
+
+        📑 **Prêts** : Microcrédit, prêt bancaire ou prêt d’honneur (souvent sans garantie).
+
+        Combine plusieurs sources si possible, et prépare toujours un bon business plan pour convaincre les financeurs.
+
+
+
+  utter_financement_startup_rep_EN:
+    - text: |
+        There are several ways to fund your startup depending on your stage:
+
+        💡 **Personal funds**: Your savings, support from friends and family ("love money").
+
+        🏦 **Public grants and competitions**:
+        - Government aid, innovation grants, startup incubator programs.
+        - Student-entrepreneur status with access to financial and mentoring support.
+        - Competitions and innovation contests with financial prizes.
+
+        🤝 **Private investors**:
+        - Business Angels or early-stage investors.
+        - Venture capital (VC) if your project is more mature.
+
+        💬 **Crowdfunding**: Raise funds online through platforms like Kickstarter or Ulule.
+
+        📑 **Loans**: Microloans, bank loans, or honor loans (often interest-free and unsecured).
+
+        It's often best to combine funding sources and prepare a solid business plan to convince potential backers.
+
+
+  utter_nombre_startups_algerie_rep_FR:
+    - text: |
+        En 2025, l'Algérie compte environ **8 000 startups actives**, dont **2 300 ont obtenu le label officiel "Startup"** délivré par le ministère de l'Économie de la connaissance. Ce label permet aux entreprises de bénéficier d'avantages fiscaux, d'un accès facilité au financement et d'un accompagnement structuré.
+
+        Cette croissance rapide reflète une dynamique soutenue par des politiques publiques favorables, notamment la création de **plus de 100 incubateurs** et le développement de **zones franches technologiques** pour encourager l'innovation.
+
+        De plus, l'Algérie se classe désormais **deuxième en Afrique** en termes de nombre de startups actives, juste derrière le Nigeria.
+
+  utter_nombre_startups_algerie_rep_EN:
+    - text: |
+        As of 2025, Algeria has approximately **8,000 active startups**, with **2,300 officially labeled as "Startup"** by the Ministry of Knowledge Economy. This label grants companies tax benefits, easier access to funding, and structured support.
+
+        This rapid growth reflects a dynamic supported by favorable public policies, including the creation of **over 100 incubators** and the development of **technological free zones** to encourage innovation.
+
+        Additionally, Algeria now ranks **second in Africa** in terms of the number of active startups, just behind Nigeria.
+
+
+
+  utter_difference_startup_projet_innovant_rep_FR:
+    - text: |
+        Une **startup** est une entreprise innovante en phase de lancement, avec un **fort potentiel de croissance** et souvent un **modèle économique encore en expérimentation**. Elle cherche à **disrupter un marché** ou créer un **nouveau besoin**, en utilisant souvent des technologies nouvelles.
+
+        Un **projet innovant**, lui, peut désigner **toute initiative originale**, qu’elle soit individuelle ou portée par une organisation. Il n’a pas forcément vocation à devenir une entreprise, ni à se développer rapidement.
+
+        En résumé :
+        - **Toute startup est un projet innovant**, mais **tout projet innovant n’est pas une startup**.
+
+
+
+  utter_difference_startup_projet_innovant_rep_EN:
+    - text: |
+        A **startup** is an innovative company in its early stage, with **high growth potential** and often an **experimental business model**. It aims to **disrupt a market** or create a **new need**, often using emerging technologies.
+
+        An **innovative project**, on the other hand, can refer to **any original initiative**, whether by an individual or organization. It does not necessarily aim to become a company or grow rapidly.
+
+        In short:
+        - **Every startup is an innovative project**, but **not every innovative project is a startup**.
+
+
+  utter_obtenir_label_startup_rep_FR:
+    - text: |
+        Pour obtenir le **label startup** en Algérie, voici les principales étapes :
+
+        1. Crée un **compte sur la plateforme officielle** des startups : [startup.dz](https://startup.dz)
+        2. Remplis le formulaire de demande en présentant ton projet (équipe, innovation, modèle économique, etc.)
+        3. Attends l’évaluation du **Comité National des Startups** (CNS)
+        4. Si ton projet est jugé innovant et viable, tu obtiendras le **label "Startup"**
+
+        ✅ Le label te donne accès à plusieurs avantages : financements, exonérations fiscales, accompagnement, espaces de coworking, etc.
+
+
+  utter_obtenir_label_startup_rep_EN:
+    - text: |
+        To get the **startup label** in Algeria, here are the main steps:
+
+        1. Create an account on the official platform: [startup.dz](https://startup.dz)
+        2. Fill out the application form with details about your project (team, innovation, business model, etc.)
+        3. Wait for the evaluation by the **National Startup Committee** (CNS)
+        4. If your project is considered innovative and viable, you will receive the **"Startup" label**
+
+        ✅ The label gives access to many benefits: funding opportunities, tax exemptions, mentorship, coworking spaces, and more.
+
+
+  utter_criteres_startup_technologique_rep_FR:
+    - text: |
+        Une **startup technologique** se distingue par les critères suivants :
+
+        🚀 Elle repose sur **l’innovation technologique** : IA, Big Data, IoT, blockchain, cybersécurité, etc.  
+        🧪 Son produit ou service a une **composante technique forte**.  
+        🌍 Elle vise généralement une **scalabilité rapide** grâce à la technologie.  
+        💡 Elle développe souvent ses **propres solutions logicielles ou matérielles**.  
+        📈 Elle a un potentiel de croissance élevé avec une vision tournée vers l’évolution technologique.
+
+        Si ta startup propose une solution basée sur la tech pour répondre à un besoin, elle est très probablement technologique.
+
+
+  utter_criteres_startup_technologique_rep_EN:
+    - text: |
+        A **tech startup** typically meets the following criteria:
+
+        🚀 It is based on **technological innovation**: AI, Big Data, IoT, blockchain, cybersecurity, etc.  
+        🧪 Its product or service includes a **strong technical component**.  
+        🌍 It aims for **rapid scalability** using technology.  
+        💡 It often develops its **own software or hardware solutions**.  
+        📈 It has high growth potential and a clear focus on tech evolution.
+
+        If your startup is solving a problem using technology, it’s likely a tech startup.
+
+
+
+
+  utter_transition_startup_entreprise_FR:
+    - text: |
+        Pour passer d'une startup à une entreprise établie, il faut :
+
+        🔍 Clarifier ton **modèle économique** : il doit être stable, validé par le marché, et générer des revenus réguliers.  
+        👥 Structurer ton **équipe** avec des rôles clairs, du management et des processus internes.  
+        📈 Mettre en place une **stratégie de croissance durable** (pas juste de l’expérimentation).  
+        📊 Respecter les **obligations légales et administratives** (statut juridique, fiscalité, RH, etc.).  
+        💼 Définir une **vision à long terme** et construire une marque solide.  
+
+        Le passage se fait quand l’innovation laisse la place à la **consolidation et la rentabilité**.
+
+
+  utter_transition_startup_entreprise_EN:
+    - text: |
+        To move from a startup to an established company, you should:
+
+        🔍 Define a **clear and stable business model** with proven market demand and recurring revenue.  
+        👥 Structure your **team** with defined roles, internal processes, and leadership.  
+        📈 Develop a **sustainable growth strategy**, not just experimentation.  
+        📊 Fulfill **legal and administrative requirements** (company status, taxes, HR, etc.).  
+        💼 Set a **long-term vision** and build a solid brand.  
+
+        The transition happens when innovation gives way to **scaling, profitability, and operational stability**.
+
+
+
+
+  utter_difference_startup_entreprise_rep_FR:
+    - text: |
+        Une **startup** est une jeune entreprise innovante qui cherche un **modèle économique scalable**, souvent dans un contexte d'incertitude.
+
+        Une **entreprise classique** a généralement un **modèle établi**, vise la **stabilité** et fonctionne avec moins de prise de risque.
+
+        En résumé :
+        🚀 Startup = innovation, croissance rapide, incertitude  
+        🏢 Entreprise = stabilité, rentabilité, modèle déjà testé
+
+  
+  utter_difference_startup_entreprise_rep_EN:
+    - text: |
+        A **startup** is a young, innovative company searching for a **scalable business model**, often in a high-risk environment.
+
+        A **traditional company** usually has an **established model**, focuses on **stability** and predictable growth.
+
+        In short:  
+        🚀 Startup = innovation, fast growth, uncertainty  
+        🏢 Company = stability, profitability, proven model
+
+
+
+
+  utter_caracteristiques_startup_rep_FR:
+    - text: |
+        Une startup se distingue par plusieurs caractéristiques :
+
+        ✅ Un fort potentiel de **croissance rapide**  
+        ✅ Un **modèle économique innovant ou disruptif**  
+        ✅ Une **incertitude élevée** liée au marché ou au produit  
+        ✅ Une phase de **recherche de rentabilité** (pas encore stable)  
+        ✅ Une forte **flexibilité** et capacité d’adaptation  
+        ✅ Une équipe souvent **jeune et multidisciplinaire**  
+        ✅ Souvent orientée vers des **solutions technologiques**
+
+        C’est cette combinaison qui différencie une startup d’une entreprise classique.
+
+
+  utter_caracteristiques_startup_rep_EN:
+    - text: |
+        A startup typically has the following characteristics:
+
+        ✅ High potential for **rapid growth**  
+        ✅ An **innovative or disruptive business model**  
+        ✅ A high degree of **uncertainty** (market or product)  
+        ✅ Still in the **search for profitability**  
+        ✅ Strong **flexibility** and adaptability  
+        ✅ Often a **young, multidisciplinary team**  
+        ✅ Usually **technology-oriented**
+
+        These traits set startups apart from traditional companies.
+
+
+
+  utter_objectif_marketing_startup_rep_FR:
+    - text: |
+        L’objectif marketing premier pour une startup est **d’acquérir ses premiers clients** et de valider son produit sur le marché (product-market fit).  
+        Cela passe souvent par :  
+        🔹 Faire connaître la solution  
+        🔹 Susciter l’intérêt auprès d’un public ciblé  
+        🔹 Obtenir des retours utilisateurs  
+        🔹 Construire une base solide de premiers utilisateurs ou clients
+
+        Le but est de prouver que le besoin existe réellement avant de passer à l’échelle.
+
+
+  utter_objectif_marketing_startup_rep_EN:
+    - text: |
+        The primary marketing goal for a startup is to **acquire early customers** and validate product-market fit.  
+        This often involves:  
+        🔹 Making the solution known  
+        🔹 Generating interest from a targeted audience  
+        🔹 Collecting user feedback  
+        🔹 Building a solid base of first users or clients
+
+        The goal is to prove that there is real demand before scaling up.
+
+
+
+
+  utter_etude_marche_startup_rep_FR:
+    - text: |
+        Pour mieux développer ton idée de startup, il est essentiel de bien connaître le marché. Voici les étapes principales :  
+        🔹 Identifie un problème concret que vivent les gens autour de toi.  
+        🔹 Observe tes potentiels concurrents : que proposent-ils ? À quel prix ?  
+        🔹 Parle directement à des clients (entretiens, sondages, forums, réseaux sociaux).  
+        🔹 Teste une version simple de ton idée (MVP) et récolte les retours.  
+        🔹 Vérifie s’il y a une vraie demande et si les gens sont prêts à payer pour ta solution.
+
+        Et si tu veux des idées adaptées à l’Algérie, voici quelques pistes :  
+        💡 Livraison de produits locaux en ligne  
+        💡 Applications pour étudiants ou jeunes diplômés  
+        💡 Plateformes de services à domicile (plomberie, électricité...)  
+        💡 Solutions pour l’agriculture intelligente ou la logistique  
+        💡 Formations en ligne avec un modèle freemium
+      
+        Le plus important, c’est de répondre à un vrai besoin existant.
+
+
+  utter_etude_marche_startup_rep_EN:
+    - text: |
+        To better develop your startup idea, it’s important to understand the market. Here are the main steps:  
+        🔹 Identify a real problem people face around you.  
+        🔹 Study your potential competitors: what do they offer? At what price?  
+        🔹 Talk directly to potential customers (interviews, surveys, forums, social media).  
+        🔹 Test a simple version of your idea (MVP) and gather feedback.  
+        🔹 Check if there is actual demand and if people are willing to pay for your solution.
+
+        If you're looking for startup ideas that fit Algeria, here are some suggestions:  
+        💡 Online delivery of local products  
+        💡 Apps for students or recent graduates  
+        💡 Home services platforms (plumbing, electricity, etc.)  
+        💡 Smart agriculture or logistics solutions  
+        💡 Freemium e-learning platforms
+
+        The key is to solve a real existing need.
+
+
+
+  utter_demarches_legales_lancer_startup_rep_FR:
+    - text: |
+        Pour lancer ta startup de manière officielle en Algérie, voici les démarches à suivre :
+
+        📝 **1. Formalisation légale** :
+        - Choisir un statut juridique (SNC, SARL, EURL, etc.)
+        - Rédiger les statuts de l’entreprise
+        - Déposer le nom commercial (auprès du CNRC)
+        - S'inscrire au Centre National du Registre du Commerce (CNRC)
+        - Obtenir le NIF (Numéro d'Identification Fiscale) et la carte fiscale
+
+        📌 **2. Enregistrement complémentaire** :
+        - Affiliation à la CASNOS (si tu es travailleur non salarié)
+        - Ou à la CNAS (si tu embauches du personnel)
+        - Ouverture d’un compte bancaire professionnel
+        - Publication dans le Bulletin officiel des annonces légales (BOAL)
+
+        🚀 **3. Structuration et lancement stratégique** :
+        - Étude de marché approfondie
+        - Définition du Business Model
+        - Élaboration d’un business plan clair
+        - Développement de l’offre ou du prototype
+        - Constitution d’une équipe solide
+        - Plan marketing et communication
+        - Recherche de financement (label startup, Anade, investisseurs...)
+
+        Ces étapes permettent de passer d’une simple idée à une startup structurée, visible et prête à croître.
+
+  utter_demarches_legales_lancer_startup_rep_EN:
+    - text: |
+        To officially launch your startup in Algeria, here are the key steps:
+
+        📝 **1. Legal formalization**:
+        - Choose a legal status (SNC, SARL, EURL, etc.)
+        - Draft the company statutes
+        - Register the trade name (with the CNRC)
+        - Register the business with the CNRC (National Commercial Registry)
+        - Obtain your NIF (Tax Identification Number) and fiscal card
+
+        📌 **2. Additional registration**:
+        - Join CASNOS (for non-salaried entrepreneurs)
+        - Or CNAS (if you hire employees)
+        - Open a business bank account
+        - Publish a legal notice in the Official Bulletin (BOAL)
+
+        🚀 **3. Structure and launch**:
+        - Conduct deep market research
+        - Define your business model
+        - Build a clear business plan
+        - Develop your product or MVP
+        - Assemble a strong team
+        - Plan your marketing and communication
+        - Seek funding (startup label, Anade, private investors...)
+
+        These steps will help you go from idea to an officially structured and operational startup.
+
+
+  utter_reussir_startup_rep_FR:
+    - text: |
+        Pour réussir ta startup, voici quelques principes clés :
+
+        ✅ **1. Résous un vrai problème** : ton idée doit répondre à un besoin réel du marché.
+        ✅ **2. Apprends de ton client** : sois à l'écoute, adapte ton produit à ses retours.
+        ✅ **3. Construis une équipe forte** : choisis des personnes compétentes et alignées avec ta vision.
+        ✅ **4. Teste vite, améliore souvent** : avance en créant des prototypes (MVP) et itère.
+        ✅ **5. Gère bien tes ressources** : optimise ton temps, ton énergie et ton budget.
+        ✅ **6. Cherche des partenaires et mentors** : ils peuvent t’ouvrir des portes et t’éviter des erreurs.
+        ✅ **7. Sois patient(e) et persévérant(e)** : le succès ne vient pas du jour au lendemain.
+
+        Le chemin est difficile, mais avec de la clarté, du travail, et de l’adaptation, tu maximises tes chances de réussir.
+
+  utter_reussir_startup_rep_EN:
+    - text: |
+        To succeed with your startup, here are some key principles:
+
+        ✅ **1. Solve a real problem**: your idea must address an actual market need.
+        ✅ **2. Learn from your customers**: listen to feedback and adapt your product accordingly.
+        ✅ **3. Build a strong team**: surround yourself with skilled people who share your vision.
+        ✅ **4. Test fast, improve constantly**: build MVPs and iterate quickly.
+        ✅ **5. Manage your resources wisely**: time, energy, and money should be used smartly.
+        ✅ **6. Seek partners and mentors**: they can help you avoid mistakes and open valuable doors.
+        ✅ **7. Be patient and resilient**: success takes time and consistent effort.
+
+        The journey is tough, but with clarity, persistence, and adaptability, you boost your chances of success.

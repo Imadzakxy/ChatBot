@@ -1,0 +1,2452 @@
+version: "3.1"
+
+nlu:
+- intent: startup_memoire_fin_etude_qes
+  examples: |
+    - Est-ce que je peux créer une start-up comme mémoire de fin d'études ?
+    - Puis-je concevoir une start-up pour mon mémoire de fin d'études ?
+    - Est-il envisageable de faire une start-up comme sujet de mémoire de fin d'études ?
+    - Est-ce que la création d'une start-up peut être un projet de mémoire de fin d'études ?
+    - Est-ce que créer une start-up est une option pour mon mémoire de fin d'études ?
+    - Peut-on considérer la création d'une start-up comme un projet pour le mémoire de fin d'études ?
+    - Est-il possible d'utiliser la création d'une start-up comme base pour mon mémoire de fin d'études ?
+    - Est-il faisable de faire de la création d'une start-up le thème de mon mémoire de fin d'études ?
+    - Est-ce une bonne idée de faire une start-up comme sujet pour mon mémoire de fin d'études ?
+    - La création d'une start-up peut-elle être un projet pour mon mémoire de fin d'études ?
+    - Est-ce que faire une start-up peut compter comme un mémoire de fin d'études ?
+    - Est-ce que mon projet de fin d'études peut être une start-up ?
+    - Peut-on choisir la création d'une start-up comme mémoire ?
+    - Est-ce autorisé de faire un mémoire basé sur une start-up ?
+    - Est-ce que lancer une start-up peut faire office de mémoire ?
+    - Peut-on présenter une start-up comme mémoire de fin d'études ?
+    - Est-ce que monter une start-up est acceptable pour un mémoire ?
+    - Est-ce qu’un projet de start-up peut être validé comme mémoire ?
+    - Est-ce que je peux baser mon mémoire sur un projet de start-up ?
+    - Une start-up peut-elle être considérée comme un sujet de mémoire ?
+    - Faire une start-up, c’est valide pour un mémoire de fin d'études ?
+    - Est-ce que je peux transformer une idée de start-up en mémoire ?
+    - Puis-je utiliser une idée d’entreprise comme mémoire ?
+    - Est-ce qu’un mémoire peut être basé sur l’entrepreneuriat ?
+    - Est-ce que créer une entreprise peut faire partie de mon mémoire ?
+    - Peut-on faire un mémoire sur la création d’une entreprise innovante ?
+    - Can I create a startup as my graduation project?
+    - Can I design a startup for my graduation thesis?
+    - Is it possible to do a startup as a graduation thesis topic?
+    - Can creating a startup be a graduation thesis project?
+    - Is creating a startup an option for my graduation thesis?
+    - Can the creation of a startup be considered a project for the graduation thesis?
+    - Is it possible to use the creation of a startup as the basis for my graduation thesis?
+    - Is it feasible to make the creation of a startup the theme of my graduation thesis?
+    - Is it a good idea to do a startup as a topic for my graduation thesis?
+    - Can the creation of a startup be a project for my graduation thesis?
+    - Can doing a startup count as a graduation thesis?
+    - Can my final year project be a startup?
+    - Can I choose to create a startup as my thesis?
+    - Is it allowed to do a thesis based on a startup?
+    - Can launching a startup serve as a thesis?
+    - Can a startup be presented as a graduation thesis?
+    - Is starting a startup acceptable for a thesis?
+    - Can a startup project be validated as a thesis?
+    - Can I base my thesis on a startup project?
+    - Can a startup be considered a thesis topic?
+    - Is doing a startup valid as a graduation thesis?
+    - Can I turn a startup idea into a thesis?
+    - Can I use a business idea as a thesis?
+    - Can a thesis be based on entrepreneurship?
+    - Can creating a company be part of my thesis?
+    - Can a thesis be about creating an innovative business?
+
+
+- intent: qui_peut_faire_startup_comme_memorie_qes
+  examples: |
+    - Qui peut faire un mémoire de fin d'études sous forme de start-up ?
+    - Qui est autorisé à faire une start-up comme mémoire de fin d'études ?
+    - Qui peut choisir une start-up pour son projet de mémoire ?
+    - Qui est éligible pour faire une start-up comme sujet de mémoire ?
+    - Quelles personnes peuvent faire un mémoire sous forme de start-up ?
+    - Qui peut présenter une start-up comme projet de mémoire de fin d'études ?
+    - Est-ce que tout le monde peut faire une start-up comme mémoire ?
+    - Qui a le droit de faire une start-up pour son mémoire de fin d’études ?
+    - À qui est-ce permis de faire un mémoire basé sur une start-up ?
+    - Est-ce que n'importe quel étudiant peut proposer une start-up comme mémoire ?
+    - Qui peut envisager une création de start-up dans le cadre de son mémoire ?
+    - Qui peut soumettre un projet de start-up comme mémoire ?
+    - Est-ce réservé à certaines filières de faire une start-up comme mémoire ?
+    - Quels étudiants peuvent faire un mémoire sous forme de projet entrepreneurial ?
+    - Est-ce que les étudiants en informatique peuvent faire une start-up comme mémoire ?
+    - Qui peut opter pour un mémoire de type start-up ?
+    - Who can do a final year project in the form of a startup?
+    - Who is allowed to do a startup as a graduation thesis?
+    - Who can choose a startup as their thesis project?
+    - Who is eligible to do a startup as a thesis topic?
+    - Which people can do a thesis in the form of a startup?
+    - Who can present a startup as a final year thesis project?
+    - Can anyone do a startup as a thesis?
+    - Who is allowed to do a startup for their final project?
+    - Who is permitted to do a thesis based on a startup?
+    - Can any student propose a startup as a thesis?
+    - Who can consider starting a startup as part of their thesis?
+    - Who can submit a startup project as a thesis?
+    - Is it restricted to certain majors to do a startup as a thesis?
+    - Which students can do a thesis in the form of an entrepreneurial project?
+    - Can computer science students do a startup as their thesis?
+    - Who can opt for a startup-based thesis?
+
+
+- intent: criteres_acceptee_memorie_startup_qes
+  examples: |
+    - Quels sont les critères pour que mon idée soit acceptée comme mémoire start-up ?
+    - Quelles conditions doivent être remplies pour que mon idée soit acceptée comme mémoire de start-up ?
+    - Quels sont les critères nécessaires pour faire accepter une start-up comme mémoire ?
+    - Quelles sont les exigences pour que mon projet de start-up soit accepté comme mémoire ?
+    - Quels critères doivent être remplis pour que mon idée de start-up soit validée comme sujet de mémoire ?
+    - Quels éléments doivent être pris en compte pour qu'une idée de start-up soit acceptée en tant que mémoire ?
+    - Que faut-il pour qu’un projet de start-up soit accepté comme mémoire ?
+    - Quels sont les critères d’acceptation pour un mémoire basé sur une start-up ?
+    - Qu’est-ce qui est exigé pour qu’un mémoire start-up soit validé ?
+    - Quelles sont les attentes pour qu’un projet entrepreneurial soit considéré comme un mémoire ?
+    - Quels aspects sont évalués pour qu’une idée de start-up soit acceptée ?
+    - Quels sont les standards à respecter pour faire une start-up comme mémoire ?
+    - Quelles sont les règles pour qu’une start-up soit acceptée comme projet de mémoire ?
+    - Que doit contenir mon projet pour qu’il soit accepté en tant que mémoire start-up ?
+    - Quelles sont les conditions académiques pour valider un mémoire en forme de start-up ?
+    - What are the criteria for my idea to be accepted as a startup thesis?
+    - What conditions must be met for my idea to be accepted as a startup thesis?
+    - What are the necessary criteria to have a startup accepted as a thesis?
+    - What are the requirements for my startup project to be accepted as a thesis?
+    - What criteria must be fulfilled for my startup idea to be approved as a thesis topic?
+    - What elements must be considered for a startup idea to be accepted as a thesis?
+    - What is needed for a startup project to be accepted as a thesis?
+    - What are the acceptance criteria for a thesis based on a startup?
+    - What is required for a startup thesis to be validated?
+    - What are the expectations for an entrepreneurial project to be considered a thesis?
+    - What aspects are evaluated for a startup idea to be accepted?
+    - What standards must be met to do a startup as a thesis?
+    - What are the rules for a startup to be accepted as a thesis project?
+    - What must my project include to be accepted as a startup thesis?
+    - What academic conditions are required to validate a thesis in the form of a startup?
+
+
+
+- intent: incubateur_universite_qes
+  examples: |
+    - Est-ce qu'il y a un incubateur à l'université pour m'aider à développer mon idée ?
+    - L'université propose-t-elle un incubateur pour aider au développement d'une idée ?
+    - Existe-t-il un incubateur à l'université pour m'accompagner dans le développement de mon projet ?
+    - Y a-t-il un incubateur dans mon université pour soutenir le développement de mon idée ?
+    - L'université met-elle à disposition un incubateur pour m'aider à concrétiser mon projet ?
+    - Est-ce que mon université offre un incubateur pour accompagner les projets comme le mien ?
+    - Est-ce que je peux bénéficier d'un incubateur universitaire pour mon projet ?
+    - L'université dispose-t-elle d'un incubateur pour les étudiants entrepreneurs ?
+    - Puis-je accéder à un incubateur dans mon université pour lancer mon idée ?
+    - Y a-t-il un programme d'incubation à l'université pour soutenir les start-up étudiantes ?
+    - Existe-t-il un soutien d'incubation à l'université pour le développement de projets innovants ?
+    - Mon université propose-t-elle un accompagnement via un incubateur pour les projets étudiants ?
+    - Où puis-je trouver un incubateur dans mon université pour aider mon projet ?
+    - L'université a-t-elle une structure d'incubation pour les idées de start-up ?
+    - Puis-je utiliser les ressources de l'incubateur universitaire pour mon projet ?
+    - Is there an incubator at the university to help me develop my idea?
+    - Does the university offer an incubator to help develop an idea?
+    - Is there an incubator at the university to support me in developing my project?
+    - Is there an incubator at my university to support the development of my idea?
+    - Does the university provide an incubator to help me realize my project?
+    - Does my university offer an incubator to support projects like mine?
+    - Can I benefit from a university incubator for my project?
+    - Does the university have an incubator for student entrepreneurs?
+    - Can I access an incubator at my university to launch my idea?
+    - Is there an incubation program at the university to support student startups?
+    - Is there incubation support at the university for developing innovative projects?
+    - Does my university offer support through an incubator for student projects?
+    - Where can I find an incubator at my university to help my project?
+    - Does the university have an incubation structure for startup ideas?
+    - Can I use the university incubator resources for my project?
+
+
+
+- intent: formation_memorie_startup_qes
+  examples: |
+    - Est-ce que je vais être formé si je fais un mémoire start-up ?
+    - Vais-je recevoir une formation si je choisis un mémoire sous forme de start-up ?
+    - Y a-t-il une formation prévue si je fais un mémoire en start-up ?
+    - Est-ce que le mémoire start-up inclut une formation pour m'aider à développer mon projet ?
+    - Vais-je bénéficier d'une formation pour créer une start-up dans le cadre de mon mémoire ?
+    - Le mémoire de type start-up prévoit-il une formation spécifique ?
+    - Est-ce qu’une formation est offerte quand on fait un mémoire start-up ?
+    - La réalisation d’un mémoire start-up comprend-elle un accompagnement formation ?
+    - Vais-je être accompagné par une formation si mon mémoire porte sur une start-up ?
+    - Existe-t-il un cursus de formation associé au mémoire start-up ?
+    - Est-ce que je suivrai une formation en lien avec mon mémoire start-up ?
+    - Y a-t-il un programme de formation prévu dans le cadre du mémoire start-up ?
+    - Le mémoire start-up donne-t-il accès à une formation spécifique pour les porteurs de projet ?
+    - Puis-je espérer une formation si je fais un mémoire sur la création d’une start-up ?
+    - Est-ce que le mémoire start-up intègre une formation pour le développement entrepreneurial ?
+    - Will I be trained if I do a startup thesis?
+    - Will I receive training if I choose a thesis in the form of a startup?
+    - Is there training planned if I do a startup thesis?
+    - Does the startup thesis include training to help me develop my project?
+    - Will I benefit from training to create a startup as part of my thesis?
+    - Does the startup-type thesis provide specific training?
+    - Is training offered when doing a startup thesis?
+    - Does doing a startup thesis include training support?
+    - Will I be accompanied by training if my thesis is about a startup?
+    - Is there a training curriculum associated with the startup thesis?
+    - Will I attend training related to my startup thesis?
+    - Is there a training program planned as part of the startup thesis?
+    - Does the startup thesis give access to specific training for project holders?
+    - Can I expect training if I do a thesis on creating a startup?
+    - Does the startup thesis integrate training for entrepreneurial development?
+
+
+
+
+- intent: projet_en_groupe_qes
+  examples: |
+    - Est-ce que je peux faire ce projet en groupe avec d'autres étudiants ?
+    - Puis-je réaliser ce projet de mémoire en équipe avec d'autres étudiants ?
+    - Est-il possible de faire ce mémoire sous forme de start-up à plusieurs ?
+    - Peut-on travailler en groupe sur un projet de mémoire start-up ?
+    - Est-ce autorisé de faire un mémoire start-up en collaboration avec d'autres étudiants ?
+    - Puis-je travailler avec d'autres étudiants pour développer ce projet de start-up ?
+    - Est-ce que le projet de mémoire start-up peut être fait en groupe ?
+    - Pouvons-nous collaborer à plusieurs sur ce mémoire start-up ?
+    - Y a-t-il une possibilité de travail en équipe pour ce mémoire ?
+    - Est-ce que plusieurs étudiants peuvent s'associer pour ce projet de mémoire ?
+    - Le travail en groupe est-il accepté pour un mémoire start-up ?
+    - Est-il possible de partager ce projet de start-up avec d’autres étudiants ?
+    - Puis-je former une équipe pour réaliser ce mémoire de start-up ?
+    - Est-ce que je peux m’associer avec des camarades pour ce projet ?
+    - Can I do this project in a group with other students?
+    - Can I carry out this thesis project as a team with other students?
+    - Is it possible to do this thesis as a startup with several people?
+    - Can we work in a group on a startup thesis project?
+    - Is it allowed to do a startup thesis in collaboration with other students?
+    - Can I work with other students to develop this startup project?
+    - Can the startup thesis project be done in a group?
+    - Can we collaborate with several people on this startup thesis?
+    - Is team work possible for this thesis?
+    - Can several students join together for this thesis project?
+    - Is group work accepted for a startup thesis?
+    - Is it possible to share this startup project with other students?
+    - Can I form a team to carry out this startup thesis?
+    - Can I partner with classmates for this project?
+
+
+
+- intent: evaluation_qes
+  examples: |
+    - Qui va évaluer mon projet start-up à la fin ?
+    - Qui sera chargé d'évaluer mon projet de mémoire start-up ?
+    - Qui évalue le projet start-up une fois terminé ?
+    - Qui est responsable de l'évaluation de mon projet start-up ?
+    - Qui va juger mon projet de start-up à la fin de mon mémoire ?
+    - Quelle personne ou organisation évalue le projet start-up à la fin ?
+    - Qui décide si mon projet start-up est réussi ?
+    - Qui va noter mon mémoire start-up à la fin ?
+    - Qui sont les évaluateurs du projet start-up ?
+    - Quelle équipe s’occupe de l’évaluation du projet start-up ?
+    - Qui va examiner et évaluer mon projet de start-up ?
+    - Qui est responsable de la notation de mon mémoire start-up ?
+    - À qui revient la tâche d’évaluer mon projet start-up ?
+    - Qui valide la réussite de mon projet start-up ?
+    - Qui est chargé d'apprécier mon travail sur le projet start-up ?
+    - Who will evaluate my startup project at the end?
+    - Who will be responsible for evaluating my startup thesis project?
+    - Who evaluates the startup project once it's finished?
+    - Who is responsible for evaluating my startup project?
+    - Who will judge my startup project at the end of my thesis?
+    - Which person or organization evaluates the startup project at the end?
+    - Who decides if my startup project is successful?
+    - Who will grade my startup thesis at the end?
+    - Who are the evaluators of the startup project?
+    - Which team takes care of the startup project evaluation?
+    - Who will review and evaluate my startup project?
+    - Who is responsible for grading my startup thesis?
+    - Who is in charge of evaluating my startup project?
+    - Who validates the success of my startup project?
+    - Who is responsible for assessing my work on the startup project?
+
+
+
+
+
+
+- intent: recompense_acception_qes
+  examples: |
+    - Qu'est-ce que je reçois si mon projet de start-up est accepté ?
+    - Quelles sont les récompenses si mon projet de start-up est validé ?
+    - Que vais-je obtenir si mon projet start-up est accepté ?
+    - Quels bénéfices vais-je avoir si mon projet de start-up est accepté ?
+    - Qu'est-ce qui m'est offert si mon projet start-up est accepté ?
+    - Est-ce qu'il y a des avantages si mon projet start-up est accepté ?
+    - Quels sont les gains liés à l’acceptation de mon projet start-up ?
+    - Quelle reconnaissance aurai-je si mon projet est accepté ?
+    - Est-ce que je reçois une aide ou un financement si mon projet est validé ?
+    - Y a-t-il des prix ou récompenses en cas d’acceptation de mon projet start-up ?
+    - Que me donne l’université si mon projet start-up est accepté ?
+    - Est-ce que je bénéficie d’un soutien particulier si mon projet est accepté ?
+    - Quels sont les avantages pour un projet start-up accepté ?
+    - Que peut-on gagner en ayant un projet start-up accepté ?
+    - Quels bonus ou aides puis-je obtenir si mon projet est validé ?
+    - What do I receive if my startup project is accepted?
+    - What are the rewards if my startup project is approved?
+    - What will I get if my startup project is accepted?
+    - What benefits will I have if my startup project is accepted?
+    - What is offered to me if my startup project is accepted?
+    - Are there any advantages if my startup project is accepted?
+    - What are the gains linked to the acceptance of my startup project?
+    - What recognition will I have if my project is accepted?
+    - Do I get any help or funding if my project is approved?
+    - Are there prizes or rewards if my startup project is accepted?
+    - What does the university give me if my startup project is accepted?
+    - Do I benefit from any special support if my project is accepted?
+    - What are the advantages for an accepted startup project?
+    - What can one gain by having a startup project accepted?
+    - What bonuses or aids can I get if my project is approved?
+
+
+
+- intent: reconnaissance_projets_innovants_qes
+  examples: |
+    - Est-ce qu'il existe une reconnaissance officielle pour les projets innovants ?
+    - Y a-t-il une reconnaissance officielle pour les projets innovants ?
+    - Existe-t-il une certification officielle pour les projets innovants ?
+    - Les projets innovants peuvent-ils recevoir une reconnaissance officielle ?
+    - Y a-t-il des distinctions officielles pour les projets innovants ?
+    - Est-ce qu'il y a une reconnaissance officielle pour un projet innovant à l'université ?
+    - Les projets innovants bénéficient-ils d'une validation officielle ?
+    - Peut-on obtenir une reconnaissance officielle pour un projet innovant ?
+    - Y a-t-il une récompense officielle pour les projets innovants ?
+    - Quelle reconnaissance officielle peut-on avoir pour un projet innovant ?
+    - Existe-t-il un label officiel pour les projets innovants ?
+    - L’université délivre-t-elle une reconnaissance officielle pour les projets innovants ?
+    - Les projets innovants sont-ils certifiés officiellement ?
+    - Peut-on recevoir une distinction officielle pour un projet innovant ?
+    - Y a-t-il une homologation officielle pour les projets innovants ?
+    - Is there an official recognition for innovative projects?
+    - Is there an official recognition for innovative projects?
+    - Is there an official certification for innovative projects?
+    - Can innovative projects receive official recognition?
+    - Are there official distinctions for innovative projects?
+    - Is there official recognition for an innovative project at the university?
+    - Do innovative projects benefit from official validation?
+    - Can you get official recognition for an innovative project?
+    - Is there an official reward for innovative projects?
+    - What official recognition can one have for an innovative project?
+    - Is there an official label for innovative projects?
+    - Does the university provide official recognition for innovative projects?
+    - Are innovative projects officially certified?
+    - Can you receive an official distinction for an innovative project?
+    - Is there an official approval for innovative projects?
+
+
+- intent: consequences_label_projet_qes
+  examples: |
+    - Que se passe-t-il si mon projet obtient le label ?
+    - Quels sont les avantages si mon projet obtient le label ?
+    - Que va-t-il se passer si mon projet reçoit ce label ?
+    - Quelles sont les conséquences si mon projet est labellisé ?
+    - Que se passe-t-il lorsque mon projet obtient le label ?
+    - Quelles récompenses ou bénéfices sont associés à l'obtention du label pour mon projet ?
+    - Quels bénéfices mon projet reçoit-il en obtenant le label ?
+    - Quels sont les impacts de l’obtention du label sur mon projet ?
+    - Quelles opportunités s’ouvrent si mon projet est labellisé ?
+    - Est-ce que mon projet aura des avantages spécifiques avec ce label ?
+    - Quels changements mon projet subira-t-il après avoir reçu le label ?
+    - L’obtention du label apporte-t-elle des ressources ou un soutien supplémentaire ?
+    - Que signifie pour mon projet l’obtention du label ?
+    - What happens if my project obtains the label?
+    - What are the benefits if my project gets the label?
+    - What will happen if my project receives this label?
+    - What are the consequences if my project is labeled?
+    - What happens when my project obtains the label?
+    - What rewards or benefits are associated with obtaining the label for my project?
+    - What benefits does my project receive by getting the label?
+    - What are the impacts of obtaining the label on my project?
+    - What opportunities open up if my project is labeled?
+    - Will my project have specific advantages with this label?
+    - What changes will my project undergo after receiving the label?
+    - Does obtaining the label bring additional resources or support?
+    - What does obtaining the label mean for my project?
+
+
+
+
+- intent: concours_aides_meilleurs_projets_qes
+  examples: |
+    - Est-ce qu'il y a des concours ou aides pour les meilleurs projets ?
+    - Y a-t-il des concours pour récompenser les meilleurs projets ?
+    - Existe-t-il des aides pour soutenir les meilleurs projets ?
+    - Les meilleurs projets peuvent-ils bénéficier de concours ou de financements ?
+    - Y a-t-il des opportunités pour les projets les plus innovants, comme des concours ou des aides ?
+    - Est-ce que des concours ou des aides sont offerts pour les meilleurs projets ?
+    - Quels concours existent pour récompenser les meilleurs projets ?
+    - Quelles aides financières sont disponibles pour les projets les plus prometteurs ?
+    - Les projets primés peuvent-ils recevoir des financements ou des soutiens ?
+    - Y a-t-il des bourses ou subventions pour les projets innovants ?
+    - Où puis-je trouver des concours pour les meilleurs projets ?
+    - Existe-t-il un soutien spécifique pour les projets qui se démarquent ?
+    - Are there contests or aids for the best projects?
+    - Are there competitions to reward the best projects?
+    - Are there aids available to support the best projects?
+    - Can the best projects benefit from contests or funding?
+    - Are there opportunities for the most innovative projects, such as contests or aids?
+    - Are contests or aids offered for the best projects?
+    - What contests exist to reward the best projects?
+    - What financial aids are available for the most promising projects?
+    - Can awarded projects receive funding or support?
+    - Are there scholarships or grants for innovative projects?
+    - Where can I find contests for the best projects?
+    - Is there specific support for projects that stand out?
+
+
+- intent: greet
+  examples: |
+    - Bonjour
+    - Salut
+    - Coucou
+    - Bonsoir
+    - Hé
+    - Yo
+    - Allô
+    - Bonne matinée
+    - Bonne après-midi
+    - Comment vas-tu ?
+    - Ça va ?
+    - Salut, ça va ?
+    - Hey, comment ça va ?
+    - Bonjour à toi
+    - Salut tout le monde
+    - Bien le bonjour
+    - Bonjour, comment ça va ?
+
+- intent: greetE
+  examples: | 
+    - Hello
+    - Hi
+    - Hey
+    - Good morning
+    - Good afternoon
+    - Good evening
+    - Yo
+    - Hey there
+    - How are you?
+    - How's it going?
+    - Hi, how are you?
+    - Hello to you
+    - Hi everyone
+    - Greetings
+    - Hello, how are you?
+
+- intent: goodbye
+  examples: |
+    - Au revoir
+    - À plus
+    - À bientôt
+    - Ciao
+    - Bye
+    - Bonne journée
+    - Bonne soirée
+    - Je m'en vais
+    - À la prochaine
+    - Salut, à plus tard
+    - Adieu
+    - À tout à l'heure
+    - On se voit plus tard
+    - Porte-toi bien
+    - Bon voyage
+    - À demain
+    - Je file
+
+- intent: goodbyeE
+  examples: |
+    - Goodbye
+    - See you later
+    - See you soon
+    - Ciao
+    - Bye
+    - Have a good day
+    - Have a good evening
+    - I'm leaving
+    - Until next time
+    - Bye, see you later
+    - Farewell
+    - See you shortly
+    - Catch you later
+    - Take care
+    - Safe travels
+    - See you tomorrow
+    - I'm off
+
+
+
+- intent: c_quoi_une_startup
+  examples: |
+    - C'est quoi une startup ?
+    - Tu peux m'expliquer ce qu'est une startup ?
+    - Qu'est-ce qu'on appelle une startup ?
+    - Ça veut dire quoi "startup" ?
+    - Startup, ça signifie quoi exactement ?
+    - J'ai entendu parler de startup, mais je comprends pas trop, tu peux m'expliquer ?
+    - Quelle est la définition d'une startup ?
+    - Une startup, c'est comme une entreprise normale ?
+    - C'est quoi la différence entre une entreprise et une startup ?
+    - Qu'est-ce qu'une startup exactement ?
+    - Une startup, ça sert à quoi ?
+    - Comment tu définirais une startup ?
+    - Est-ce qu'une startup, c'est juste une petite entreprise ?
+    - Tu peux me dire ce que c'est une startup ?
+    - Une startup, est-ce que c'est uniquement liée à la technologie ?
+    - Est-ce qu'une startup doit forcément être innovante ?
+
+
+
+
+- intent: what_is_a_startupE
+  examples: |
+    - What is a startup?
+    - Can you explain what a startup is?
+    - What do we call a startup?
+    - What does "startup" mean?
+    - What exactly does startup mean?
+    - I've heard about startups but I don't really understand, can you explain?
+    - What is the definition of a startup?
+    - Is a startup like a normal company?
+    - What's the difference between a company and a startup?
+    - What exactly is a startup?
+    - What is a startup for?
+    - How would you define a startup?
+    - Is a startup just a small business?
+    - Can you tell me what a startup is?
+    - Is a startup only related to technology?
+    - Does a startup have to be innovative?
+
+
+
+
+- intent: ask_pfe_startup
+  examples: |
+    - Qu'est-ce qu'un PFE Start-Up ?
+    - Comment faire un PFE Start-Up ?
+    - Comment s'inscrire à un PFE Start-Up ?
+    - Combien de membres faut-il pour un PFE Start-Up ?
+    - Quels sont les incubateurs pour un PFE Start-Up ?
+    - Comment se passe la soutenance d'un PFE Start-Up ?
+    - Quelles sont les étapes pour un PFE Start-Up ?
+    - Qui peut participer à un PFE Start-Up ?
+    - Quels sont les avantages d'un PFE Start-Up ?
+    - Que faut-il pour réussir un PFE Start-Up ?
+    - Quels sont les critères pour un PFE Start-Up ?
+    - Comment valider mon idée de PFE Start-Up ?
+    - Quels sont les délais pour un PFE Start-Up ?
+    - Quels documents faut-il pour un PFE Start-Up ?
+  
+
+- intent: ask_pfe_startupE
+  examples: |
+    - What is a PFE Startup?
+    - How do you do a PFE Startup?
+    - How do you register for a PFE Startup?
+    - How many members are required for a PFE Startup?
+    - What are the incubators for a PFE Startup?
+    - How does the defense of a PFE Startup go?
+    - What are the steps for a PFE Startup?
+    - Who can participate in a PFE Startup?
+    - What are the advantages of a PFE Startup?
+    - What do you need to succeed in a PFE Startup?
+    - What are the criteria for a PFE Startup?
+    - How do I validate my PFE Startup idea?
+    - What are the deadlines for a PFE Startup?
+    - What documents are needed for a PFE Startup?
+
+
+
+
+- intent: ask_incubateurs
+  examples: |
+    - Quels incubateurs existent pour les start-ups universitaires ?
+    - Comment s'inscrire à un incubateur ?
+    - Quelles sont les missions des incubateurs ?
+    - Comment ICOSNET aide-t-il les étudiants ?
+    - Quels avantages offrent les incubateurs ?
+    - Où trouver un incubateur pour mon projet ?
+    - Que font TECHINNOV et GTA ?
+    - Comment choisir un incubateur ?
+    - Quels incubateurs pour les non-étudiants ?
+    - Est-ce que les incubateurs proposent des formations ?
+    - Quels critères pour intégrer un incubateur ?
+    - Combien de temps dure l’accompagnement en incubateur ?
+    - Est-ce qu’on peut joindre plusieurs incubateurs en même temps ?
+    - Y a-t-il des incubateurs spécialisés par secteur ?
+    - Quels sont les coûts liés aux incubateurs ?
+
+
+- intent: ask_incubatorsE
+  examples: |
+    - What incubators exist for university start-ups?
+    - How do I register for an incubator?
+    - What are the missions of incubators?
+    - How does ICOSNET help students?
+    - What advantages do incubators offer?
+    - Where can I find an incubator for my project?
+    - What do TECHINNOV and GTA do?
+    - How do I choose an incubator?
+    - What incubators are available for non-students?
+    - Do incubators offer training programs?
+    - What are the criteria to join an incubator?
+    - How long does incubator support last?
+    - Can you join multiple incubators at the same time?
+    - Are there incubators specialized by sector?
+    - What are the costs associated with incubators?
+
+
+
+
+
+- intent: ask_double_diplome 
+  examples: |
+    - Comment obtenir un double diplôme avec une start-up ?
+    - Qu'est-ce que le diplôme Start-Up ?
+    - Quelle est la valeur du double diplôme ?
+    - Quels sont les critères pour le double diplôme ?
+    - Que se passe-t-il après la soutenance pour le diplôme ?
+    - Le double diplôme est-il reconnu ?
+    - Comment ça marche pour le double diplôme ?
+    - Est-ce qu’un mémoire start-up donne droit à un double diplôme ?
+    - Puis-je obtenir un double diplôme si je crée une start-up ?
+    - Quelle est la différence entre un diplôme classique et un double diplôme start-up ?
+    - Dois-je faire une demande spéciale pour le double diplôme ?
+    - Le double diplôme est-il valable à l’international ?
+    - Est-ce que tous les étudiants peuvent prétendre au double diplôme ?
+    - Combien de temps faut-il pour valider un double diplôme ?
+
+
+
+- intent: ask_double_diplomaE
+  examples: |
+    - How can I get a double degree with a start-up?
+    - What is the Start-Up diploma?
+    - What is the value of a double degree?
+    - What are the requirements for the double degree?
+    - What happens after the defense for the diploma?
+    - Is the double degree officially recognized?
+    - How does the double degree system work?
+    - Does a start-up thesis grant a double degree?
+    - Can I get a double degree if I launch a start-up?
+    - What’s the difference between a classic degree and a start-up double degree?
+    - Do I need to apply separately for the double degree?
+    - Is the double degree recognized internationally?
+    - Can all students qualify for the double degree?
+    - How long does it take to complete a double degree?
+
+
+
+
+- intent: ask_mecanisme_diplome_startup
+  examples: |
+    - Qu'est-ce que le mécanisme "un diplôme, une Start-Up" ?
+    - Comment fonctionne "un diplôme, un brevet" ?
+    - Quels sont les avantages du mécanisme "un diplôme, une Start-Up" ?
+    - Qui peut bénéficier de ce mécanisme ?
+    - Comment accéder aux services des incubateurs via IBTIKAR ?
+    - Que propose la plateforme IBTIKAR ?
+    - Comment obtenir un label pour mon projet innovant ?
+    - En quoi consiste le programme "un diplôme, une start-up" ?
+    - Est-ce que ce mécanisme est ouvert à tous les étudiants ?
+    - Quelles sont les étapes pour profiter du dispositif "un diplôme, une start-up" ?
+    - IBTIKAR, c’est quoi exactement ?
+    - Quels types de projets sont éligibles à ce mécanisme ?
+    - Est-ce que le label donne accès à des financements ?
+    - À quoi sert la labellisation d’un projet par IBTIKAR ?
+    - Comment un étudiant peut-il transformer son PFE en start-up avec ce dispositif ?
+    
+
+
+- intent: ask_diploma_startup_mechanism
+  examples: |
+    - What is the "one degree, one start-up" mechanism?
+    - How does the "one degree, one patent" system work?
+    - What are the benefits of the "one degree, one start-up" approach?
+    - Who can take advantage of this mechanism?
+    - How can I access incubator services through IBTIKAR?
+    - What does the IBTIKAR platform offer?
+    - How can I get a label for my innovative project?
+    - What is the "one degree, one start-up" initiative about?
+    - Is this program open to all students?
+    - What are the steps to benefit from this program?
+    - What exactly is IBTIKAR?
+    - What types of projects are eligible for this label?
+    - Does the label give access to funding?
+    - What’s the purpose of getting your project labeled by IBTIKAR?
+    - How can a student turn their final project into a start-up through this program?
+
+
+
+
+- intent: ask_formation_bmc
+  examples: |
+    - Qu'est-ce que la formation au BMC ?
+    - En quoi consiste le Business Model Canvas ?
+    - Quand a lieu la formation au BMC ?
+    - Qui dispense la formation au BMC ?
+    - Comment le BMC aide-t-il une start-up ?
+    - Où suivre une formation BMC ?
+    - Quelle est l'utilité du Business Model Canvas ?
+    - À quoi sert une formation sur le BMC ?
+    - Est-ce que la formation BMC est obligatoire ?
+    - Est-ce que je peux suivre la formation BMC en ligne ?
+    - Combien de temps dure la formation BMC ?
+    - Quels sont les objectifs de la formation BMC ?
+    - Qui peut participer à une formation Business Model Canvas ?
+    - Est-ce qu’il y a un certificat après la formation BMC ?
+    - Le BMC est-il utile pour mon PFE Start-Up ?
+
+
+
+
+
+- intent: ask_bmc_training
+  examples: |
+    - What is the BMC training?
+    - What is the Business Model Canvas about?
+    - When does the BMC training take place?
+    - Who gives the BMC training?
+    - How does the BMC help a start-up?
+    - Where can I follow a BMC training?
+    - What's the purpose of the Business Model Canvas?
+    - Is BMC training mandatory?
+    - Can I attend BMC training online?
+    - How long does the BMC training last?
+    - What are the objectives of BMC training?
+    - Who can take part in the Business Model Canvas training?
+    - Is there a certificate after completing the BMC training?
+    - Is the BMC helpful for my Start-Up PFE?
+
+
+
+
+
+- intent: ask_startup_funding
+  examples: |
+    - Combien d'argent faut-il pour lancer une startup ?
+    - Quel est le budget nécessaire pour démarrer une startup ?
+    - De combien ai-je besoin pour créer ma startup ?
+    - Quel est le coût pour lancer une startup ?
+    - Combien ça coûte de démarrer une startup ?
+    - Quel budget prévoir pour une startup ?
+    - Comment financer une startup ?
+    - Où trouver de l'argent pour une startup ?
+    - Existe-t-il des aides pour financer une startup ?
+    - Quels sont les moyens de financement pour une startup ?
+    - Qui peut m'aider financièrement pour lancer ma startup ?
+    - Puis-je obtenir une aide de l'université pour ma startup ?
+    - Est-ce que l'incubateur finance les startups ?
+    - Quelles subventions peut-on avoir pour une startup ?
+    - Est-ce que je peux lancer une startup sans argent ?
+    - Quels investisseurs peut-on contacter pour une startup ?
+    - Est-ce qu’une banque peut financer ma startup ?
+    - Quels sont les types de financement disponibles pour les start-ups ?
+    - Comment obtenir un financement pour un projet innovant ?
+
+
+
+
+- intent: ask_startup_fundingE
+  examples: |
+    - How much money do I need to start a startup?
+    - What budget is needed to launch a startup?
+    - How much does it cost to create a startup?
+    - What's the cost of starting a startup?
+    - How much funding do I need for a startup?
+    - What’s the estimated budget for launching a startup?
+    - How can I fund my startup?
+    - Where can I find funding for my startup?
+    - Are there any grants or support for startup funding?
+    - What are the funding options for startups?
+    - Who can help me financially to launch my startup?
+    - Can I get financial help from the university for my startup?
+    - Do incubators provide funding for startups?
+    - Are there subsidies available for startups?
+    - Can I start a startup with no money?
+    - Who are the potential investors for a startup?
+    - Can a bank help finance my startup?
+    - What types of funding are available for startups?
+    - How can I get investment for an innovative project?
+
+
+
+
+
+
+- intent: ask_startup_steps
+  examples: |
+    - Par où commencer pour lancer une startup ?
+    - Quelles sont les étapes pour créer une startup ?
+    - Comment démarrer une startup ?
+    - Quels sont les premiers pas pour une startup ?
+    - Comment lancer ma propre startup ?
+    - Que faire pour créer une startup réussie ?
+    - Où commencer une startup ?
+    - Comment organiser le lancement d'une startup ?
+    - C’est quoi les étapes à suivre pour créer une startup ?
+    - Quelles sont les démarches pour monter une startup ?
+    - Quelles étapes faut-il suivre pour lancer sa startup ?
+    - Quelle est la procédure pour créer une startup ?
+    - Quelles sont les grandes étapes d’un projet de startup ?
+    - Je veux créer une startup, je commence par quoi ?
+    - Qu’est-ce qu’on fait en premier pour lancer une startup ?
+    - Comment transformer une idée en startup ?
+    - Comment passer d’un projet à une startup ?
+    - Quels sont les jalons pour créer une startup ?
+    - Quelle est la feuille de route pour lancer une startup ?
+    - Comment planifier la création d'une startup ?
+    - Quelles étapes avant de créer officiellement ma startup ?
+    - Y a-t-il un processus précis pour créer une startup ?
+
+
+
+
+- intent: ask_startup_stepsE
+  examples: |
+    - Where should I start to launch a startup?
+    - What are the steps to create a startup?
+    - How do I start a startup?
+    - What are the first steps of building a startup?
+    - How can I launch my own startup?
+    - What should I do to create a successful startup?
+    - Where do I begin with a startup?
+    - How do I organize the launch of a startup?
+    - What are the steps to follow to build a startup?
+    - What is the process for launching a startup?
+    - What are the key phases in a startup journey?
+    - I want to create a startup, where do I begin?
+    - What should be done first when starting a startup?
+    - How can I turn an idea into a startup?
+    - How do you go from a project to a startup?
+    - What are the major steps for launching a startup?
+    - What’s the roadmap for starting a startup?
+    - How do I plan the creation of a startup?
+    - What should I do before officially creating my startup?
+    - Is there a clear process for creating a startup?
+
+
+
+
+- intent: ask_non_pfe_startup
+  examples: |
+    - Que faire si ma startup n'est pas un PFE startup ?
+    - Comment lancer une startup hors du cadre PFE ?
+    - Quelles sont les options pour les startups non PFE ?
+    - Comment créer une startup sans être étudiant ?
+    - Quels programmes pour les startups hors université ?
+    - Comment obtenir du soutien pour une startup non PFE ?
+    - Où trouver de l'aide pour une startup non PFE ?
+    - Combien coûte une startup hors PFE ?
+    - Est-ce possible de créer une startup en dehors du PFE ?
+    - Puis-je avoir une startup sans passer par un PFE ?
+    - Que faire si je veux créer une startup après mes études ?
+    - Quels sont les dispositifs pour les porteurs de projet non étudiants ?
+    - Existe-t-il des aides pour les startups hors cadre académique ?
+    - Ma startup ne fait pas partie d’un PFE, que puis-je faire ?
+    - Y a-t-il des incubateurs pour ceux qui ne font pas un PFE ?
+    - Comment monter une startup après l'université ?
+    - Peut-on rejoindre un incubateur sans être étudiant ?
+    - Quels financements pour une startup hors parcours universitaire ?
+    - Est-ce qu’il existe des appels à projets pour les non-PFE ?
+
+
+
+- intent: ask_non_pfe_startupE
+  examples: |
+    - What if my startup is not a PFE startup?
+    - How can I launch a startup outside the PFE framework?
+    - What are the options for non-PFE startups?
+    - How can I create a startup without being a student?
+    - What programs exist for startups outside universities?
+    - How to get support for a non-PFE startup?
+    - Where can I find help for a non-PFE startup?
+    - How much does it cost to start a non-PFE startup?
+    - Is it possible to create a startup outside of PFE?
+    - Can I have a startup without going through a PFE?
+    - What should I do if I want to start a business after my studies?
+    - Are there any programs for non-student project holders?
+    - Are there grants for startups outside the academic system?
+    - My startup is not part of a PFE project, what can I do?
+    - Are there incubators for people who are not doing a PFE?
+    - How do I start a startup after university?
+    - Can I join an incubator without being a student?
+    - What funding exists for startups outside academic paths?
+    - Are there calls for projects for non-PFE startups?
+
+
+
+
+- intent: ask_startup_team
+  examples: |
+    - Comment former une équipe pour une startup ?
+    - Combien de personnes faut-il dans une startup ?
+    - Où trouver des co-fondateurs pour ma startup ?
+    - Quels rôles sont nécessaires dans une startup ?
+    - Comment gérer une équipe de startup ?
+    - Quelles compétences doivent avoir les membres de la startup ?
+    - Est-ce que je peux lancer une startup seul ou faut-il une équipe ?
+    - Comment choisir les bons partenaires pour une startup ?
+    - Où recruter des membres pour mon équipe startup ?
+    - Quels profils sont recherchés dans une équipe startup ?
+    - Comment organiser le travail dans une équipe de startup ?
+    - Quels sont les rôles clés dans une startup ?
+    - Peut-on changer les membres de l’équipe après le lancement ?
+    - Comment motiver une équipe de startup ?
+
+
+
+- intent: ask_startup_teamE
+  examples: |
+    - How to form a team for a startup?
+    - How many people are needed in a startup?
+    - Where can I find co-founders for my startup?
+    - What roles are necessary in a startup?
+    - How to manage a startup team?
+    - What skills should startup team members have?
+    - Can I launch a startup alone or do I need a team?
+    - How to choose the right partners for a startup?
+    - Where to recruit members for my startup team?
+    - What profiles are sought after in a startup team?
+    - How to organize work within a startup team?
+    - What are the key roles in a startup?
+    - Can team members be changed after the launch?
+    - How to motivate a startup team?
+
+
+
+
+- intent: ask_startup_legal
+  examples: |
+    - Quelles démarches légales pour une startup ?
+    - Comment enregistrer une startup ?
+    - Quels documents juridiques pour une startup ?
+    - Combien coûtent les frais juridiques d'une startup ?
+    - Ai-je besoin d'un avocat pour ma startup ?
+    - Quels sont les statuts juridiques possibles pour une startup ?
+    - Comment choisir la forme juridique d’une startup ?
+    - Quels sont les obligations légales d’une startup ?
+    - Faut-il un capital minimum pour créer une startup ?
+    - Comment protéger la propriété intellectuelle de ma startup ?
+    - Quelles assurances sont nécessaires pour une startup ?
+    - Comment déposer une marque pour ma startup ?
+    - Quels sont les contrats indispensables pour une startup ?
+    - Comment gérer les aspects fiscaux d’une startup ?
+
+
+
+- intent: ask_startup_legalE
+  examples: |
+    - What are the legal steps for a startup?
+    - How to register a startup?
+    - What legal documents are needed for a startup?
+    - How much do legal fees cost for a startup?
+    - Do I need a lawyer for my startup?
+    - What are the possible legal structures for a startup?
+    - How to choose the legal form of a startup?
+    - What are the legal obligations of a startup?
+    - Is there a minimum capital required to create a startup?
+    - How to protect the intellectual property of my startup?
+    - What insurance is needed for a startup?
+    - How to register a trademark for my startup?
+    - What contracts are essential for a startup?
+    - How to handle tax aspects of a startup?
+
+
+
+
+- intent: ask_objet_decision_008
+  examples: |
+    - Quel est l'objet de la décision 008 ?
+    - Quelle est la décision du 23 février 2025 ?
+    - De quoi parle la décision numéro 008 ?
+    - Quelle est la portée de la décision 008 ?
+    - À quoi sert la décision du 23 février 2025 ?
+    - Quels sont les objectifs de la décision 008 ?
+    - Que prévoit la décision 008 ?
+    - Quel est le contenu principal de la décision 008 ?
+    - Qui est concerné par la décision 008 ?
+    - Quand la décision 008 a-t-elle été prise ?
+    - Quels changements implique la décision 008 ?
+    - Peut-on avoir un résumé de la décision 008 ?
+
+
+
+- intent: ask_subject_decision_008
+  examples: |
+    - What is the purpose of decision 008?
+    - What is the decision from February 23, 2025?
+    - What does decision number 008 talk about?
+    - What is the scope of decision 008?
+    - What is the use of the decision from February 23, 2025?
+    - What are the objectives of decision 008?
+    - What does decision 008 provide for?
+    - What is the main content of decision 008?
+    - Who is affected by decision 008?
+    - When was decision 008 made?
+    - What changes does decision 008 imply?
+    - Can I have a summary of decision 008?
+
+
+
+
+- intent: ask_objectif_memoire
+  examples: |
+    - Quel est l'objectif du mémoire de fin d'études ?
+    - Pourquoi faire un mémoire de fin d'études ?
+    - Quel est le but du mémoire ?
+    - Quel est l'objectif de l'article 2 ?
+    - Que dit l'article 2 modifié ?
+    - À quoi sert le mémoire de fin d'études ?
+    - Quels sont les objectifs principaux du mémoire ?
+    - Quelle est la finalité du mémoire ?
+    - Quel est le rôle du mémoire dans la formation ?
+    - Pourquoi est-il important de réaliser un mémoire ?
+    - Que contient l'article 2 modifié ?
+    - Quelles sont les attentes pour le mémoire selon l'article 2 ?
+
+
+
+- intent: ask_objective_thesis
+  examples: |
+    - What is the purpose of the final year thesis?
+    - Why do a final year thesis?
+    - What is the goal of the thesis?
+    - What is the objective of article 2?
+    - What does the amended article 2 say?
+    - What is the use of the final year thesis?
+    - What are the main objectives of the thesis?
+    - What is the aim of the thesis?
+    - What is the role of the thesis in the curriculum?
+    - Why is it important to do a thesis?
+    - What does amended article 2 contain?
+    - What are the expectations for the thesis according to article 2?
+
+
+
+
+
+- intent: ask_formats_memoire
+  examples: |
+    - Quels sont les formats du mémoire ?
+    - Quels sont les deux formats possibles pour le mémoire ?
+    - Format mémoire de fin d'études ?
+    - Quels sont les types de mémoire possibles ?
+    - Que propose l'article 3 modifié ?
+    - Quels formats sont acceptés pour le mémoire ?
+    - Existe-t-il plusieurs formats pour le mémoire ?
+    - Comment doit être présenté le mémoire ?
+    - Quelle structure doit suivre le mémoire ?
+    - Quelles sont les options de format pour le mémoire ?
+    - Quels sont les critères de formatage selon l'article 3 ?
+    - L'article 3 modifié parle-t-il de formats particuliers ?
+
+
+
+- intent: ask_thesis_formats
+  examples: |
+    - What are the thesis formats?
+    - What are the two possible formats for the thesis?
+    - Format for the final year thesis?
+    - What types of thesis are possible?
+    - What does the amended article 3 propose?
+    - What formats are accepted for the thesis?
+    - Are there multiple formats for the thesis?
+    - How should the thesis be presented?
+    - What structure should the thesis follow?
+    - What are the format options for the thesis?
+    - What are the formatting criteria according to article 3?
+    - Does amended article 3 mention specific formats?
+
+
+
+
+- intent: ask_formations_etudiant
+  examples: |
+    - Quelles formations doit suivre l'étudiant ?
+    - Quelles sont les formations obligatoires pour les étudiants ?
+    - Que doit apprendre l'étudiant ?
+    - Quels sont les ateliers à suivre ?
+    - Que dit l'article 5 modifié ?
+    - Quelles sont les formations recommandées pour les étudiants ?
+    - Quels modules font partie du cursus obligatoire ?
+    - Quels cours l'étudiant doit-il valider ?
+    - Y a-t-il des formations spécifiques pour les startups ?
+    - Quelles compétences l’étudiant doit-il acquérir ?
+    - Comment l'article 5 modifié encadre-t-il les formations ?
+
+
+
+- intent: ask_student_trainings
+  examples: |
+    - What trainings must the student take?
+    - What are the mandatory trainings for students?
+    - What should the student learn?
+    - What workshops should be attended?
+    - What does amended article 5 say?
+    - What are the recommended trainings for students?
+    - Which modules are part of the mandatory curriculum?
+    - What courses must the student validate?
+    - Are there specific trainings for startups?
+    - What skills should the student acquire?
+    - How does amended article 5 regulate trainings?
+
+
+
+
+- intent: ask_beneficiaires_accompagnement
+  examples: |
+    - Qui peut être accompagné par l'université ?
+    - Qui peut bénéficier des structures d'accompagnement ?
+    - Quels étudiants peuvent être aidés ?
+    - L'accompagnement est-il réservé à certains étudiants ?
+    - Que dit l'article 6 modifié à ce sujet ?
+    - Quels profils sont éligibles à l'accompagnement ?
+    - L'accompagnement concerne-t-il tous les étudiants ?
+    - Qui a droit au soutien de l’université ?
+    - Existe-t-il des critères pour bénéficier de l’accompagnement ?
+    - Quelles sont les conditions pour bénéficier de l’accompagnement ?
+
+
+
+- intent: ask_support_beneficiaries
+  examples: |
+    - Who can be supported by the university?
+    - Who can benefit from support structures?
+    - Which students can get help?
+    - Is the support reserved for certain students?
+    - What does amended article 6 say about this?
+    - What profiles are eligible for support?
+    - Does the support concern all students?
+    - Who is entitled to university assistance?
+    - Are there criteria to benefit from support?
+    - What are the conditions to receive support?
+
+
+
+
+- intent: ask_missions_cellule_orientation
+  examples: |
+    - Quelles sont les missions de la Cellule d'Orientation ?
+    - Que fait la Cellule d'Orientation ?
+    - Rôle de la cellule d'orientation ?
+    - Qui compose la cellule d'orientation ?
+    - Quels sont les objectifs de la cellule d'orientation ?
+    - Quelle est la fonction principale de la cellule d’orientation ?
+    - Comment la cellule d’orientation aide-t-elle les étudiants ?
+    - Quels services propose la cellule d’orientation ?
+    - À qui s’adresse la cellule d’orientation ?
+    - Quels sont les résultats attendus de la cellule d’orientation ?
+
+
+
+- intent: ask_orientation_cell_missions
+  examples: |
+    - What are the missions of the Orientation Unit?
+    - What does the Orientation Unit do?
+    - What is the role of the orientation unit?
+    - Who makes up the orientation unit?
+    - What are the objectives of the orientation unit?
+    - What is the main function of the orientation unit?
+    - How does the orientation unit assist students?
+    - What services does the orientation unit offer?
+    - Who is the orientation unit for?
+    - What are the expected outcomes of the orientation unit?
+
+
+
+- intent: ask_diplomes_obtenus
+  examples: |
+    - Quels diplômes obtient l'étudiant ?
+    - Que reçoit l'étudiant après la soutenance ?
+    - Quels certificats sont délivrés ?
+    - Diplôme après mémoire de fin d'études ?
+    - Que dit l'article 7 modifié ?
+    - Quel diplôme est délivré à la fin du projet ?
+    - L'étudiant reçoit-il un double diplôme ?
+    - Quels documents officiels sont remis à l'étudiant ?
+    - Quels sont les titres obtenus après le PFE ?
+    - Comment valider mon diplôme avec un projet startup ?
+
+
+
+
+- intent: ask_degrees_awarded
+  examples: |
+    - What diplomas does the student obtain?
+    - What does the student receive after the defense?
+    - What certificates are issued?
+    - Diploma after the final thesis?
+    - What does the amended article 7 say?
+    - What diploma is granted at the end of the project?
+    - Does the student receive a double diploma?
+    - What official documents are given to the student?
+    - What titles are obtained after the final project?
+    - How to validate my diploma with a startup project?
+
+
+
+
+- intent: ask_terme_startup
+  examples: |
+    - Quel mot remplace "start-up" ?
+    - Quel terme est utilisé à la place de start-up ?
+    - Pourquoi remplacer le mot start-up ?
+    - Quelle est la nouvelle appellation ?
+    - Que dit l'article 8 modifié ?
+    - Comment appelle-t-on désormais une start-up ?
+    - Existe-t-il un autre terme officiel pour start-up ?
+    - Quelle est la définition officielle après modification ?
+    - Le mot start-up est-il toujours valide ?
+    - Quel vocabulaire utiliser à la place de start-up ?
+
+
+
+
+- intent: ask_startup_term
+  examples: |
+    - What word replaces "start-up"?
+    - What term is used instead of start-up?
+    - Why replace the word start-up?
+    - What is the new designation?
+    - What does amended article 8 say?
+    - How is a start-up now called?
+    - Is there another official term for start-up?
+    - What is the official definition after the amendment?
+    - Is the word start-up still valid?
+    - What vocabulary should be used instead of start-up?
+
+
+
+
+- intent: ask_publication_decision
+  examples: |
+    - Où est publiée la décision ?
+    - Dans quel document officiel apparaît la décision ?
+    - Publication de la décision 008 ?
+    - Où peut-on consulter la décision ?
+    - Dans quel bulletin est-elle publiée ?
+    - Où trouver le texte officiel de la décision ?
+    - Est-ce que la décision est disponible en ligne ?
+    - Quelle est la source officielle de la décision ?
+    - Comment accéder à la décision publiée ?
+    - Dans quelle revue officielle la décision est-elle publiée ?
+
+
+
+- intent: ask_decision_publication
+  examples: |
+    - Where is the decision published?
+    - In which official document does the decision appear?
+    - Publication of decision 008?
+    - Where can the decision be consulted?
+    - In which bulletin is it published?
+    - Where can I find the official text of the decision?
+    - Is the decision available online?
+    - What is the official source of the decision?
+    - How to access the published decision?
+    - In which official journal is the decision published?
+
+
+
+- intent: ask_MVP
+  examples: |
+    - C'est quoi un MVP ?
+    - Comment créer un prototype ?
+    - Est-ce que je dois faire une app dès le début ?
+    - Comment tester mon idée avant de la lancer ?
+    - Comment savoir si mon idée de startup est bonne ?
+    - C'est quoi le product-market fit ?
+    - Quels outils utiliser pour créer un MVP ?
+    - Est-ce que le no-code suffit pour lancer un projet ?
+    - Quelle est la différence entre un MVP et un prototype ?
+    - Combien de temps faut-il pour développer un MVP ?
+    - Comment prioriser les fonctionnalités pour un MVP ?
+    - Est-ce qu’un MVP peut être un simple service ou une landing page ?
+    - Quels sont les avantages de lancer un MVP rapidement ?
+    - Comment recueillir des retours utilisateurs sur un MVP ?
+    - Est-ce qu’il faut forcément coder pour faire un MVP ?
+
+
+
+
+- intent: ask_MVP_E
+  examples: |
+    - What is an MVP?
+    - How to create a prototype?
+    - Do I need to build an app right away?
+    - How can I test my idea before launching?
+    - How do I know if my startup idea is good?
+    - What is product-market fit?
+    - Which tools can I use to build an MVP?
+    - Is no-code enough to launch a project?
+    - What is the difference between an MVP and a prototype?
+    - How long does it take to develop an MVP?
+    - How to prioritize features for an MVP?
+    - Can an MVP be just a service or a landing page?
+    - What are the benefits of launching an MVP quickly?
+    - How to gather user feedback on an MVP?
+    - Do I necessarily need coding skills to make an MVP?
+
+
+
+
+
+- intent: ask_cadre_institutionnel
+  examples: |
+    - Quel est le rôle précis du Ministère dans ce mécanisme ?
+    - Quels autres ministères ou organismes publics collaborent à ce programme ?
+    - Comment les universités sont-elles sélectionnées pour participer ?
+    - Existe-t-il un comité de pilotage national pour superviser ce dispositif ?
+    - Quels sont les indicateurs de performance pour évaluer ce programme ?
+    - Comment les centres de recherche sont-ils associés concrètement ?
+    - Y a-t-il des partenariats avec le secteur privé dans ce cadre ?
+    - Comment ce programme s'articule-t-il avec les autres initiatives gouvernementales pour l'innovation ?
+    - Quel est le budget alloué et comment est-il réparti ?
+    - Existe-t-il des rapports d'évaluation annuels sur ce dispositif ?
+    - Qui est responsable de la coordination entre les différents acteurs institutionnels ?
+    - Comment sont définies les priorités stratégiques du programme ?
+    - Quels critères sont utilisés pour mesurer le succès de ce mécanisme ?
+    - Quels sont les rôles des agences nationales dans la mise en œuvre ?
+    - Comment ce cadre institutionnel soutient-il la transformation digitale ?
+
+- intent: ask_institutional_framework
+  examples: |
+    - What is the precise role of the Ministry in this mechanism?
+    - Which other ministries or public organizations collaborate on this program?
+    - How are universities selected to participate?
+    - Is there a national steering committee to oversee this initiative?
+    - What performance indicators are used to evaluate this program?
+    - How are research centers concretely involved?
+    - Are there partnerships with the private sector in this framework?
+    - How does this program align with other government innovation initiatives?
+    - What is the allocated budget and how is it distributed?
+    - Are there annual evaluation reports on this mechanism?
+    - Who is responsible for coordinating between the different institutional actors?
+    - How are the strategic priorities of the program defined?
+    - What criteria are used to measure the success of this mechanism?
+    - What roles do national agencies play in the implementation?
+    - How does this institutional framework support digital transformation?
+
+
+
+
+- intent: ask_Mecanisme_DSB
+  examples: |
+    - Quels types de projets sont prioritaires (tech, social, environnemental...) ?
+    - Les étudiants en licence peuvent-ils postuler exceptionnellement ?
+    - Comment est garantie l'originalité des projets soumis ?
+    - Existe-t-il un quota de projets labellisés par an ?
+    - Les projets en groupe sont-ils acceptés ? Si oui, avec quelle taille maximale ?
+    - Peut-on cumuler ce label avec d'autres aides à l'innovation ?
+    - Y a-t-il des restrictions géographiques (régions prioritaires) ?
+    - Comment sont protégées les idées déposées (propriété intellectuelle) ?
+    - Les projets abandonnés en cours de route sont-ils pénalisés ?
+    - Des mentors externes sont-ils assignés aux projets sélectionnés ?
+    - Quels sont les critères d’évaluation pour obtenir le label ?
+    - Quelle est la durée de validité du label DSB ?
+    - Y a-t-il un accompagnement spécifique pour les projets sociaux ?
+    - Peut-on modifier un projet après l’obtention du label ?
+    - Comment se déroule la procédure de labellisation ?
+    - Quel est le rôle des jurys dans le mécanisme DSB ?
+
+
+- intent: ask_DSB_mechanism
+  examples: |
+    - What types of projects are prioritized (tech, social, environmental...)?
+    - Can undergraduate students exceptionally apply?
+    - How is the originality of submitted projects ensured?
+    - Is there a quota for labeled projects per year?
+    - Are group projects accepted? If yes, what is the maximum team size?
+    - Can this label be combined with other innovation aids?
+    - Are there geographical restrictions (priority regions)?
+    - How are submitted ideas protected (intellectual property)?
+    - Are projects abandoned halfway penalized?
+    - Are external mentors assigned to selected projects?
+    - What are the evaluation criteria to obtain the label?
+    - What is the validity duration of the DSB label?
+    - Is there specific support for social projects?
+    - Can a project be modified after obtaining the label?
+    - How does the labeling procedure work?
+    - What role do juries play in the DSB mechanism?
+
+
+
+
+- intent: ask_Accès_aux_ressources
+  examples: |
+    - La plateforme IBTIKAR propose-t-elle des webinaires de formation ?
+    - Comment sont sélectionnés les incubateurs partenaires ?
+    - Les étudiants ruraux ont-ils un accès équitable aux ressources ?
+    - Peut-on accéder aux plateformes technologiques sans passer par IBTIKAR ?
+    - Existe-t-il un catalogue des équipements disponibles pour le prototypage ?
+    - Des bourses spécifiques couvrent-elles les coûts de prototypage ?
+    - Les alumni peuvent-ils continuer à utiliser ces ressources après obtention du diplôme ?
+    - Y a-t-il un support technique dédié pour l'utilisation des plateformes ?
+    - Des licences logicielles professionnelles sont-elles fournies gratuitement ?
+    - Comment sont gérés les conflits d'accès aux ressources en cas de forte demande ?
+    - Quels sont les horaires d'accès aux laboratoires et ateliers ?
+    - Peut-on réserver à l'avance les équipements pour un projet spécifique ?
+    - Y a-t-il des formations spécifiques pour l'utilisation des machines de prototypage ?
+    - Quels critères déterminent la priorité d'accès aux ressources ?
+    - Est-ce que les projets collaboratifs bénéficient d'un accès privilégié ?
+    - Comment les ressources sont-elles renouvelées ou mises à jour ?
+
+
+
+- intent: ask_Access_to_resources
+  examples: |
+    - Does the IBTIKAR platform offer training webinars?
+    - How are partner incubators selected?
+    - Do rural students have equitable access to resources?
+    - Can we access technology platforms without going through IBTIKAR?
+    - Is there a catalog of equipment available for prototyping?
+    - Are there specific grants that cover prototyping costs?
+    - Can alumni continue to use these resources after graduation?
+    - Is there dedicated technical support for using the platforms?
+    - Are professional software licenses provided for free?
+    - How are conflicts over resource access managed during high demand?
+    - What are the opening hours for labs and workshops?
+    - Can equipment be booked in advance for a specific project?
+    - Are there specific trainings for using prototyping machines?
+    - What criteria determine priority access to resources?
+    - Do collaborative projects receive privileged access?
+    - How are resources renewed or updated?
+
+
+
+- intent: ask_Rôle_des_acteurs
+  examples: |
+    - Les enseignants référents reçoivent-ils une compensation pour l'encadrement ?
+    - Comment sont évaluées les performances des incubateurs dans ce programme ?
+    - Les entreprises locales sont-elles impliquées dans l'évaluation des projets ?
+    - Existe-t-il un réseau national de mentors labellisés ?
+    - Les directeurs d'établissement ont-ils des objectifs chiffrés à atteindre ?
+    - Comment les étudiants sont-ils informés de l'existence de ce dispositif ?
+    - Des ateliers de sensibilisation sont-ils organisés dans les universités ?
+    - Les responsables d'incubateurs suivent-ils une formation spécifique ?
+    - Comment les feedbacks des étudiants sont-ils collectés et pris en compte ?
+    - Y a-t-il des bonnes pratiques partagées entre établissements ?
+    - Quel est le rôle des partenaires privés dans ce programme ?
+    - Comment les mentors sont-ils sélectionnés et formés ?
+    - Les tuteurs académiques ont-ils des missions précises dans ce cadre ?
+    - Quelles responsabilités ont les coordinateurs de projet ?
+    - Les acteurs externes peuvent-ils participer aux jurys de sélection ?
+    - Comment est assurée la communication entre les différents acteurs ?
+
+
+
+
+
+- intent: ask_Role_of_actors
+  examples: |
+    - Do the supervising teachers receive compensation for mentoring?
+    - How are the incubators' performances evaluated in this program?
+    - Are local businesses involved in project evaluation?
+    - Is there a national network of certified mentors?
+    - Do institution directors have measurable targets to meet?
+    - How are students informed about this program?
+    - Are awareness workshops organized in universities?
+    - Do incubator managers receive specific training?
+    - How are student feedbacks collected and taken into account?
+    - Are best practices shared between institutions?
+    - What is the role of private partners in this program?
+    - How are mentors selected and trained?
+    - Do academic tutors have specific missions within this framework?
+    - What responsibilities do project coordinators have?
+    - Can external actors participate in selection juries?
+    - How is communication ensured between the different actors?
+
+
+
+
+
+
+- intent: ask_Processus_de_labellisation
+  examples: |
+    - Qui compose le jury d'évaluation des projets ?
+    - Combien d'étapes comporte la procédure de labellisation ?
+    - Existe-t-il des critères d'élimination en phase préliminaire ?
+    - Le label est-il attribué définitivement ou nécessite-t-il un renouvellement ?
+    - Quel est le taux de réussite moyen des candidatures ?
+    - Les projets rejetés peuvent-ils être représentés après modifications ?
+    - Y a-t-il une période annuelle fixe pour déposer les candidatures ?
+    - Le label donne-t-il accès à des événements de networking nationaux/internationaux ?
+    - Une cérémonie officielle est-elle organisée pour les lauréats ?
+    - Comment les lauréats sont-ils médiatisés ?
+    - Quels sont les documents requis pour la candidature ?
+    - Comment est évaluée la qualité technique des projets soumis ?
+    - Les porteurs de projets reçoivent-ils un accompagnement pendant la procédure ?
+    - Quel est le délai moyen entre dépôt et décision finale ?
+    - Y a-t-il une possibilité de recours en cas de refus ?
+    - Quels sont les avantages concrets liés à l'obtention du label ?
+
+
+
+- intent: ask_Labeling_process
+  examples: |
+    - Who makes up the project evaluation jury?
+    - How many steps are there in the labeling process?
+    - Are there elimination criteria during the preliminary phase?
+    - Is the label granted permanently or does it require renewal?
+    - What is the average success rate of applications?
+    - Can rejected projects be resubmitted after modifications?
+    - Is there a fixed annual period to submit applications?
+    - Does the label give access to national/international networking events?
+    - Is an official ceremony organized for the winners?
+    - How are the winners publicized?
+    - What documents are required for the application?
+    - How is the technical quality of submitted projects evaluated?
+    - Do project leaders receive support during the process?
+    - What is the average time between submission and final decision?
+    - Is there an appeal process in case of rejection?
+    - What concrete benefits come with obtaining the label?
+
+
+
+
+- intent: ask_Références_légales
+  examples: |
+    - L'Arrêté n°1275 est-il disponible en ligne ? Si oui, où ?
+    - Ce mécanisme est-il conforme aux lois sur la propriété intellectuelle algérienne ?
+    - Des amendements à l'Arrêté sont-ils prévus ?
+    - Comment les litiges (ex. : plagiat) sont-ils gérés légalement ?
+    - Ce dispositif s'appuie-t-il sur des conventions internationales ?
+    - Les étudiants étrangers peuvent-ils y participer ?
+    - Quelles sanctions en cas de fausses déclarations dans les dossiers ?
+    - Existe-t-il un recours en cas de rejet injustifié d'un projet ?
+    - La fiscalité des startups labellisées est-elle avantageuse ?
+    - Des modèles de contrats type sont-ils fournis pour la création de startups ?
+    - Où consulter les textes officiels relatifs à ce mécanisme ?
+    - Quels articles de loi encadrent ce dispositif ?
+    - Ce mécanisme respecte-t-il la réglementation sur la protection des données personnelles ?
+    - Qui est responsable en cas de litige juridique lié à un projet labellisé ?
+    - Y a-t-il une assistance juridique pour les porteurs de projet ?
+
+
+
+- intent: ask_Legal_references
+  examples: |
+    - Is Order No. 1275 available online? If yes, where?
+    - Is this mechanism compliant with Algerian intellectual property laws?
+    - Are amendments to the Order planned?
+    - How are disputes (e.g., plagiarism) legally handled?
+    - Does this framework rely on international conventions?
+    - Can foreign students participate?
+    - What sanctions apply in case of false statements in applications?
+    - Is there an appeal process for unjustified project rejection?
+    - Is the taxation of labeled startups advantageous?
+    - Are model contracts provided for startup creation?
+    - Where can official texts related to this mechanism be consulted?
+    - Which legal articles govern this framework?
+    - Does this mechanism comply with personal data protection regulations?
+    - Who is liable in case of legal disputes related to a labeled project?
+    - Is legal assistance available for project leaders?
+
+
+
+- intent: ask_diff_pfe_types
+  examples: |
+    - Quelle est la différence entre un PFE startup et un PFE académique ?
+    - C’est quoi la différence principale entre un PFE startup et un PFE normal ?
+    - En quoi un PFE startup diffère-t-il d’un PFE classique ?
+    - PFE traditionnel versus PFE startup : quels sont les avantages et inconvénients ?
+    - Comment choisir entre un PFE startup et un PFE académique ?
+    - Quels critères me permettent de décider entre un PFE startup et un PFE normal ?
+    - Est-ce que le PFE startup est plus valorisé que le PFE académique ?
+    - Quels sont les bénéfices d’un PFE startup comparé au PFE classique ?
+    - Quels sont les défis spécifiques d’un PFE startup par rapport à un PFE traditionnel ?
+    - Peut-on dire que le PFE startup offre plus d’opportunités professionnelles ?
+    - Quelles compétences vais-je acquérir en faisant un PFE startup versus un PFE académique ?
+    - Est-ce que le PFE startup nécessite plus de travail qu’un PFE normal ?
+    - Comment se déroule l’évaluation d’un PFE startup par rapport à un PFE classique ?
+    - Le PFE startup donne-t-il plus de poids sur le CV ?
+    - Est-ce que le PFE startup permet de créer une entreprise pendant les études ?
+    - Quelle est la reconnaissance officielle du PFE startup par rapport au PFE académique ?
+    - Le PFE startup est-il adapté à tous les profils d’étudiants ?
+    - Quelles sont les différences dans les objectifs entre un PFE startup et un PFE académique ?
+    - Le PFE startup est-il plus risqué ou incertain que le PFE classique ?
+    - Pourquoi certains étudiants préfèrent-ils le PFE académique au PFE startup ?
+
+
+
+- intent: ask_diff_pfe_types_E
+  examples: |
+    - What is the difference between a startup PFE and an academic PFE?
+    - What are the main differences between a startup PFE and a normal PFE?
+    - How does a startup PFE differ from a traditional PFE?
+    - Startup PFE versus traditional PFE: what are the pros and cons?
+    - How do I choose between a startup PFE and an academic PFE?
+    - What criteria should I use to decide between a startup PFE and a normal PFE?
+    - Is the startup PFE more valued than the academic PFE?
+    - What are the benefits of doing a startup PFE compared to a traditional PFE?
+    - What specific challenges does a startup PFE have compared to a traditional one?
+    - Can a startup PFE offer more professional opportunities?
+    - What skills will I gain doing a startup PFE versus an academic one?
+    - Does the startup PFE require more work than a normal PFE?
+    - How is the evaluation process different for a startup PFE compared to a traditional PFE?
+    - Does a startup PFE carry more weight on a resume?
+    - Can I create a company during my studies with a startup PFE?
+    - What is the official recognition of a startup PFE compared to an academic PFE?
+    - Is a startup PFE suitable for all types of students?
+    - What are the differences in objectives between a startup PFE and an academic PFE?
+    - Is the startup PFE riskier or more uncertain than a traditional PFE?
+    - Why do some students prefer the academic PFE over the startup PFE?
+
+
+
+
+- intent: out_of_scope
+  examples: |
+    - Quelle heure est-il ?
+    - Parle-moi de politique
+    - Quel est ton film préféré ?
+    - Raconte-moi une blague
+    - Quel temps fait-il aujourd’hui ?
+    - Comment faire du pain maison ?
+    - Peux-tu me raconter une histoire drôle ?
+    - Quels sont les meilleurs restaurants à Paris ?
+    - Comment apprendre à jouer de la guitare ?
+    - Donne-moi une recette de gâteau au chocolat
+    - Qui a gagné le dernier match de foot ?
+    - tu peux me donner une methode pour mieux etudier?
+    - tu aime la pasta ?
+
+- intent: out_of_scope_E
+  examples: |
+    - What time is it?
+    - Tell me about politics
+    - What’s your favorite movie?
+    - Tell me a joke
+    - What’s the weather like today?
+    - How do I make homemade bread?
+    - Can you tell me a funny story?
+    - What are the best restaurants in Paris?
+    - How can I learn to play the guitar?
+    - Give me a chocolate cake recipe
+    - Who won the last soccer match?
+    - Can you give me a method to study better?
+    - do you like pasta?
+
+
+
+
+
+
+- intent: affirm
+  examples: |
+    - Oui
+    - Bien sûr
+    - Exactement
+    - Tout à fait
+    - Ça me va
+    - D'accord
+    - Absolument
+    - Certainement
+    - Exact
+    - C’est ça
+    - Parfait
+    - Je suis d’accord
+
+
+
+- intent: affirm_E
+  examples: |
+    - Yes
+    - Of course
+    - Exactly
+    - Absolutely
+    - That works for me
+    - Alright
+    - Certainly
+    - Sure
+    - That’s right
+    - Perfect
+    - I agree
+
+
+
+- intent: deny
+  examples: |
+    - Non
+    - Pas du tout
+    - Jamais
+    - Je ne pense pas
+    - Pas vraiment
+    - Absolument pas
+    - Certainement pas
+    - En aucun cas
+    - Hors de question
+    - Je refuse
+    - Je ne suis pas d’accord
+    - Ça ne va pas
+
+
+- intent: deny_E
+  examples: |
+    - No
+    - Not at all
+    - Never
+    - I don’t think so
+    - Not really
+    - Absolutely not
+    - Certainly not
+    - No way
+    - Out of the question
+    - I refuse
+    - I disagree
+    - That won’t do
+
+
+
+
+- intent: bot_challenge
+  examples: |
+    - Es-tu un robot ?
+    - Es-tu humain ?
+    - Suis-je en train de parler à un bot ?
+    - Qui es-tu ?
+    - Qu'es-tu ?
+    - Tu es une IA ?
+    - Es-tu un programme automatique ?
+    - Est-ce que tu es un robot ou une vraie personne ?
+    - Comment puis-je savoir si tu es un bot ?
+    - Tu es réel ou virtuel ?
+    - Est-ce que tu as des émotions ?
+
+
+
+
+- intent: bot_challenge_E
+  examples: |
+    - Are you a robot?
+    - Are you human?
+    - Am I talking to a bot?
+    - Who are you?
+    - What are you?
+    - Are you an AI?
+    - Are you an automated program?
+    - Are you a robot or a real person?
+    - How can I tell if you’re a bot?
+    - Are you real or virtual?
+    - Do you have emotions?
+
+
+#Imad -----------
+
+# ========================
+# PFE STARTUP REGISTRATION
+# ========================
+
+- intent: pfe_registration_fr
+  examples: |
+    - Comment s'inscrire à un PFE Start-Up ?
+    - Quelles sont les étapes d'inscription pour un PFE Start-Up ?
+    - Quand commencent les inscriptions au PFE Start-Up ?
+    - Où et comment doit-on s'inscrire pour le PFE Start-Up ?
+    - Est-ce obligatoire de s'inscrire via un incubateur ?
+    - Quels documents faut-il fournir pour s'inscrire au PFE Start-Up ?
+    - Y a-t-il des frais ou coûts liés à l'inscription ?
+    - Peut-on s'inscrire en ligne ou faut-il se déplacer ?
+    - Quel est le délai pour l'inscription au PFE Start-Up ?
+  
+
+
+- intent: pfe_registration_en
+  examples: |
+    - How do I register for a Start-Up Final Year Project (PFE)?
+    - What are the steps to register for a Start-Up PFE?
+    - When does registration for the Start-Up PFE open?
+    - Where and how should I register for the Start-Up PFE?
+    - Is it mandatory to register through an incubator?
+    - What documents are required for Start-Up PFE registration?
+    - Are there any registration fees or costs?
+    - Can I register online or do I need to go in person?
+    - What is the deadline for Start-Up PFE registration?
+ 
+
+- intent: pfe_registration_ar
+  examples: |
+    - كيفاش ندير التسجيل فـ PFE Start-Up ؟
+    - وقتش كاين التسجيل ؟
+    - واش خاصني نسجل فـ حاضنة ؟
+    - شنو هي الخطوات ديال التسجيل ؟
+    - فين كاين التسجيل ؟
+    - شنو هو الوراق اللازمة ؟
+    - واش كاينين رسوم ديال التسجيل ؟
+
+# =================
+# TEAM COMPOSITION
+# =================
+
+- intent: pfe_team_fr
+  examples: |
+    - Combien de membres maximum peut avoir une équipe pour un PFE Start-Up ?
+    - Peut-on constituer une équipe avec des étudiants de spécialités différentes ?
+    - Est-il possible de réaliser un PFE Start-Up en binôme ?
+    - Une équipe peut-elle comprendre jusqu’à 6 personnes ?
+    - Quelle est la composition idéale pour une équipe de PFE Start-Up ?
+    - Peut-on changer de membres dans l’équipe après l’inscription officielle ?
+    - Y a-t-il des restrictions concernant la taille ou la diversité des équipes ?
+    - Quels sont les rôles recommandés au sein d’une équipe de PFE Start-Up ?
+
+
+- intent: pfe_team_en
+  examples: |
+    - How many members can a Start-Up PFE team have?
+    - Can the team include students from different specializations?
+    - Is it possible to do a Start-Up PFE with just two people?
+    - Can a team have up to 6 members?
+    - What is the ideal composition of a Start-Up PFE team?
+    - Can we change team members after registration?
+    - Are there any restrictions on team size or diversity?
+    - What roles are recommended within a Start-Up PFE team?
+
+
+- intent: pfe_team_ar
+  examples: |
+    - شحال من شخص يقدر يكون فـ الفريق ؟
+    - واش نقدر ندير المشروع أنا وشي واحد آخر ؟
+    - واش ممكن نكونو من تخصصات مختلفة ؟
+    - واش ممكن نديرو الفريق فيه 6 د الناس ؟
+    - شنو هي التشكيلة المثالية للفريق ؟
+    - واش ممكن نبدلو الأعضاء من بعد التسجيل ؟
+
+# ==============
+# INCUBATORS
+# ==============
+
+- intent: pfe_incubators_fr
+  examples: |
+    - Quels sont les incubateurs disponibles pour accompagner les PFE Start-Up ?
+    - Où sont situés les incubateurs partenaires ?
+    - Est-il possible de choisir son incubateur selon son projet ou sa région ?
+    - Quels critères prendre en compte pour sélectionner le bon incubateur ?
+    - Quels sont les avantages spécifiques de chaque incubateur ?
+    - Peut-on changer d'incubateur en cours de projet si besoin ?
+    - Y a-t-il des incubateurs spécialisés par domaine d’activité ?
+    - Comment fonctionne le processus d’affectation à un incubateur ?
+    - Quels services propose un incubateur pour les porteurs de PFE Start-Up ?
+
+
+
+- intent: pfe_incubators_en
+  examples: |
+    - What incubators are available for supporting Start-Up PFEs?
+    - Where are the partner incubators located?
+    - Is it possible to choose your incubator based on your project or region?
+    - What criteria should be considered when selecting the right incubator?
+    - What are the specific advantages of each incubator?
+    - Can you change incubators during the project if needed?
+    - Are there incubators specialized by activity domain?
+    - How does the assignment process to an incubator work?
+    - What services does an incubator offer to Start-Up PFE participants?
+
+
+- intent: pfe_incubators_ar
+  examples: |
+    - شنو هما الحاضنات المتوفرة ؟
+    - فين كاينين الحاضنات ؟
+    - شنو هو الحاضن لي نقدر نختار ؟
+    - كيفاش نختارو الحاضنة المناسبة ؟
+    - شنو هي المزايا ديال كل حاضنة ؟
+    - واش ممكن نبدلو الحاضنة فـ الطريق ؟
+
+# ========================
+# BUSINESS MODEL (BMC)
+# ========================
+
+- intent: pfe_bmc_fr
+  examples: |
+    - Qu'est-ce que le Business Model Canvas (BMC) exactement ?
+    - Qui accompagne les étudiants pour réaliser le BMC ?
+    - Est-ce que l'incubateur propose un accompagnement spécifique pour construire le business model ?
+    - Où peut-on trouver des ressources ou formations pour apprendre à faire une étude de marché efficace ?
+    - Y a-t-il des ateliers ou formations dédiés au Business Model Canvas ?
+    - Comment valider et tester notre modèle économique avant de lancer le projet ?
+    - Quelles sont les étapes clés pour élaborer un BMC solide ?
+    - Peut-on bénéficier de mentors pour améliorer notre business model ?
+
+- intent: pfe_bmc_en
+  examples: |
+    - What exactly is the Business Model Canvas (BMC)?
+    - Who helps students create the BMC?
+    - Does the incubator provide specific support for building the business model?
+    - Where can we find resources or training to learn how to conduct an effective market study?
+    - Are there workshops or training sessions dedicated to the Business Model Canvas?
+    - How can we validate and test our business model before launching the project?
+    - What are the key steps to develop a solid BMC?
+    - Can we get mentorship to improve our business model?
+
+
+- intent: pfe_bmc_ar
+  examples: |
+    - شنو هو BMC ؟
+    - شكون كيعاون فـ BMC ؟
+    - واش الحاضنة كتعلمنا كيفاش نديرو دراسة السوق ؟
+    - فين كنديرو l'étude marketing ؟
+    - واش كاينين دورة فـ business model canvas ؟
+    - كيفاش نصدقو على النموذج ديالنا ؟
+
+# =================
+# PROJECT DEFENSE
+# =================
+
+- intent: pfe_defense_fr
+  examples: |
+    - Comment se passe la soutenance ?
+    - Qui compose le jury ?
+    - Quelle note est prise en compte ?
+    - Est-ce que les chefs d'entreprise assistent à la soutenance ?
+    - Combien de temps dure la présentation ?
+    - Quels sont les critères d'évaluation ?
+    - Comment se déroule la soutenance du PFE Start-Up ?
+    - Qui sont les membres du jury de soutenance ?
+    - Quelle note finale est prise en compte pour valider le projet ?
+    - Est-ce que des représentants d’entreprises ou des incubateurs assistent à la soutenance ?
+    - Combien de temps dure en moyenne la présentation orale ?
+    - Quels critères sont utilisés pour évaluer le projet lors de la soutenance ?
+    - Peut-on utiliser des supports visuels ou des démonstrations pendant la présentation ?
+    - Y a-t-il une session de questions-réponses après la présentation ?
+
+- intent: pfe_defense_en
+  examples: |
+    - How does the PFE Start-Up defense work?
+    - Who is in the jury?
+    - What grade appears in the transcript?
+    - Are business leaders involved in the defense?
+    - How long is the presentation?
+    - What are the evaluation criteria?
+    - How does the Start-Up PFE defense take place?
+    - Who are the members of the defense jury?
+    - What final grade is considered to validate the project?
+    - Do company representatives or incubator members attend the defense?
+    - How long does the oral presentation usually last?
+    - What criteria are used to evaluate the project during the defense?
+    - Can we use visual aids or demonstrations during the presentation?
+    - Is there a Q&A session after the presentation?
+
+
+
+- intent: pfe_defense_ar
+  examples: |
+    - كيفاش كتكون المناقشة ديال المشروع ؟
+    - شكون كاين فـ اللجنة ؟
+    - شنو هي النقطة اللي كتحسب فـ كشف النقط ؟
+    - واش كاينين رؤساء الشركات فـ اللجنة ؟
+    - شحال من وقت كتاخد العراضة ؟
+    - شنو هي المعايير ديال التقييم ؟
+
+# ====================
+# POST-DEFENSE OPTIONS
+# ====================
+
+- intent: pfe_aftermath_fr
+  examples: |
+    - Que se passe-t-il après la soutenance du PFE Start-Up ?
+    - Est-ce qu'on reçoit un diplôme ou un certificat spécifique à l’issue du PFE ?
+    - Peut-on continuer à bénéficier de l’accompagnement de l’incubateur après la soutenance ?
+    - Existe-t-il des récompenses, financements ou prix pour les meilleurs projets ?
+    - Comment peut-on transformer notre projet de PFE en une véritable start-up opérationnelle ?
+    - Y a-t-il un suivi ou un mentorat proposé après la fin du PFE ?
+    - Quels sont les prochains étapes pour les porteurs de projets innovants après le PFE ?
+    - Est-ce qu'on reçoit un double diplôme ?
+    - Peut-on continuer avec l'incubateur ?
+    - Est-ce qu'il y a des récompenses ?
+    - Comment transformer le projet en vraie start-up ?
+    - Y a-t-il un suivi après le PFE ?
+
+
+
+- intent: pfe_aftermath_en
+  examples: |
+    - What happens after the defense?
+    - Do we get a double diploma?
+    - Can we continue working with the incubator?
+    - Are there any awards or prizes?
+    - How to turn the project into a real startup?
+    - Is there any follow-up after the PFE?
+    - What happens after the Start-Up PFE defense?
+    - Do we receive a specific diploma or certificate after the PFE?
+    - Can we continue to benefit from incubator support after the defense?
+    - Are there any rewards, funding, or prizes for the best projects?
+    - How can we turn our PFE project into a fully operational start-up?
+    - Is there any follow-up or mentoring offered after the PFE ends?
+    - What are the next steps for innovative project holders after the PFE?
+
+- intent: pfe_aftermath_ar
+  examples: |
+    - شنو كاين من بعد المناقشة ؟
+    - واش كناخدو دبلومين ؟
+    - واش نقدر نكمل مع الحاضنة ؟
+    - واش كاينين جوائز ولا دعم ؟
+    - كيفاش نحولو المشروع لـ startup حقيقية ؟
+    - واش كاين متابعة من بعد الـ PFE ؟
+
+
+#=====================
+# from "google forms"
+#=====================
+
+- intent: pivoter_stratégiquement_modèle_initial_ne_fonctionne_pas_Qes_FR
+  examples: |
+    - Quelles sont les meilleures pratiques pour pivoter stratégiquement lorsque le modèle initial ne fonctionne pas comme prévu ?
+    - Que faire si mon business model ne marche pas ?
+    - Comment adapter ma startup si le modèle de départ échoue ?
+    - Quelles stratégies adopter pour changer d’orientation dans une startup ?
+    - Mon idée de départ ne fonctionne pas, comment réagir ?
+    - Comment pivoter efficacement dans une startup ?
+    - C’est quoi un bon pivot stratégique pour une startup ?
+    - Que conseillez-vous quand une startup doit changer son modèle ?
+    - Comment savoir quand il faut pivoter ?
+    - Quels sont les conseils pour faire un pivot réussi ?
+    - Que faire quand les résultats ne suivent pas avec le modèle initial ?
+    - Quand et comment décider de pivoter ?
+    - Le modèle ne marche pas, quelles alternatives ?
+    - Comment faire évoluer son business model intelligemment ?
+    - Quelles étapes suivre pour changer de stratégie dans une startup ?
+    - Comment transformer son idée sans tout recommencer ?
+    - Peut-on changer de stratégie sans perdre l’objectif initial ?
+    - Comment faire un pivot sans tout casser ?
+
+
+- intent: pivoter_stratégiquement_modèle_initial_ne_fonctionne_pas_Qes_EN
+  examples: |
+    - What are the best practices for pivoting strategically when the original model doesn’t work as expected?
+    - What should I do if my startup model isn’t working?
+    - How can I pivot my startup when the initial idea fails?
+    - What’s a good strategy to pivot a startup?
+    - How to adapt when my business model doesn’t bring results?
+    - My business model failed, now what?
+    - How do I know when it’s time to pivot?
+    - What are smart ways to change direction in a startup?
+    - How to shift the startup’s focus effectively?
+    - What should a startup do when the plan doesn’t go well?
+    - Any advice on pivoting a business?
+    - What steps should I follow to pivot successfully?
+    - When should I consider a strategic pivot?
+    - Is it possible to change the model without starting over?
+    - How can I make a smooth pivot?
+    - How to pivot while staying aligned with the vision?
+    - What’s the best way to shift strategies in a startup?
+
+
+- intent: equilibrer_innovation_viabilite_Qes_FR
+  examples: |
+    - Comment équilibrer l'innovation produit et la viabilité commerciale ?
+    - Comment trouver un équilibre entre innovation et rentabilité ?
+    - Comment allier innovation technologique et viabilité économique ?
+    - Comment conjuguer innovation et modèle économique viable ?
+    - Comment assurer l'équilibre entre un produit innovant et un business rentable ?
+    - Quelle est la meilleure façon d'équilibrer l'innovation avec les contraintes commerciales ?
+    - Comment gérer le dilemme entre innover et générer du revenu ?
+    - Est-il possible de rester innovant tout en gardant une viabilité commerciale ?
+    - Comment concilier technologie innovante et faisabilité commerciale ?
+    - Quels sont les conseils pour équilibrer innovation et viabilité ?
+
+
+- intent: equilibrer_innovation_viabilite_Qes_EN
+  examples: |
+    - How to balance product innovation and business viability?
+    - How can a startup manage both innovation and commercial success?
+    - What’s the best way to align innovation with market needs?
+    - How do you combine innovation and economic sustainability?
+    - How to ensure your product is both innovative and financially viable?
+    - Is it possible to innovate and stay commercially viable?
+    - How to keep innovation without sacrificing revenue?
+    - How do tech startups balance creativity and market demand?
+    - What are some best practices to balance innovation and business viability?
+    - How to reconcile innovation with a working business model?
+
+
+
+- intent: erreurs_echec_startup_Qes_FR
+  examples: |
+    - Quelles sont les erreurs qui mènent à l'échec d'une startup ?
+    - Quelles erreurs les startups commettent souvent au début ?
+    - Quelles sont les causes courantes d'échec pour une startup ?
+    - Pourquoi les startups échouent dans leurs premières années ?
+    - Quelles sont les erreurs à éviter pour ne pas faire échouer sa startup ?
+    - Qu'est-ce qui cause l'échec des startups dans les deux premières années ?
+    - Quels pièges peuvent conduire à l’échec d’une jeune startup ?
+    - Quelles fautes peuvent ruiner une startup au démarrage ?
+    - Quelles sont les erreurs fréquentes des startups en début d’activité ?
+    - Quelles sont les raisons principales de l’échec des startups ?
+
+
+
+- intent: erreurs_echec_startup_Qes_EN
+  examples: |
+    - What are the common mistakes that lead to startup failure?
+    - Why do startups fail in the first two years?
+    - What are the typical causes of startup failure?
+    - What mistakes should startups avoid early on?
+    - What leads to a startup failing quickly?
+    - What are the main reasons startups fail in their early stage?
+    - What are the errors that can destroy a startup?
+    - What causes most startups to fail?
+    - What should entrepreneurs avoid to prevent failure?
+    - What are common early mistakes in startups?
+
+
+- intent: strategies_acquisition_clients_Qes_FR
+  examples: |
+    - Quelles sont les stratégies d'acquisition client les plus rentables pour une startup avec un budget limité ?
+    - Comment acquérir des clients sans dépenser beaucoup ?
+    - Quelles méthodes marketing sont efficaces pour une startup avec peu de moyens ?
+    - Comment attirer des clients avec un budget marketing restreint ?
+    - Quelles sont les meilleures techniques d’acquisition client à faible coût ?
+    - Comment une startup peut-elle gagner des clients sans trop dépenser ?
+    - Quelles stratégies marketing adopter quand on a un petit budget ?
+    - Comment optimiser l’acquisition client avec peu d’argent ?
+    - Quelles approches sont rentables pour une startup débutante en marketing ?
+    - Quels canaux d’acquisition client sont les plus efficaces et peu coûteux ?
+
+
+- intent: strategies_acquisition_clients_Qes_EN
+  examples: |
+    - What are the most cost-effective customer acquisition strategies for a startup with a limited marketing budget?
+    - How to acquire customers without spending much?
+    - What marketing methods work well for startups with low budgets?
+    - How to attract customers on a tight marketing budget?
+    - What are the best low-cost customer acquisition techniques?
+    - How can a startup gain customers without spending a lot?
+    - What marketing strategies should startups with small budgets use?
+    - How to optimize customer acquisition with limited funds?
+    - What are profitable approaches for startups starting marketing?
+    - Which customer acquisition channels are effective and low cost?
+
+- intent: calcul_marge_commerciale_Qes_FR
+  examples: |
+    - Comment calculer une bonne marge commerciale pour un produit ?
+    - Quelle est la marge idéale pour un produit ?
+    - Comment savoir si ma marge commerciale est correcte ?
+    - Quelle marge appliquer pour rester rentable ?
+    - Comment fixer la bonne marge sur un produit ?
+    - Quel pourcentage de marge devrais-je choisir ?
+    - Comment estimer une marge commerciale raisonnable ?
+    - Y a-t-il une marge standard pour les produits ?
+    - Quelle est la meilleure façon de définir une marge commerciale ?
+    - Comment déterminer la rentabilité d’un produit via la marge ?
+
+- intent: calcul_marge_commerciale_Qes_EN
+  examples: |
+    - How do I calculate a good profit margin for a product?
+    - What is the ideal margin for a product?
+    - How do I know if my profit margin is correct?
+    - What margin should I apply to stay profitable?
+    - How to set the right margin on a product?
+    - What percentage margin should I choose?
+    - How can I estimate a reasonable profit margin?
+    - Is there a standard margin for products?
+    - What's the best way to define a profit margin?
+    - How can I determine if a product is profitable based on margin?
+
+- intent: droits_createur_startup_Qes_FR
+  examples: |
+    - Quels sont les droits d’un créateur de startup ?
+    - Pourquoi créer une startup ?
+    - Quels sont les avantages juridiques d’un fondateur de startup ?
+    - Est-ce que les créateurs de startup ont des droits spécifiques ?
+    - Quels bénéfices a-t-on en tant que fondateur d'une startup ?
+    - Quel est l’intérêt de lancer sa propre startup ?
+    - Que gagne-t-on à créer une startup ?
+    - Quels sont les droits légaux d’un créateur d’entreprise innovante ?
+    - Quels avantages pour un étudiant qui crée une startup ?
+    - Pourquoi se lancer dans la création d’une startup ?
+
+
+- intent: droits_createur_startup_Qes_EN
+  examples: |
+    - What rights do startup founders have?
+    - Why should someone create a startup?
+    - What are the legal advantages for startup creators?
+    - Do startup founders benefit from specific rights?
+    - What are the benefits of being a startup founder?
+    - What’s the point of starting your own startup?
+    - Why launch a startup as a student?
+    - Are there incentives for startup creators?
+    - What legal support is available for startup founders?
+    - What do you get from creating a startup?
+
+
+
+
+- intent: financement_startup_Qes_FR
+  examples: |
+    - Comment financer ma startup ?
+    - Quels sont les moyens pour financer une startup ?
+    - Comment trouver de l'argent pour mon projet ?
+    - Quelles sont les sources de financement pour une jeune entreprise ?
+    - Comment une startup peut-elle obtenir des fonds ?
+    - Où chercher des financements pour lancer ma startup ?
+    - Est-ce qu'il existe des aides pour financer ma startup ?
+    - Qui peut financer ma startup ?
+    - Comment lever des fonds quand on débute ?
+    - Quels types de financement existent pour une startup ?
+
+- intent: financement_startup_Qes_EN
+  examples: |
+    - How can I fund my startup?
+    - What are the ways to finance a startup?
+    - Where can I find money for my project?
+    - How do startups get funding?
+    - What are the funding options for a new company?
+    - Are there any financial aids for startups?
+    - How to raise capital for my startup?
+    - What are the best sources of funding?
+    - Can students get funding for startups?
+    - Who can finance a startup?
+
+
+- intent: nombre_startups_algerie_Qes_FR
+  examples: |
+    - Quel est le nombre de startups en Algérie actuellement ?
+    - Combien de startups existent en Algérie ?
+    - Nombre de startups labellisées en Algérie ?
+    - Combien de startups actives en Algérie en 2025 ?
+    - Quelle est la taille de l'écosystème startup en Algérie ?
+    - Y a-t-il des statistiques sur les startups en Algérie ?
+    - Quelle est la croissance des startups en Algérie ?
+    - Combien de startups ont obtenu le label en Algérie ?
+    - Quelle est la position de l'Algérie en Afrique en matière de startups ?
+    - Quel est le classement de l'Algérie en termes de startups ?
+
+- intent: nombre_startups_algerie_Qes_EN
+  examples: |
+    - How many startups are there in Algeria currently?
+    - What is the number of startups in Algeria?
+    - How many labeled startups exist in Algeria?
+    - Number of active startups in Algeria in 2025?
+    - What is the size of the startup ecosystem in Algeria?
+    - Are there statistics on startups in Algeria?
+    - What is the growth of startups in Algeria?
+    - How many startups have obtained the label in Algeria?
+    - What is Algeria's position in Africa regarding startups?
+    - What is Algeria's ranking in terms of startups?
+
+
+
+- intent: difference_startup_projet_innovant_Qes_FR
+  examples: |
+    - Quelle est la différence entre une startup et un projet innovant ?
+    - Est-ce qu'une startup est la même chose qu'un projet innovant ?
+    - Qu'est-ce qui différencie une startup d'un simple projet innovant ?
+    - C’est quoi la différence entre un projet innovant et une startup ?
+    - Une startup est-elle forcément un projet innovant ?
+    - Peut-on dire qu’un projet innovant est une startup ?
+    - Startup ou projet innovant, quelle est la distinction ?
+    - Comment reconnaître une startup par rapport à un projet innovant ?
+    - Quelle est la nuance entre startup et projet innovant ?
+    - Qu’est-ce qui caractérise une startup comparée à un projet innovant ?
+
+- intent: difference_startup_projet_innovant_Qes_EN
+  examples: |
+    - What's the difference between a startup and an innovative project?
+    - Is a startup the same as an innovative project?
+    - How is a startup different from an innovative project?
+    - Startup vs innovative project: what's the distinction?
+    - Can an innovative project be considered a startup?
+    - Are all startups innovative projects?
+    - What makes a startup different from a normal project?
+    - What are the differences between a startup and a regular innovative project?
+    - How to tell the difference between a startup and an innovative idea?
+    - What's the main difference between a startup and a project?
+
+
+
+
+- intent: obtenir_label_startup_Qes_FR
+  examples: |
+    - Comment obtenir le label startup ?
+    - Que faut-il faire pour avoir le label startup ?
+    - Quelles sont les étapes pour décrocher le label startup ?
+    - Comment avoir une startup labellisée ?
+    - C’est quoi le label startup et comment l’avoir ?
+    - Où peut-on demander le label startup ?
+    - Qui donne le label startup ?
+    - Quelles conditions pour obtenir le label startup ?
+    - Comment faire pour faire reconnaître ma startup officiellement ?
+    - J’ai une startup, comment obtenir le label ?
+
+
+- intent: obtenir_label_startup_Qes_EN
+  examples: |
+    - How can I get the startup label?
+    - What do I need to do to obtain the startup label?
+    - What are the steps to get labeled as a startup?
+    - How to register my startup officially?
+    - Where do I apply for the startup label?
+    - What is the startup label and how can I get it?
+    - Who gives the startup label?
+    - What are the requirements for the startup label?
+    - I have a startup, how do I make it recognized?
+    - How to be officially labeled as a startup?
+
+
+- intent: criteres_startup_technologique_Qes_FR
+  examples: |
+    - Qu'est-ce qu'une startup technologique ?
+    - Quels sont les critères d'une startup technologique ?
+    - Comment savoir si ma startup est technologique ?
+    - C’est quoi une startup tech ?
+    - Quelle est la différence entre une startup normale et une technologique ?
+    - Une startup technologique, ça veut dire quoi ?
+    - En quoi consiste une startup technologique ?
+    - Quelles caractéristiques pour une startup technologique ?
+
+
+- intent: criteres_startup_technologique_Qes_EN
+  examples: |
+    - What is a tech startup?
+    - What defines a technological startup?
+    - What are the criteria of a tech startup?
+    - How do I know if my startup is a tech one?
+    - What's the difference between a normal startup and a tech startup?
+    - Is my startup considered technological?
+    - What makes a startup technological?
+
+
+- intent: transition_startup_entreprise_Qes_FR
+  examples: |
+    - Comment passer d'une startup à une entreprise ?
+    - Comment faire évoluer une startup en entreprise ?
+    - À quel moment une startup devient une entreprise ?
+    - Comment transformer une startup en société ?
+    - Quelles étapes pour faire grandir une startup en entreprise ?
+    - Quand est-ce qu'une startup devient une vraie entreprise ?
+    - Quels sont les signes qu’une startup devient une entreprise ?
+
+- intent: transition_startup_entreprise_Qes_EN
+  examples: |
+    - How to move from a startup to a company?
+    - How does a startup become a company?
+    - When does a startup turn into a company?
+    - What steps to transform a startup into a company?
+    - How to grow a startup into a full business?
+    - What's needed for a startup to become a company?
+
+
+
+
+- intent: difference_startup_entreprise_Qes_FR
+  examples: |
+    - Quelle est la différence entre une startup et une entreprise ?
+    - Startup ou entreprise, c’est pareil ?
+    - Comment différencier une startup d'une entreprise classique ?
+    - Qu'est-ce qui distingue une startup d’une société normale ?
+    - Est-ce qu'une startup est une entreprise ?
+    - Startup vs entreprise : quelles différences ?
+
+- intent: difference_startup_entreprise_Qes_EN
+  examples: |
+    - What's the difference between a startup and a company?
+    - Is a startup the same as a company?
+    - How to tell the difference between a startup and a regular business?
+    - Startup vs company: what's different?
+    - What distinguishes a startup from a traditional business?
+
+
+- intent: caracteristiques_startup_Qes_FR
+  examples: |
+    - Quelles sont les caractéristiques d'une startup ?
+    - C’est quoi les particularités d’une startup ?
+    - Comment reconnaître une startup ?
+    - Une startup, ça se définit comment ?
+    - Qu’est-ce qui définit une startup ?
+
+
+- intent: caracteristiques_startup_Qes_EN
+  examples: |
+    - What are the characteristics of a startup?
+    - How can I recognize a startup?
+    - What makes a company a startup?
+    - What defines a startup?
+    - Key traits of a startup?
+
+
+- intent: objectif_marketing_startup_Qes_FR
+  examples: |
+    - Quel est l’objectif marketing principal pour une startup ?
+    - C’est quoi l’objectif marketing d’une startup ?
+    - Qu’est-ce qu’une startup doit viser en premier en marketing ?
+    - Objectif marketing principal pour une startup ?
+    - Quelle est la première priorité marketing d’une startup ?
+
+
+- intent: objectif_marketing_startup_Qes_EN
+  examples: |
+    - What is the main marketing goal for a startup?
+    - What should a startup aim for in marketing first?
+    - What’s the primary marketing objective of a startup?
+    - Main marketing goal for startups?
+    - What should be the marketing focus for startups?
+
+
+
+- intent: etude_marche_startup_Qes_FR
+  examples: |
+    - Comment étudier le marché pour mieux développer mon idée de startup ?
+    - Je veux faire une étude de marché pour valider mon idée de startup.
+    - Comment savoir si mon idée peut marcher sur le marché algérien ?
+    - Aide-moi à analyser le marché pour ma startup.
+    - Tu peux me proposer une idée de startup adaptée aux clients en Algérie ?
+    - Donne-moi des idées de startup qui peuvent marcher ici en Algérie.
+
+
+
+- intent: etude_marche_startup_Qes_EN
+  examples: |
+    - How can I study the market to develop my startup idea better?
+    - I want to do market research for my startup idea.
+    - How do I know if my idea will work in the Algerian market?
+    - Help me analyze the market for my startup.
+    - Can you suggest a startup idea that fits Algerian clients?
+    - Give me startup ideas that can succeed in Algeria.
+
+
+
+- intent: demarches_legales_lancer_startup_Qes_FR
+  examples: |
+    - Quelles sont les démarches légales pour créer une startup en Algérie ?
+    - Comment lancer une startup de manière officielle sur le papier ?
+    - Quelles sont les étapes administratives pour créer une startup ?
+    - Comment structurer et légaliser ma startup en Algérie ?
+    - Une fois que j'ai l'idée, comment je la transforme en startup officielle ?
+    - Que dois-je faire pour lancer ma startup légalement ?
+    - Quelles sont les étapes pour bien lancer une startup en Algérie ?
+
+
+- intent: demarches_legales_lancer_startup_Qes_EN
+  examples: |
+    - What are the legal steps to create a startup in Algeria?
+    - How can I officially register a startup on paper?
+    - What are the administrative procedures for launching a startup?
+    - Once I have the idea, how do I turn it into an official startup?
+    - How do I structure and legally launch my startup in Algeria?
+    - What should I do to start a legal business in Algeria?
+    - What steps should I follow to launch a startup in Algeria?
+
+
+- intent: reussir_startup_Qes_FR
+  examples: |
+    - Comment réussir ma startup ?
+    - Que dois-je faire pour bien réussir ma start-up ?
+    - Comment faire pour que ma startup marche bien ?
+    - Comment faire pour réussir dans l'entrepreneuriat avec une startup ?
+    - Quels conseils pour assurer le succès d'une start-up ?
+    - Comment faire évoluer ma start-up avec succès ?
+    - Quelles sont les étapes pour garantir le succès de ma startup ?
+
+- intent: reussir_startup_Qes_EN
+  examples: |
+    - How can I succeed with my startup?
+    - What should I do to make my startup successful?
+    - How to make sure my startup does well?
+    - What are the keys to succeeding as a startup founder?
+    - What steps should I follow to succeed with a startup?
+    - How to grow and succeed with my startup?
+    - What advice do you have for startup success?
