@@ -22,18 +22,21 @@ Ce projet combine NLP (traitement du langage) et une interface utilisateur moder
 git clone https://github.com/Imadzakxy/ChatBot.git
 cd ChatBot
 ```
-```backend:
+backend:
+```bash
 cd backend
 npm install         # Installe les dépendances
 npm start           # Lance le backend sur http://localhost:XXXX
 ```
-```Rasa (NLP)
+Rasa (NLP):
+```bash
 pip install rasa==3.6.20
 rasa train
 rasa run actions
 rasa shell
 ```
-```Frontend (React)
+Frontend (React):
+```bash
 cd frontend
 npm install
 npm run dev
