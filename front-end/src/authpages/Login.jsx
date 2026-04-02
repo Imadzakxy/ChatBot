@@ -78,7 +78,7 @@ function Log_in() {
     <>
       <form
         onSubmit={handleLogin}
-        className="box flex flex-col items-center bg-[rgba(126,97,171,0.25)] bg-transparentS border-[3px] border-[var(--color-3)] rounded-[20px] text-sm z-10 mx-auto mt-4"
+        className="box flex flex-col items-center bg-[rgba(255,255,255,0.05)] bg-transparentS border-[1px] border-[var(--color-3)] rounded-[20px] text-sm z-10 mx-auto mt-4"
         style={{
           height: "65vh",
           width: "80%",
@@ -94,7 +94,7 @@ function Log_in() {
           style={{ height: "40%" }}
         >
           <div
-            className="inputbox_login w-[80%] flex items-center justify-center border-2 border-[var(--color-3)] rounded-[14px] bg-transparent shadow-[0_5px_10px_rgba(0,0,0,0.3)] mt-4"
+            className="inputbox_login w-[90%] flex items-center justify-center border-1 border-[var(--color-3)] rounded-[14px] bg-transparent shadow-[0_5px_10px_rgba(0,0,0,0.3)] mt-4"
             style={{ height: "25%" }}
           >
             <input
@@ -111,7 +111,7 @@ function Log_in() {
           </div>
 
           <div
-            className="inputbox_login w-[80%] flex items-center justify-center border-2 border-[var(--color-3)] rounded-[14px] bg-transparent shadow-[0_5px_10px_rgba(0,0,0,0.3)] mt-4"
+            className="inputbox_login w-[90%] flex items-center justify-center border-1 border-[var(--color-3)] rounded-[14px] bg-transparent shadow-[0_5px_10px_rgba(0,0,0,0.3)] mt-4"
             style={{ height: "25%" }}
           >
             <input
@@ -130,7 +130,7 @@ function Log_in() {
         </div>
 
         <div
-          className="remember w-full flex items-center font-[ZenDots] justify-between text-[14.5px] text-[#AEAEAE] p-5"
+          className="remember w-[90%] flex items-center font-[ZenDots] justify-between text-[14.5px] text-[#AEAEAE] p-2"
           style={{ height: "10%" }}
         >
           <span className="rem flex items-center">

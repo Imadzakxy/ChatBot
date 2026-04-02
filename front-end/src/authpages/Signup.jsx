@@ -127,7 +127,7 @@ function Sign_up() {
     <>
       {/* Form container */}
       <div
-        className="mx-auto mt-4 flex flex-col items-center justify-center bg-[rgba(126,97,171,0.25)] backdrop-transparent border-4 border-[var(--color-3)] rounded-2xl"
+        className="mx-auto mt-4 flex flex-col items-center justify-center bg-[rgba(255,255,255,0.05)] backdrop-transparent border-1 border-[var(--color-3)] rounded-2xl"
         style={{ height: "70vh", width: "80%", maxWidth: "520px" }}
       >
         {error && (
@@ -135,7 +135,7 @@ function Sign_up() {
         )}
         
         {/* Username field */}
-        <div className="flex items-center justify-center w-[80%] h-[9%] mt-3 border-2 border-[var(--color-3)] rounded-xl bg-transparent font-[ZenDots] shadow-lg">
+        <div className="flex items-center justify-center w-[80%] h-[9%] mt-3 border-1 border-[var(--color-3)] rounded-xl bg-transparent font-[ZenDots] shadow-lg">
           <input
             type="text"
             placeholder="Username"
@@ -150,7 +150,7 @@ function Sign_up() {
         </div>
 
         {/* Email field */}
-        <div className="flex items-center justify-center w-[80%] h-[9%] mt-3 border-2 border-[var(--color-3)] rounded-xl bg-transparent font-[ZenDots] shadow-lg">
+        <div className="flex items-center justify-center w-[80%] h-[9%] mt-3 border-1 border-[var(--color-3)] rounded-xl bg-transparent font-[ZenDots] shadow-lg">
           <input
             type="text"
             placeholder="email"
@@ -166,7 +166,7 @@ function Sign_up() {
         </div>
 
         {/* Password field */}
-        <div className="flex items-center justify-center w-[80%] h-[9%] mt-3 border-2 border-[var(--color-3)] rounded-xl bg-transparent font-[ZenDots] shadow-lg">
+        <div className="flex items-center justify-center w-[80%] h-[9%] mt-3 border-1 border-[var(--color-3)] rounded-xl bg-transparent font-[ZenDots] shadow-lg">
           <input
             type="password"
             placeholder="Password"
@@ -182,7 +182,7 @@ function Sign_up() {
         </div>
 
         {/* Confirm Password field */}
-        <div className="flex items-center justify-center w-[80%] h-[9%] mt-3 border-2 border-[var(--color-3)] rounded-xl bg-transparent font-[ZenDots] shadow-lg">
+        <div className="flex items-center justify-center w-[80%] h-[9%] mt-3 border-1 border-[var(--color-3)] rounded-xl bg-transparent font-[ZenDots] shadow-lg">
           <input
             type="password"
             placeholder="Confirm Password"
